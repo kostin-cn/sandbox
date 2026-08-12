@@ -162,7 +162,7 @@
 
   "mobile_app": {
     "s_1": {
-      "title": "Mobile app for OrganizationOffice members",
+      "title": "Your member workspace, wherever organization work happens",
       "text_1": "<b>Everything you need in your smartphone:</b>",
       "text_2": "Scan the QR code to download the app",
       "btn": "Download from",
@@ -228,10 +228,10 @@
       "item_4": "Hold the meeting online in accordance with legislation"
     },
     "s_3": {
-      "title": "Request a consultation",
+      "title": "Tell us about your meeting workflow",
       "placeholder_1": "Name",
       "placeholder_2": "Association name",
-      "btn": "Request"
+      "btn": "Discuss the setup"
     },
     "s_4": {
       "title": "Founding and general meetings",
