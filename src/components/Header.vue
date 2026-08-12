@@ -21,7 +21,7 @@
         </div>
       </div>
 
-      <button id="menuBtn" type="button" class="menuBtn" :aria-label="t('header.title_6')" @click="btnClick">
+      <button id="menuBtn" type="button" class="menuBtn" :aria-label="menuLabel" @click="btnClick">
         <span></span>
         <span></span>
         <span></span>
@@ -35,7 +35,7 @@
       <div class="mobile-lang-switcher fs-2 text-uppercase">
         <div id="mobLangCurrent" class="current-lang mb-2" @click="mobLangClick">{{ locale }}</div>
         <div id="mobLangList" class="lang-list shadow-item">
-          <router-link v-for="lang in SUPPORT_LOCALES.filter(elem => elem !== locale)" class="lang-link" :to="getLangLink(lang)" @click="mobLangClick">{{ lang }}</router-link>
+          <router-link v-for="lang in SUPPORT_LOCALES.filter(elem => elem !== locale)" class="lang-link" :to="getLangLink(lang)" @click="handleMobileLanguageClick">{{ lang }}</router-link>
         </div>
       </div>
     </div>
@@ -43,12 +43,20 @@
 </template>
 
 <script setup lang="ts">
-import {computed} from "vue";
+import { computed, watchEffect } from "vue";
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n';
 const { locale, t } = useI18n();
 const route = useRoute();
 import { SUPPORT_LOCALES } from '@/service/i18n'
+
+const localizedMetaAvailable = computed(() => ['en', 'ua'].includes(locale.value));
+const menuLabel = computed(() => localizedMetaAvailable.value ? t('header.menu_label') : 'Menu');
+
+watchEffect(() => {
+  document.documentElement.lang = locale.value === 'ua' ? 'uk' : locale.value;
+  document.title = localizedMetaAvailable.value ? t('header.meta_title') : 'OrganizationOffice';
+});
 
 window.addEventListener('scroll', () => {
   window.scrollY >= 100 ? document.body.classList.add('scrolled') : document.body.classList.remove('scrolled');
@@ -96,6 +104,11 @@ const langClick = () => {
 
 const mobLangClick = () => {
   document.querySelector('#mobLangList').classList.toggle('d-flex');
+};
+
+const handleMobileLanguageClick = () => {
+  mobLangClick();
+  btnClick();
 };
 
 const getLangLink = (newLang: string) => {
