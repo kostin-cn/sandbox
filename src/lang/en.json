@@ -1,0 +1,401 @@
+{
+  "header": {
+    "title_1": "Board",
+    "title_2": "Members",
+    "title_3": "Meetings",
+    "title_4": "Tariffs",
+    "title_5": "Contacts",
+    "title_6": "Management"
+  },
+
+  "footer": {
+    "text_1": "Join the <b>nationwide ORGANIZATIONS community</b> on Telegram – share experiences, develop connections, and grow ideas.",
+    "text_2": "We are on social networks",
+    "text_3": "All calls are charged according to your operator’s tariff plan",
+    "text_4": "Write to us",
+    "text_5": "Mon-Fri from 10:00 to 18:00",
+    "text_6": "Working hours",
+    "text_7": "Have questions?",
+    "text_8": "Leave your number — we will call you shortly.",
+    "text_9": "All rights reserved",
+    "btn_1": "Join",
+    "btn_2": "Send",
+    "title_1": "Terms of Use",
+    "title_2": "Public Offer"
+  },
+
+  "email": {
+    "success": "Message sent"
+  },
+
+  "index": {
+    "s_1": {
+      "title": "<span class='color-secondary'>OrganizationOffice</span> – a digital tool for modern <span class='color-2'>project and team management</span>",
+      "text_1": "<b>Digital environment</b> for effective interaction between the manager, the board members, the audit committee, and the organization’s members.",
+      "text_2": "Scan the QR code to download the app",
+      "text_3": "Download from"
+    },
+
+    "s_2": {
+      "title": "Request a consultation",
+      "btn": "Request"
+    },
+
+    "s_3": {
+      "title": "On one platform",
+      "text_1": "Satisfied users",
+      "text_2": "Receive support from OrganizationOffice",
+      "text_3": "Use the service to hold meetings online"
+    },
+
+    "s_4": {
+      "text": "for OrganizationOffice board",
+      "title": "Manage your OrganizationOffice<br><span class='color-4'>quickly and easily, in just a few clicks</span>",
+      "btn": "Learn more",
+      "item_1": "<b>Full control</b> of financial indicators",
+      "item_2": "<b>Separate dashboard</b> for financial management",
+      "item_3": "Tools for working with <b>debtors</b>",
+      "item_4": "<b>Convenient communication</b> between organization members"
+    },
+
+    "s_5": {
+      "text": "for OrganizationOffice users",
+      "title": "Mobile application<br><span class='color-2'>for OrganizationOffice users</span>",
+      "btn": "Learn more",
+      "item_1": "<b>Control</b> the account balance",
+      "item_2": "Communicate and interact <b>with organization members</b>",
+      "item_3": "<b>Join</b> founding and general meetings online",
+      "item_4": "Make contributions quickly <b>through the app</b>"
+    },
+
+    "s_6": {
+      "title": "Organization meetings in the OrganizationOffice system",
+      "btn": "Learn more",
+      "text_1": "WHAT DOES THIS MEAN?",
+      "text_2": "Physical presence is no longer required. Gather the board and members online – without limitations in time or space, using any electronic signature (QES)."
+    },
+
+    "s_7": {
+      "title": "How OrganizationOffice<br><span class='color-2'>Supports CSOs</span>",
+      "btn": "Learn More",
+      "text_1": "1. Transparency and Trust",
+      "list_1_1": "Open financing, expense control, increased donor trust.",
+      "text_2": "2. Digital Management",
+      "list_2_1": "A unified system for projects, volunteers, reporting, and communication.",
+      "text_3": "3. Connecting Organizations",
+      "list_3_1": "A partnership network between foundations, NGOs, cooperatives, and parties.",
+      "text_4": "4. Direct Funding",
+      "list_4_1": "Donors support initiatives without intermediaries — secure transactions.",
+      "text_5": "5. Automated Analytics",
+      "list_5_1": "Statistics, dashboards, reports — all in one place.",
+      "text_6": "6. Civil Society Development",
+      "list_6_1": "A collaborative ecosystem of trust among next-generation organizations.",
+      "text_7": "We create a digital platform that <b>enhances transparency, trust, and efficiency</b> for every civic initiative."
+    },
+
+    "s_8": {
+      "title": "Team",
+      "text_1": "Viktor Talko",
+      "text_2": "Oleksii Chubenko",
+      "text_3": "Serhii Kostin",
+      "text_4": "Oleksii Korostin",
+      "text_5": "Pavlo Lysak",
+      "text_6": "Serhii Barannikov",
+      "text_7": "Rostyslav Rapach"
+    }
+  },
+
+  "control": {
+    "s_1": {
+      "title": "<span class='color-2'>Manage OrganizationOffice</span> in a few clicks",
+      "text": "Implement modern technologies in your organization. Simplify interaction between platform participants!"
+    },
+    "s_2": {
+      "title": "Request a consultation",
+      "placeholder_1": "Name",
+      "placeholder_2": "Association name",
+      "btn": "Request"
+    },
+    "s_3": {
+      "title": "How to register an OrganizationOffice on the platform?",
+      "item_1": "<b>Submit an application</b> for registration, or contact us",
+      "item_2": "<b>Send</b> important information to",
+      "item_3": "<b>We will register</b> the organization in the system and provide access to the management cabinet"
+    },
+    "s_4": {
+      "text": "Opportunities for Organizations",
+      "title": "Organization management cabinet",
+      "item_1": "Financial status statistics",
+      "item_2": "Tools for working with debtors",
+      "item_3": "Reporting and document section"
+    },
+    "s_5": {
+      "title": "Personal client cabinet in the mobile app",
+      "item_1": "Organization account balance demonstration",
+      "item_2": "Payment of fees via the app",
+      "item_3": "Analytics of settlements",
+      "item_4": "Current list of debtors"
+    },
+    "s_6": {
+      "title": "Finance cabinet",
+      "item_1": "Primary documentation",
+      "item_2": "Personnel accounting",
+      "item_3": "Financial and tax reporting",
+      "item_4": "Support and technical assistance"
+    },
+    "s_7": {
+      "title": "Demo version",
+      "text_1": "<b>Test the demo version</b> in a virtual organization. Evaluate the functionality for the board and members. Each section is filled with necessary information and shows the appearance/work of a real organization.",
+      "text_2": "To access the client demo version, download OrganizationOffice and click the “Demo version” button",
+      "text_3": "Download the app and get<br>these superpowers on your smartphone!",
+      "btn": "Download from"
+    },
+    "s_8": {
+      "title": "Get OrganizationOffice administrator access",
+      "text": "After access is granted, expect a notification in the platform app",
+      "placeholder": "Name",
+      "btn": "Get access"
+    }
+  },
+
+  "mobile_app": {
+    "s_1": {
+      "title": "Mobile app for OrganizationOffice members",
+      "text_1": "<b>Everything you need in your smartphone:</b>",
+      "text_2": "Scan the QR code to download the app",
+      "btn": "Download from",
+      "item_1": "Track the organization’s account funds",
+      "item_2": "Meet and communicate with members",
+      "item_3": "Participate in general and founding meetings online"
+    },
+    "s_2": {
+      "title": "Tell organization members",
+      "text_1": "Click “Share” and send the video to the organization chat. Suggest the board register in the <b>OrganizationOffice</b> system!",
+      "text_2": "Share"
+    },
+    "s_3": {
+      "title": "How to start using the OrganizationOffice app?",
+      "item_1": "Download the app and log in",
+      "item_2": "Enter the organization name",
+      "item_3": "Enter your organization number"
+    },
+    "s_4": {
+      "title": "Opportunities for members",
+      "item_1": "Transparency",
+      "item_2": "Communication",
+      "item_3": "Convenience",
+      "list_1_1": "<b>Control</b> of income and expenses of the Organization",
+      "list_1_2": "<b>Viewing</b> organization’s document flow",
+      "list_1_3": "<b>Displaying</b> the current list of debtors",
+      "list_1_4": "<b>Use</b> of an electronic digital signature",
+      "list_2_1": "Convenient access to your organization's <b>messenger</b>",
+      "list_2_2": "Section for <b>effective communication</b> of members and the board (announcements, surveys, voting)",
+      "list_3_1": "<b>Participation</b> in meetings online via smartphone",
+      "list_3_2": "<b>Contacts</b> of service specialists",
+      "list_3_3": "<b>History</b> of payments and charges",
+      "list_3_4": "<b>Payment</b> of fees via the app"
+    },
+    "s_5": {
+      "title": "Demo version",
+      "text_1": "<b>Test the demo version</b> in a virtual organization. Evaluate the functionality for the board and members. Each section is filled with necessary information and shows the appearance/work of a real organization.",
+      "text_2": "To access the client demo version, download OrganizationOffice and click the “Demo version” button",
+      "text_3": "Download the app and get<br>these superpowers on your smartphone!",
+      "btn": "Download from"
+    },
+    "s_6": {
+      "title": "Get OrganizationOffice administrator access",
+      "text": "After access is granted, expect a notification in the platform app",
+      "placeholder": "Name",
+      "btn": "Get access"
+    }
+  },
+
+  "meeting": {
+    "s_1": {
+      "title": "Founding and general meetings of organization members in the system",
+      "text_1": "Now it doesn’t matter where the board and owners are located.",
+      "text_2": "Meetings can be held remotely.",
+      "text_3": "<b>Available anywhere in the world!</b>",
+      "btn": "Apply"
+    },
+    "s_2": {
+      "title": "How to hold organization meetings in the system?",
+      "item_1": "Register the organization in the system",
+      "item_2": "Submit an application for holding a meeting in OrganizationOffice",
+      "item_3": "Invite members via the mobile app",
+      "item_4": "Hold the meeting online in accordance with legislation"
+    },
+    "s_3": {
+      "title": "Request a consultation",
+      "placeholder_1": "Name",
+      "placeholder_2": "Association name",
+      "btn": "Request"
+    },
+    "s_4": {
+      "title": "Founding and general meetings",
+      "item_1": "<b>Remote participation</b> of members",
+      "item_2": "<b>Organization meetings in each member’s smartphone</b>",
+      "item_3": "<b>100% identification</b> of members during voting",
+      "item_4": "<b>No possibility of falsifying</b> member decisions"
+    },
+    "s_5": {
+      "title": "Get OrganizationOffice administrator access",
+      "text": "After access is granted, expect a notification in the platform app",
+      "placeholder_1": "Name",
+      "btn": "Get access"
+    }
+  },
+
+  "tariffs": {
+    "s_1": {
+      "title": "Tariffs",
+      "text_1": "Choose a tariff that suits your organization.",
+      "text_2": "The tariff includes",
+      "btn": "Connect",
+
+      "title_1": "Basic",
+      "item_1": "*Free plan to explore core content and attract new users.",
+      "value_1": "UAH/month",
+      "list_1_1": "Access to <b>basic articles and templates</b>",
+      "list_1_2": "<b>Platform news and updates</b>",
+
+      "title_2": "Professional",
+      "item_2": "*Provides full access to materials, training, and consulting for the active development of organizations.",
+      "value_2": "UAH/month",
+      "list_2_1": "<b>Full access</b> to all training materials (video courses, webinars)",
+      "list_2_2": "Participation in monthly <b>online consultations with experts</b>",
+      "list_2_3": "Download <b>exclusive templates</b> and checklists",
+      "list_2_4": "Access to a <b>private community for experience sharing</b>",
+
+      "title_3": "Premium",
+      "item_3": "*Designed for organizations ready to invest in personalized support and advanced training.",
+      "value_3": "UAH/month",
+      "list_3_1": "<b>Full access</b> to all training materials (video courses, webinars)",
+      "list_3_2": "Participation in monthly <b>online consultations with experts</b>",
+      "list_3_3": "Download <b>exclusive templates</b> and checklists",
+      "list_3_4": "Access to a <b>private community for experience sharing</b>",
+      "list_3_5": "<b>Personal consultations</b> (up to 4 hours per month)",
+      "list_3_6": "Specialized <b>workshops and masterclasses</b>",
+      "list_3_7": "<b>Priority</b> customer support"
+    },
+
+    "s_2": {
+      "title": "Frequently Asked Questions",
+
+      "title_1": "What is the trial period?",
+      "text_1": "<ul class='list-4'><li class='mb-2'>Full access to the system and mobile app features for 14 days according to the tariff plan;</li><li class='mb-2'>Registration of the organization in the OrganizationOffice system;</li><li class='mb-2'>Training on how to use the system;</li><li class='mb-2'>Technical and consulting support.</li></ul>",
+
+      "title_2": "Are general meetings with QES legal?",
+      "text_2": "According to the Law of Ukraine 'On Electronic Trust Services', a qualified electronic signature (QES) is equivalent to a handwritten one. Therefore, yes, it is legally valid to sign written survey sheets and notifications of general meetings using the OrganizationOffice system.",
+
+      "title_3": "How can I explore the system without registration? Is there a demo version?",
+      "text_3": "Yes, there is a demo version where you can explore all sections of the system.",
+
+      "title_4": "Are there different access levels for users?",
+      "text_4": "Yes, of course. We provide initial access to the main administrator, and then they independently decide what access levels other users will have.",
+
+      "title_5": "What if I am in several organizations?",
+      "text_5": "If you are a member of multiple organizations, you can switch between them in the app menu."
+    }
+  },
+
+  "admin": {
+    "title": "Login to cabinet",
+    "text_1": "For organization’s governing body",
+    "text_2": "Is your organization not with us yet? Get full access to management tools — free for 14 days.",
+    "text_3": "You can download the mobile app via the link",
+    "toast_1": "Incorrect login/password",
+    "toast_2": "Incorrect code",
+    "placeholder_1": "Login",
+    "placeholder_2": "Password",
+    "label": "Remember me",
+    "btn": "Login",
+    "link": "Apply",
+    "app": "Download from"
+  },
+
+  "how": {
+    "title": "How OrganizationOffice Helps CSOs (Civil Society Organizations)",
+    "text": "The OrganizationOffice project can become a powerful tool for CSOs (civil society organizations), as it solves several systemic problems that hinder the development of civic initiatives.",
+    "text_1": "Key idea:",
+    "text_2": "“We are creating an ecosystem where every organization can operate transparently, efficiently, and in cooperation with others.”",
+
+    "title_1": "Transparency and Trust",
+    "list_1_1": "The platform ensures full openness of funding, reporting, and expenses.",
+    "list_1_2": "This increases the trust of donors, partners, and citizens in the organization.",
+    "list_1_3": "Every contribution can be tracked through the control system.",
+
+    "title_2": "Digital Management",
+    "list_2_1": "CSOs receive a unified admin panel for coordinating projects, volunteers, members, payments, and events.",
+    "list_2_2": "Less paperwork — more time for real activities.",
+
+    "title_3": "Unification of Organizations",
+    "list_3_1": "The platform allows the creation of alliances, coalitions, and CSO networks.",
+    "list_3_2": "This enables joint action, access to larger grants, scaling impact, and sharing resources.",
+
+    "title_4": "Access to Funding",
+    "list_4_1": "Through OrganizationOffice, donors and benefactors can directly fund specific initiatives, without intermediaries.",
+    "list_4_2": "Each organization receives its own profile and trust rating.",
+
+    "title_5": "Analytics and Reporting",
+    "list_5_1": "The system automatically generates digital reports, performance statistics, and interactive dashboards.",
+    "list_5_2": "This simplifies reporting to donors and governmental institutions.",
+
+    "title_6": "Unity and Sector Development",
+    "list_6_1": "OrganizationOffice is an ecosystem that unites foundations, NGOs, cooperatives, parties, and movements in a shared digital environment.",
+    "list_6_2": "This format contributes to the sustainable development of civil society in Ukraine and worldwide."
+  },
+
+  "privacy_policy": {
+    "title_1": "Disclaimer",
+    "text_1_1": "The OrganizationOffice platform is currently operating in test mode. Some features may be temporarily unavailable or unstable. Technical malfunctions or errors may occur during use.",
+    "text_1_2": "To improve quality, stability, and security, we may collect technical information about user interactions with the system. This data is used solely for internal analysis and is not shared with third parties, except as required by law.",
+    "text_1_3": "The processing of personal data is carried out in accordance with the Law of Ukraine 'On Personal Data Protection' No. 2297-VI of June 1, 2010 (as amended on 14.06.2025).",
+    "text_1_4": "The official text of the law is available at:",
+    "text_1_5": "Collected personal data is not transferred to third parties, except in cases provided by current legislation.",
+    "text_1_6": "The user has all the rights of a personal data subject in accordance with the Law of Ukraine 'On Personal Data Protection'.",
+    "text_1_7": "For questions regarding the processing of personal data, please contact:",
+
+    "title_2": "Privacy Policy",
+    "text_2_1": "Last updated: August 5, 2025",
+    "text_2_2": "The OrganizationOffice platform (hereinafter - 'Platform', 'We') establishes the principles for collecting, processing, storing, and protecting users' personal data (hereinafter - 'You', 'Users') when using our web resources and services.",
+
+    "title_3": "1. Collection and Processing of Personal Data",
+    "text_3_1": "The Platform collects and processes users' personal data to provide access to services, support functionality, and comply with legal requirements.",
+    "text_3_1_1": "Categories of data processed:",
+    "list_3_1_1": "Identification and contact data: name, email address, phone number.",
+    "list_3_1_2": "Technical information: IP address, browser type and version, device model, operating system, interface language, date and time of access, pages visited.",
+    "list_3_1_3": "Interaction data: user actions within the service, requests to support, profile settings, selected features.",
+    "text_3_2": "Purpose of data processing:",
+    "list_3_2_1": "providing access to platform functionality and personalization;",
+    "list_3_2_2": "technical support and communication with users;",
+    "list_3_2_3": "analytics, monitoring stability, and resolving technical issues;",
+    "list_3_2_4": "complying with legal requirements regarding personal data processing.",
+
+    "title_4": "2. Transfer and Storage of Personal Data",
+    "text_4_1": "Personal data is not shared with third parties without your explicit consent, except when such transfer is required by applicable law.",
+    "text_4_1_1": "Data may be shared only in the following cases:",
+    "list_4_1": "fulfilling legal obligations under Ukrainian law;",
+    "list_4_2": "involving authorized service providers (contractors, hosting providers, analytics platforms) that ensure the technical functioning of the platform, provided they comply with personal data protection requirements;",
+    "list_4_3": "in the event of reorganization, merger, asset transfer, or other corporate change – provided the privacy policy continuity is ensured.",
+    "text_4_2": "Data retention period:",
+    "text_4_2_1": "Personal data is stored for no more than 5 years from the last user activity, unless a different period is determined by legal requirements or service terms.",
+
+    "title_5": "3. User Rights",
+    "text_5_1": "Every user has legally guaranteed rights regarding their personal data. You have the right to:",
+    "list_5_1": "receive confirmation of the processing of your personal data and access to it;",
+    "list_5_2": "request clarification, updating, correction, or deletion of inaccurate or outdated data;",
+    "list_5_3": "withdraw consent to personal data processing at any time (if processing is based on consent);",
+    "list_5_4": "object to processing in cases provided by law;",
+    "list_5_5": "restrict processing in certain cases (e.g., during verification of data accuracy);",
+    "list_5_6": "file a complaint with the Authorized Body for Personal Data Protection.",
+    "text_5_2": "Requests to exercise rights should be sent to the email address:",
+
+    "title_6": "4. Personal Data Protection",
+    "text_6_1": "We implement modern technical and organizational measures to protect personal data from unauthorized access, alteration, loss, or destruction.",
+
+    "title_7": "5. Privacy Policy Updates",
+    "text_7_1": "We reserve the right to periodically make changes to this Privacy Policy. All updates are published on the official website and take effect upon posting.",
+    "text_7_2": "In case of significant changes, we will notify you in advance – by email, through the platform interface, or by other convenient means."
+  }
+}
