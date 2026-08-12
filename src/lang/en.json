@@ -1,26 +1,26 @@
 {
   "header": {
-    "title_1": "Board",
-    "title_2": "Members",
+    "title_1": "Workflows",
+    "title_2": "Getting started",
     "title_3": "Meetings",
-    "title_4": "Tariffs",
-    "title_5": "Contacts",
-    "title_6": "Management"
+    "title_4": "Mobile app",
+    "title_5": "Consultation",
+    "title_6": "Admin sign-in"
   },
 
   "footer": {
-    "text_1": "Join the <b>nationwide ORGANIZATIONS community</b> on Telegram – share experiences, develop connections, and grow ideas.",
-    "text_2": "We are on social networks",
-    "text_3": "All calls are charged according to your operator’s tariff plan",
-    "text_4": "Write to us",
-    "text_5": "Mon-Fri from 10:00 to 18:00",
-    "text_6": "Working hours",
-    "text_7": "Have questions?",
-    "text_8": "Leave your number — we will call you shortly.",
+    "text_1": "A shared digital workspace for organizations accountable to their members, communities, and partners.",
+    "text_2": "Product updates and practical field notes",
+    "text_3": "Phone support. Carrier charges may apply.",
+    "text_4": "Write to our implementation team",
+    "text_5": "Monday–Friday, 10:00–18:00",
+    "text_6": "Support hours",
+    "text_7": "Prefer a callback?",
+    "text_8": "Leave your number; our team will contact you on a working day to clarify your organization’s setup.",
     "text_9": "All rights reserved",
-    "btn_1": "Join",
-    "btn_2": "Send",
-    "title_1": "Terms of Use",
+    "btn_1": "Join the Telegram community",
+    "btn_2": "Request a callback",
+    "title_1": "Privacy and terms",
     "title_2": "Public Offer"
   },
 
@@ -30,67 +30,67 @@
 
   "index": {
     "s_1": {
-      "title": "<span class='color-secondary'>OrganizationOffice</span> – a digital tool for modern <span class='color-2'>project and team management</span>",
-      "text_1": "<b>Digital environment</b> for effective interaction between the manager, the board members, the audit committee, and the organization’s members.",
-      "text_2": "Scan the QR code to download the app",
-      "text_3": "Download from"
+      "title": "<span class='color-secondary'>Run the organization</span> with one accountable workspace for <span class='color-2'>members, decisions, and everyday operations</span>",
+      "text_1": "OrganizationOffice connects membership, documents, meetings, contributions, and communication for civic, charitable, cooperative, and other member-led organizations.",
+      "text_2": "Mobile workspace included",
+      "text_3": "Get it on"
     },
 
     "s_2": {
-      "title": "Request a consultation",
-      "btn": "Request"
+      "title": "Tell us about your organization",
+      "btn": "Discuss your setup"
     },
 
     "s_3": {
-      "title": "On one platform",
-      "text_1": "Satisfied users",
-      "text_2": "Receive support from OrganizationOffice",
-      "text_3": "Use the service to hold meetings online"
+      "title": "Built for organizations with members, mandates, and shared responsibility",
+      "text_1": "<b>Civic and community organizations</b><br>Coordinate teams, governing bodies, and recurring activities.",
+      "text_2": "<b>Charitable funds and foundations</b><br>Keep programs, decisions, and stakeholder communication connected.",
+      "text_3": "<b>Cooperatives and member-led organizations</b><br>Give every participant a clear place in the operating model."
     },
 
     "s_4": {
-      "text": "for OrganizationOffice board",
-      "title": "Manage your OrganizationOffice<br><span class='color-4'>quickly and easily, in just a few clicks</span>",
-      "btn": "Learn more",
-      "item_1": "<b>Full control</b> of financial indicators",
-      "item_2": "<b>Separate dashboard</b> for financial management",
-      "item_3": "Tools for working with <b>debtors</b>",
-      "item_4": "<b>Convenient communication</b> between organization members"
+      "text": "Core operating workflows",
+      "title": "One workspace for the work behind your mission",
+      "btn": "Explore the management workspace",
+      "item_1": "<b>Members and roles</b> — keep status, responsibilities, and history in context",
+      "item_2": "<b>Documents and decisions</b> — connect records to the work they support",
+      "item_3": "<b>Communication</b> — send relevant updates to the right participants",
+      "item_4": "<b>Contributions and obligations</b> — follow current status without fragmented lists"
     },
 
     "s_5": {
-      "text": "for OrganizationOffice users",
-      "title": "Mobile application<br><span class='color-2'>for OrganizationOffice users</span>",
-      "btn": "Learn more",
-      "item_1": "<b>Control</b> the account balance",
-      "item_2": "Communicate and interact <b>with organization members</b>",
-      "item_3": "<b>Join</b> founding and general meetings online",
-      "item_4": "Make contributions quickly <b>through the app</b>"
+      "text": "Mobile workspace",
+      "title": "The organization follows members beyond the desktop",
+      "btn": "See mobile scenarios",
+      "item_1": "Receive <b>relevant notifications</b> without losing the underlying context",
+      "item_2": "Open <b>documents and available services</b> from one member workspace",
+      "item_3": "Join <b>votes and meetings</b> from the same operational flow",
+      "item_4": "Check <b>statuses and contributions</b> or reach the organization through one contact point"
     },
 
     "s_6": {
-      "title": "Organization meetings in the OrganizationOffice system",
-      "btn": "Learn more",
-      "text_1": "WHAT DOES THIS MEAN?",
-      "text_2": "Physical presence is no longer required. Gather the board and members online – without limitations in time or space, using any electronic signature (QES)."
+      "title": "Turn each meeting into a traceable decision workflow",
+      "btn": "See how meetings work",
+      "text_1": "A guided path from agenda to recorded outcome.",
+      "text_2": "<b>Create an agenda</b> → notify participants → join and vote → record decisions and results."
     },
 
     "s_7": {
-      "title": "How OrganizationOffice<br><span class='color-2'>Supports CSOs</span>",
-      "btn": "Learn More",
-      "text_1": "1. Transparency and Trust",
-      "list_1_1": "Open financing, expense control, increased donor trust.",
-      "text_2": "2. Digital Management",
-      "list_2_1": "A unified system for projects, volunteers, reporting, and communication.",
-      "text_3": "3. Connecting Organizations",
-      "list_3_1": "A partnership network between foundations, NGOs, cooperatives, and parties.",
-      "text_4": "4. Direct Funding",
-      "list_4_1": "Donors support initiatives without intermediaries — secure transactions.",
-      "text_5": "5. Automated Analytics",
-      "list_5_1": "Statistics, dashboards, reports — all in one place.",
-      "text_6": "6. Civil Society Development",
-      "list_6_1": "A collaborative ecosystem of trust among next-generation organizations.",
-      "text_7": "We create a digital platform that <b>enhances transparency, trust, and efficiency</b> for every civic initiative."
+      "title": "Start with the way your organization already works",
+      "btn": "Review the operating model",
+      "text_1": "Map the organization",
+      "list_1_1": "Define roles, governing bodies, membership rules, and the responsibilities behind them.",
+      "text_2": "Bring in the records",
+      "list_2_1": "Add people, documents, and current statuses without losing operational context.",
+      "text_3": "Launch the routines",
+      "list_3_1": "Set up communication, contributions, and meeting workflows around real scenarios.",
+      "text_4": "Work from shared context",
+      "list_4_1": "Coordinate the team from a common operational record instead of disconnected tools.",
+      "text_5": "Decisions stay traceable",
+      "list_5_1": "Meeting materials, votes, and results remain connected for later review.",
+      "text_6": "Reporting starts with current data",
+      "list_6_1": "Review statuses and prepare transparent updates without rebuilding the story manually.",
+      "text_7": "Give boards, members, and partners the <b>context they need to understand decisions, responsibilities, and progress.</b>"
     },
 
     "s_8": {
@@ -107,14 +107,14 @@
 
   "control": {
     "s_1": {
-      "title": "<span class='color-2'>Manage OrganizationOffice</span> in a few clicks",
-      "text": "Implement modern technologies in your organization. Simplify interaction between platform participants!"
+      "title": "<span class='color-2'>Coordinate OrganizationOffice</span> through connected operating workflows",
+      "text": "Bring member records, responsibilities, documents, and current decisions into one working context."
     },
     "s_2": {
-      "title": "Request a consultation",
+      "title": "Discuss your organization setup",
       "placeholder_1": "Name",
-      "placeholder_2": "Association name",
-      "btn": "Request"
+      "placeholder_2": "Organization name",
+      "btn": "Request an implementation call"
     },
     "s_3": {
       "title": "How to register an OrganizationOffice on the platform?",
