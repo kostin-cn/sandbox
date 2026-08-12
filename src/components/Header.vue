@@ -1,36 +1,36 @@
 <template>
   <header class="header shadow">
-    <nav id="navMenu" class="nav-menu wrapper d-flex align-center justify-center">
-      <div class="nav-container d-flex flex-wrap justify-end text-uppercase">
-        <router-link v-for="item in nav1" class="nav-link" :to="item.link">{{ item.title }}</router-link>
-      </div>
-
+    <nav id="navMenu" class="nav-menu oo-header-nav wrapper d-flex align-center">
       <router-link class="logo" :to="`/${locale}`">
         <img src="/svg/logo.svg" alt="logo">
       </router-link>
 
-      <div class="nav-container d-flex flex-wrap text-uppercase">
-        <router-link v-for="item in nav2" class="nav-link" :to="item.link">{{ item.title }}</router-link>
+      <div class="nav-container oo-main-nav d-flex flex-wrap justify-end text-uppercase">
+        <router-link
+          v-for="item in navItems"
+          :key="item.title"
+          :class="['nav-link', { 'header-admin-link': item.isAction }]"
+          :to="item.link"
+        >{{ item.title }}</router-link>
       </div>
 
-      <div id="menuBtn" class="menuBtn" @click="btnClick">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+      <div class="lang-switcher fs-2 text-uppercase">
+        <div id="langCurrent" class="current-lang" @click="langClick">{{ locale }}</div>
+        <div id="langList" class="lang-list shadow-item flex-column align-center bg-secondary">
+          <router-link v-for="lang in SUPPORT_LOCALES.filter(elem => elem !== locale)" :key="lang" :to="getLangLink(lang)" @click="langClick">{{ lang }}</router-link>
+        </div>
       </div>
+
+      <button id="menuBtn" type="button" class="menuBtn" :aria-label="t('header.title_6')" @click="btnClick">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </nav>
 
-    <div class="lang-switcher fs-2 text-uppercase">
-      <div id="langCurrent" class="current-lang" @click="langClick">{{ locale }}</div>
-      <div id="langList" class="lang-list shadow-item flex-column align-center bg-secondary">
-        <router-link v-for="lang in SUPPORT_LOCALES.filter(elem => elem !== locale)" :to="getLangLink(lang)" @click="langClick">{{ lang }}</router-link>
-      </div>
-    </div>
-
     <div id="mobileMenu" class="mobile-menu flex-column align-center">
-      <router-link v-for="item in nav1" class="nav-link" :to="item.link" @click="btnClick">{{ item.title }}</router-link>
-      <router-link v-for="item in nav2" class="nav-link" :to="item.link" @click="btnClick">{{ item.title }}</router-link>
+      <router-link v-for="item in navItems" :key="item.title" class="nav-link" :to="item.link" @click="btnClick">{{ item.title }}</router-link>
 
       <div class="mobile-lang-switcher fs-2 text-uppercase">
         <div id="mobLangCurrent" class="current-lang mb-2" @click="mobLangClick">{{ locale }}</div>
@@ -39,8 +39,6 @@
         </div>
       </div>
     </div>
-
-    <div class="triangle"/>
   </header>
 </template>
 
@@ -49,6 +47,7 @@ import {computed} from "vue";
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n';
 const { locale, t } = useI18n();
+const route = useRoute();
 import { SUPPORT_LOCALES } from '@/service/i18n'
 
 window.addEventListener('scroll', () => {
@@ -71,16 +70,18 @@ document.addEventListener('click', (event: MouseEvent) => {
 })
 
 const nav1 = computed(() => ([
-  {title: t('header.title_1'), link: `/${locale.value}/#control`},
-  {title: t('header.title_2'), link: `/${locale.value}/#mobileApp`},
-  {title: t('header.title_3'), link: `/${locale.value}/#meet`}
+  {title: t('header.title_1'), link: `/${locale.value}/#workflows`, isAction: false},
+  {title: t('header.title_2'), link: `/${locale.value}/#onboarding`, isAction: false},
+  {title: t('header.title_3'), link: `/${locale.value}/#meet`, isAction: false}
 ]));
 
 const nav2 = computed(() => ([
-  {title: t('header.title_4'), link: `/${locale.value}/tariffs`},
-  {title: t('header.title_5'), link: '#footer'},
-  {title: t('header.title_6'), link: `/${locale.value}/admin`}
+  {title: t('header.title_4'), link: `/${locale.value}/#mobileApp`, isAction: false},
+  {title: t('header.title_5'), link: `/${locale.value}/#consultation`, isAction: false},
+  {title: t('header.title_6'), link: `/${locale.value}/admin`, isAction: true}
 ]));
+
+const navItems = computed(() => ([...nav1.value, ...nav2.value]));
 
 const btnClick = () => {
   document.querySelector('#menuBtn').classList.toggle('active');
@@ -98,7 +99,6 @@ const mobLangClick = () => {
 };
 
 const getLangLink = (newLang: string) => {
-  const route = useRoute();
   const pathWithoutLang = route.path.replace(/^\/[^/]+/, '')
   return {
     path: `/${newLang}${pathWithoutLang}`,
@@ -109,10 +109,8 @@ const getLangLink = (newLang: string) => {
 
 <style scoped lang="scss">
 .lang-switcher {
-  position: absolute;
-  top: 50%;
-  right: 3vw;
-  transform: translateY(-50%);
+  flex: 0 0 auto;
+  margin-left: 12px;
 
   .current-lang {
     cursor: pointer;
