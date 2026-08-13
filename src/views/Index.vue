@@ -13,7 +13,7 @@
               class="oo-primary-action hover font-700"
             >
               {{ t('index.s_2.btn') }}
-              <img src="/svg/arrow-right.svg" alt="">
+              <img :src="`${baseUrl}svg/arrow-right.svg`" alt="">
             </router-link>
             <router-link
               :to="{ path: `/${locale}`, hash: '#workflows' }"
@@ -27,12 +27,12 @@
         <div class="oo-hero-visual animate-block from-right delay-1">
           <div class="oo-product-frame">
             <span class="oo-frame-label" v-html="t('index.s_1.text_2')"/>
-            <img :src="`/img/${section1.img}`" :alt="t('index.s_1.text_1')">
+            <img :src="`${baseUrl}img/${section1.img}`" :alt="t('index.s_1.text_1')">
           </div>
 
           <div class="oo-app-card">
             <a class="oo-qr" :href="`/${locale}/mobile-app?d=mobile`" target="_blank" rel="noopener noreferrer">
-              <img :src="`/svg/${section1.qr}`" alt="QR">
+              <img :src="`${baseUrl}svg/${section1.qr}`" alt="QR">
             </a>
             <div>
               <p class="font-700 mb-1" v-html="t('index.s_1.text_2')"/>
@@ -45,7 +45,7 @@
                   rel="noopener noreferrer"
                   class="oo-store-link d-flex align-center"
                 >
-                  <img :src="`/svg/${item.img}`" alt="">
+                  <img :src="`${baseUrl}svg/${item.img}`" alt="">
                   <span>{{ t('index.s_1.text_3') }}<br><b>{{ item.title }}</b></span>
                 </a>
               </div>
@@ -68,7 +68,7 @@
             :class="`oo-type-card animate-block delay-${index + 1}`"
           >
             <span class="oo-card-index">0{{ index + 1 }}</span>
-            <img :src="`/svg/${item.img}`" alt="">
+            <img :src="`${baseUrl}svg/${item.img}`" alt="">
             <p v-html="item.text"/>
           </article>
         </div>
@@ -89,13 +89,13 @@
           </div>
           <router-link :to="section4.link" class="oo-text-link font-700">
             {{ t('index.s_4.btn') }}
-            <img src="/svg/arrow-right-3.svg" alt="">
+            <img :src="`${baseUrl}svg/arrow-right-3.svg`" alt="">
           </router-link>
         </div>
 
         <div class="oo-feature-media animate-block from-right delay-1">
           <div class="oo-media-caption" v-html="t('index.s_4.text')"/>
-          <img :src="`/img/${section4.img}`" :alt="t('index.s_4.title')">
+          <img :src="`${baseUrl}img/${section4.img}`" :alt="t('index.s_4.title')">
         </div>
       </div>
     </section>
@@ -123,7 +123,7 @@
       <div class="wrapper oo-mobile-layout">
         <div class="oo-mobile-visual animate-block from-left">
           <div class="oo-phone-glow"></div>
-          <img :src="`/img/${section5.img}`" :alt="t('index.s_5.title')">
+          <img :src="`${baseUrl}img/${section5.img}`" :alt="t('index.s_5.title')">
         </div>
 
         <div class="oo-feature-copy animate-block delay-1">
@@ -134,7 +134,7 @@
           </ul>
           <router-link :to="section5.link" class="oo-text-link font-700">
             {{ t('index.s_5.btn') }}
-            <img src="/svg/arrow-right-3.svg" alt="">
+            <img :src="`${baseUrl}svg/arrow-right-3.svg`" alt="">
           </router-link>
         </div>
       </div>
@@ -149,11 +149,11 @@
           <p class="oo-meeting-flow mb-3" v-html="section6.text[1]"/>
           <router-link :to="section6.link" class="oo-light-link font-700">
             {{ t('index.s_6.btn') }}
-            <img src="/svg/arrow-right.svg" alt="">
+            <img :src="`${baseUrl}svg/arrow-right.svg`" alt="">
           </router-link>
         </div>
         <div class="oo-meeting-media animate-block from-right delay-1">
-          <img :src="`/img/${section6.img}`" :alt="t('index.s_6.title')">
+          <img :src="`${baseUrl}img/${section6.img}`" :alt="t('index.s_6.title')">
         </div>
       </div>
     </section>
@@ -164,7 +164,7 @@
           <h2 class="oo-section-title mb-3" v-html="t('index.s_7.text_7')"/>
           <router-link :to="section7.link" class="oo-text-link font-700">
             {{ t('index.s_7.btn') }}
-            <img src="/svg/arrow-right-3.svg" alt="">
+            <img :src="`${baseUrl}svg/arrow-right-3.svg`" alt="">
           </router-link>
         </div>
 
@@ -194,7 +194,7 @@
           <input type="text" class="form-input" v-model="section2.org" required :placeholder="t('control.s_2.placeholder_2')">
           <button type="submit" class="oo-submit hover font-700">
             {{ t('index.s_2.btn') }}
-            <img src="/svg/arrow-right.svg" alt="">
+            <img :src="`${baseUrl}svg/arrow-right.svg`" alt="">
           </button>
         </form>
       </div>
@@ -210,6 +210,8 @@ import { APPS } from '@/service/constants';
 import { scrollAnimate } from '@/service/global';
 
 const { locale, t } = useI18n();
+
+const baseUrl = '/sandbox/';
 
 const section1 = {
   img: 'index_1_1.png',
