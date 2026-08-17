@@ -1430,12 +1430,12 @@ ul {
 }
 
 .oo-display {
-  max-width: 760px;
+  max-width: 680px;
   font-family: $font-bold;
-  font-size: clamp(42px, 5.6vw, 74px);
+  font-size: clamp(40px, 4.15vw, 60px);
   font-weight: 700;
-  letter-spacing: -0.035em;
-  line-height: 0.98;
+  letter-spacing: -0.03em;
+  line-height: 0.97;
 
   .color-secondary {
     color: var(--oo-ink) !important;
@@ -1484,7 +1484,7 @@ ul {
 }
 
 .oo-hero {
-  padding: 168px 0 76px;
+  padding: 64px 0 48px;
   background:
     radial-gradient(circle at 92% 4%, rgba(154, 95, 159, 0.18), transparent 30%),
     linear-gradient(145deg, #f4f8fa 0%, #fff 60%);
@@ -1493,12 +1493,28 @@ ul {
 .oo-hero-shell {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(360px, 0.9fr);
-  gap: 5vw;
+  gap: clamp(32px, 3.5vw, 52px);
   align-items: center;
 }
 
+.oo-hero-copy {
+  max-width: 680px;
+
+  .oo-kicker {
+    margin-bottom: 8px;
+  }
+
+  .oo-display {
+    margin-bottom: 14px !important;
+  }
+
+  .oo-lead {
+    margin-bottom: 16px !important;
+  }
+}
+
 .oo-hero-actions {
-  gap: 12px;
+  gap: 10px;
 }
 
 .oo-primary-action,
@@ -1549,10 +1565,10 @@ ul {
 
 .oo-hero-image {
   display: block;
-  width: min(720px, 116%);
+  width: min(700px, 110%);
   max-width: none;
   height: auto;
-  margin-left: -12%;
+  margin-left: -8%;
   filter: drop-shadow(0 30px 34px rgba(19, 37, 54, 0.18));
 }
 
@@ -2108,13 +2124,49 @@ ul {
   color: #fff;
 }
 
+@media (max-width: 1366px) {
+  .oo-hero {
+    padding: 48px 0 36px;
+  }
+
+  .oo-hero-shell {
+    gap: 32px;
+  }
+
+  .oo-display {
+    font-size: clamp(38px, 4vw, 54px);
+  }
+
+  .oo-hero .oo-lead {
+    font-size: 18px;
+    line-height: 1.45;
+  }
+}
+
 @media (max-width: 1050px) {
+  .oo-hero {
+    padding: 48px 0 40px;
+  }
+
   .oo-hero-shell,
   .oo-feature-layout,
   .oo-mobile-layout,
   .oo-trust-layout,
   .oo-consultation-shell {
     grid-template-columns: 1fr;
+  }
+
+  .oo-hero-shell {
+    gap: 28px;
+  }
+
+  .oo-hero-copy,
+  .oo-display {
+    max-width: 720px;
+  }
+
+  .oo-display {
+    font-size: clamp(40px, 6.5vw, 54px);
   }
 
   .oo-hero-visual {
@@ -2163,15 +2215,22 @@ ul {
   }
 
   .oo-hero {
-    padding: 132px 0 56px;
+    padding: 40px 0 36px;
   }
 
   .oo-hero-shell {
     grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .oo-display {
+    font-size: clamp(34px, 9.4vw, 42px);
+    line-height: 0.98;
   }
 
   .oo-lead {
-    font-size: 17px;
+    font-size: 16px;
+    line-height: 1.45;
   }
 
   .oo-primary-action,
