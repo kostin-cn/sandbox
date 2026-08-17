@@ -1663,9 +1663,9 @@ ul {
 
   > img {
     display: block;
-    width: 112%;
+    width: 100%;
     height: auto;
-    margin: 38px -6% -8px;
+    object-fit: contain;
   }
 }
 
@@ -1747,8 +1747,11 @@ ul {
 
   > img {
     display: block;
-    width: min(100%, 520px);
+    width: min(100%, 600px);
+    max-height: 700px;
     height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 24px 32px rgba(19, 37, 54, 0.16));
     z-index: 2;
   }
 }
@@ -1815,11 +1818,16 @@ ul {
   color: #fff;
 }
 
-.oo-meeting-media img {
-  display: block;
-  width: 116%;
-  height: auto;
-  margin: -12% -8%;
+.oo-meeting-media {
+  min-width: 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+    object-fit: contain;
+  }
 }
 
 .oo-trust {
@@ -2197,7 +2205,7 @@ ul {
   }
 
   .oo-mobile-visual {
-    min-height: 360px;
+    min-height: 0;
   }
 
   .oo-meeting-card,

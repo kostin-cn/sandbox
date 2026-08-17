@@ -78,7 +78,14 @@
 
         <div class="oo-feature-media animate-block from-right delay-1">
           <div class="oo-media-caption" v-html="t('index.s_4.text')"/>
-          <img :src="`${baseUrl}img/${section4.img}`" :alt="t('index.s_4.title')">
+          <img
+            :src="`${baseUrl}img/${section4.img}`"
+            :alt="section4.alt"
+            width="1600"
+            height="1400"
+            loading="lazy"
+            decoding="async"
+          >
         </div>
       </div>
     </section>
@@ -106,7 +113,14 @@
       <div class="wrapper oo-mobile-layout">
         <div class="oo-mobile-visual animate-block from-left">
           <div class="oo-phone-glow"></div>
-          <img :src="`${baseUrl}img/${section5.img}`" :alt="t('index.s_5.title')">
+          <img
+            :src="`${baseUrl}img/${section5.img}`"
+            :alt="section5.alt"
+            width="1200"
+            height="1400"
+            loading="lazy"
+            decoding="async"
+          >
         </div>
 
         <div class="oo-feature-copy animate-block delay-1">
@@ -136,7 +150,14 @@
           </router-link>
         </div>
         <div class="oo-meeting-media animate-block from-right delay-1">
-          <img :src="`${baseUrl}img/${section6.img}`" :alt="t('index.s_6.title')">
+          <img
+            :src="`${baseUrl}img/${section6.img}`"
+            :alt="section6.alt"
+            width="1600"
+            height="1200"
+            loading="lazy"
+            decoding="async"
+          >
         </div>
       </div>
     </section>
@@ -195,6 +216,14 @@ const { locale, t } = useI18n();
 
 const baseUrl = '/sandbox/';
 
+const localizedImageAlt = (section: 4 | 5 | 6) => {
+  const key = `index.s_${section}`;
+
+  return locale.value === 'en' || locale.value === 'ua'
+    ? t(`${key}.image_alt`)
+    : t(`${key}.title`);
+};
+
 const section1 = {
   img: 'hero_device_mockup.png'
 };
@@ -212,7 +241,8 @@ const section3 = computed(() => ([
 ]));
 
 const section4 = computed(() => ({
-  img: 'index_4_1.png',
+  img: 'organization_operating_model.png',
+  alt: localizedImageAlt(4),
   link: `/${locale.value}/control`,
   items: [
     t('index.s_4.item_1'),
@@ -223,7 +253,8 @@ const section4 = computed(() => ({
 }));
 
 const section5 = computed(() => ({
-  img: 'index_5_1.png',
+  img: 'mobile_workspace_mockup.png',
+  alt: localizedImageAlt(5),
   link: `/${locale.value}/mobile-app`,
   items: [
     t('index.s_5.item_1'),
@@ -234,7 +265,8 @@ const section5 = computed(() => ({
 }));
 
 const section6 = computed(() => ({
-  img: 'index_6_1.png',
+  img: 'meetings_workflow_visual.png',
+  alt: localizedImageAlt(6),
   link: `/${locale.value}/meeting`,
   text: [
     t('index.s_6.text_1'),
