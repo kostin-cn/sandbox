@@ -25,32 +25,15 @@
         </div>
 
         <div class="oo-hero-visual animate-block from-right delay-1">
-          <div class="oo-product-frame">
-            <span class="oo-frame-label" v-html="t('index.s_1.text_2')"/>
-            <img :src="`${baseUrl}img/${section1.img}`" :alt="t('index.s_1.text_1')">
-          </div>
-
-          <div class="oo-app-card">
-            <a class="oo-qr" :href="`/${locale}/mobile-app?d=mobile`" target="_blank" rel="noopener noreferrer">
-              <img :src="`${baseUrl}svg/${section1.qr}`" alt="QR">
-            </a>
-            <div>
-              <p class="font-700 mb-1" v-html="t('index.s_1.text_2')"/>
-              <div class="oo-store-links d-flex flex-wrap">
-                <a
-                  v-for="item in APPS"
-                  :key="item.title"
-                  :href="item.link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="oo-store-link d-flex align-center"
-                >
-                  <img :src="`${baseUrl}svg/${item.img}`" alt="">
-                  <span>{{ t('index.s_1.text_3') }}<br><b>{{ item.title }}</b></span>
-                </a>
-              </div>
-            </div>
-          </div>
+          <img
+            class="oo-hero-image"
+            :src="`${baseUrl}img/${section1.img}`"
+            :alt="t('index.s_1.text_1')"
+            width="1448"
+            height="1086"
+            fetchpriority="high"
+            decoding="async"
+          >
         </div>
       </div>
     </section>
@@ -206,7 +189,6 @@
 import { computed, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 
-import { APPS } from '@/service/constants';
 import { scrollAnimate } from '@/service/global';
 
 const { locale, t } = useI18n();
@@ -214,8 +196,7 @@ const { locale, t } = useI18n();
 const baseUrl = '/sandbox/';
 
 const section1 = {
-  img: 'index_1_1.png',
-  qr: 'qr2.svg'
+  img: 'hero_device_mockup.png'
 };
 
 const section2 = ref({
