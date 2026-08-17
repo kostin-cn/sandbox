@@ -53,6 +53,7 @@
     "s_4": {
       "text": "Core operating workflows",
       "title": "One workspace for the work behind your mission",
+      "image_alt": "OrganizationOffice operating model connecting members, documents, meetings, voting, communication, reports, tasks, calendar, mobile app, and web dashboard",
       "btn": "Explore the management workspace",
       "item_1": "<b>Members and roles</b> — keep status, responsibilities, and history in context",
       "item_2": "<b>Documents and decisions</b> — connect records to the work they support",
@@ -63,6 +64,7 @@
     "s_5": {
       "text": "Mobile workspace",
       "title": "The organization follows members beyond the desktop",
+      "image_alt": "OrganizationOffice mobile workspace with notifications, meetings, voting, documents, calendar, and organization services",
       "btn": "See mobile scenarios",
       "item_1": "Receive <b>relevant notifications</b> without losing the underlying context",
       "item_2": "Open <b>documents and available services</b> from one member workspace",
@@ -72,6 +74,7 @@
 
     "s_6": {
       "title": "Turn each meeting into a traceable decision workflow",
+      "image_alt": "Five-step OrganizationOffice meeting workflow from agenda creation and member notification to participation, recorded vote, and available outcome",
       "btn": "See how meetings work",
       "text_1": "A guided path from agenda to recorded outcome.",
       "text_2": "<b>Create an agenda</b> → notify participants → join and vote → record decisions and results."
