@@ -18,7 +18,7 @@ import How from '../views/How.vue';
 import IndexV2 from '../views/v2/IndexV2.vue';
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.BASE_URL),
     linkActiveClass: "active",
     scrollBehavior(to, from, savedPosition) {
         // Якщо є збережена позиція (наприклад, при навігації назад)
