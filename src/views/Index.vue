@@ -28,9 +28,9 @@
           <img
             class="oo-hero-image"
             :src="`${baseUrl}img/${section1.img}`"
-            :alt="t('index.s_1.text_1')"
-            width="1448"
-            height="1086"
+            :alt="section1.alt"
+            :width="section1.width"
+            :height="section1.height"
             fetchpriority="high"
             decoding="async"
           >
@@ -224,9 +224,18 @@ const localizedImageAlt = (section: 4 | 5 | 6) => {
     : t(`${key}.title`);
 };
 
-const section1 = {
-  img: 'hero_device_mockup.png'
-};
+const section1 = computed(() => {
+  const usesRealUaScreens = locale.value === 'ua';
+
+  return {
+    img: usesRealUaScreens
+      ? 'hero_device_mockup_real_screens.png'
+      : 'hero_device_mockup.png',
+    alt: t('index.s_1.image_alt'),
+    width: usesRealUaScreens ? 1515 : 1448,
+    height: usesRealUaScreens ? 1038 : 1086
+  };
+});
 
 const section2 = ref({
   name: '',
@@ -241,7 +250,9 @@ const section3 = computed(() => ([
 ]));
 
 const section4 = computed(() => ({
-  img: 'organization_operating_model.png',
+  img: locale.value === 'ua'
+    ? 'organization_operating_model_ua.png'
+    : 'organization_operating_model.png',
   alt: localizedImageAlt(4),
   link: `/${locale.value}/control`,
   items: [
