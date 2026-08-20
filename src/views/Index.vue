@@ -29,8 +29,8 @@
             class="oo-hero-image"
             :src="`${baseUrl}img/${section1.img}`"
             :alt="t('index.s_1.text_1')"
-            width="1448"
-            height="1086"
+            :width="section1.width"
+            :height="section1.height"
             fetchpriority="high"
             decoding="async"
           >
@@ -81,8 +81,8 @@
           <img
             :src="`${baseUrl}img/${section4.img}`"
             :alt="section4.alt"
-            width="1600"
-            height="1400"
+            :width="section4.width"
+            :height="section4.height"
             loading="lazy"
             decoding="async"
           >
@@ -92,20 +92,40 @@
 
     <section id="onboarding" class="oo-section oo-onboarding">
       <div class="wrapper">
-        <div class="oo-section-heading animate-block">
+        <div class="oo-section-heading">
           <p class="oo-kicker" v-html="t('header.title_2')"/>
           <h2 class="oo-section-title" v-html="t('index.s_7.title')"/>
         </div>
 
         <ol class="oo-step-list">
-          <li v-for="(item, index) in onboardingSteps" :key="item.title" class="animate-block">
-            <span class="oo-step-number">{{ index + 1 }}</span>
+          <li v-for="(item, index) in onboardingSteps" :key="item.title">
+            <div class="oo-step-card-head">
+              <span class="oo-step-number">{{ index + 1 }}</span>
+              <img :src="`${baseUrl}svg/${item.icon}`" alt="" aria-hidden="true">
+            </div>
             <div>
               <h3 v-html="item.title"/>
               <p v-html="item.text"/>
             </div>
           </li>
         </ol>
+
+        <div class="oo-onboarding-support">
+          <div class="oo-trust-copy">
+            <h2 class="oo-section-title mb-3" v-html="t('index.s_7.text_7')"/>
+            <router-link :to="section7.link" class="oo-text-link font-700">
+              {{ t('index.s_7.btn') }}
+              <img :src="`${baseUrl}svg/arrow-right-3.svg`" alt="">
+            </router-link>
+          </div>
+
+          <div class="oo-trust-points">
+            <article v-for="item in trustPoints" :key="item.title" class="oo-trust-card">
+              <h3 v-html="item.title"/>
+              <p v-html="item.text"/>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -116,8 +136,8 @@
           <img
             :src="`${baseUrl}img/${section5.img}`"
             :alt="section5.alt"
-            width="1200"
-            height="1400"
+            :width="section5.width"
+            :height="section5.height"
             loading="lazy"
             decoding="async"
           >
@@ -133,6 +153,23 @@
             {{ t('index.s_5.btn') }}
             <img :src="`${baseUrl}svg/arrow-right-3.svg`" alt="">
           </router-link>
+
+          <div class="oo-store-links">
+            <a
+              v-for="app in APPS"
+              :key="app.title"
+              :href="app.link"
+              class="oo-store-badge"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img :src="`${baseUrl}svg/${app.img}`" :alt="app.title">
+              <span>
+                <small>{{ t('mobile_app.s_1.btn') }}</small>
+                <strong>{{ app.title }}</strong>
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -153,30 +190,11 @@
           <img
             :src="`${baseUrl}img/${section6.img}`"
             :alt="section6.alt"
-            width="1600"
-            height="1200"
+            :width="section6.width"
+            :height="section6.height"
             loading="lazy"
             decoding="async"
           >
-        </div>
-      </div>
-    </section>
-
-    <section class="oo-section oo-trust">
-      <div class="wrapper oo-trust-layout">
-        <div class="oo-trust-copy animate-block">
-          <h2 class="oo-section-title mb-3" v-html="t('index.s_7.text_7')"/>
-          <router-link :to="section7.link" class="oo-text-link font-700">
-            {{ t('index.s_7.btn') }}
-            <img :src="`${baseUrl}svg/arrow-right-3.svg`" alt="">
-          </router-link>
-        </div>
-
-        <div class="oo-trust-points">
-          <article v-for="item in trustPoints" :key="item.title" class="oo-trust-card animate-block delay-1">
-            <h3 v-html="item.title"/>
-            <p v-html="item.text"/>
-          </article>
         </div>
       </div>
     </section>
@@ -211,10 +229,11 @@ import { computed, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 
 import { scrollAnimate } from '@/service/global';
+import { APPS } from '@/service/constants';
 
 const { locale, t } = useI18n();
 
-const baseUrl = '/sandbox/';
+const baseUrl = import.meta.env.BASE_URL;
 
 const localizedImageAlt = (section: 4 | 5 | 6) => {
   const key = `index.s_${section}`;
@@ -224,9 +243,10 @@ const localizedImageAlt = (section: 4 | 5 | 6) => {
     : t(`${key}.title`);
 };
 
-const section1 = {
-  img: 'hero_device_mockup.png'
-};
+const section1 = computed(() => locale.value === 'ua'
+  ? { img: 'hero_real_workspace_ua.png', width: 1448, height: 1086 }
+  : { img: 'hero_real_workspace_en.png', width: 1448, height: 1086 }
+);
 
 const section2 = ref({
   name: '',
@@ -241,7 +261,11 @@ const section3 = computed(() => ([
 ]));
 
 const section4 = computed(() => ({
-  img: 'organization_operating_model.png',
+  img: locale.value === 'ua'
+    ? 'organization_operating_model_ua.png'
+    : 'organization_operating_model_en.png',
+  width: locale.value === 'ua' ? 1337 : 1402,
+  height: locale.value === 'ua' ? 1176 : 1122,
   alt: localizedImageAlt(4),
   link: `/${locale.value}/control`,
   items: [
@@ -253,7 +277,9 @@ const section4 = computed(() => ({
 }));
 
 const section5 = computed(() => ({
-  img: 'mobile_workspace_mockup.png',
+  img: locale.value === 'ua' ? 'mobile_real_screens_ua.png' : 'mobile_real_screens_en.png',
+  width: 1149,
+  height: locale.value === 'ua' ? 1369 : 1368,
   alt: localizedImageAlt(5),
   link: `/${locale.value}/mobile-app`,
   items: [
@@ -265,7 +291,11 @@ const section5 = computed(() => ({
 }));
 
 const section6 = computed(() => ({
-  img: 'meetings_workflow_visual.png',
+  img: locale.value === 'ua'
+    ? 'meetings_workflow_visual_ua.png'
+    : 'meetings_workflow_visual_en.png',
+  width: 1448,
+  height: 1086,
   alt: localizedImageAlt(6),
   link: `/${locale.value}/meeting`,
   text: [
@@ -275,10 +305,10 @@ const section6 = computed(() => ({
 }));
 
 const onboardingSteps = computed(() => ([
-  { title: t('index.s_7.text_1'), text: t('index.s_7.list_1_1') },
-  { title: t('index.s_7.text_2'), text: t('index.s_7.list_2_1') },
-  { title: t('index.s_7.text_3'), text: t('index.s_7.list_3_1') },
-  { title: t('index.s_7.text_4'), text: t('index.s_7.list_4_1') }
+  { icon: 'users.svg', title: t('index.s_7.text_1'), text: t('index.s_7.list_1_1') },
+  { icon: 'documents.svg', title: t('index.s_7.text_2'), text: t('index.s_7.list_2_1') },
+  { icon: 'registration.svg', title: t('index.s_7.text_3'), text: t('index.s_7.list_3_1') },
+  { icon: 'communication.svg', title: t('index.s_7.text_4'), text: t('index.s_7.list_4_1') }
 ]));
 
 const trustPoints = computed(() => ([

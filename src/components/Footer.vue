@@ -6,14 +6,14 @@
       <div class="oo-footer-intro">
         <div class="oo-footer-brand">
           <router-link :to="`/${locale}`" class="oo-footer-mark">
-            <img src="/svg/logo.svg" alt="OrganizationOffice">
+            <BrandLogo/>
           </router-link>
           <p class="fs-2" v-html="t('footer.text_1')"/>
         </div>
 
         <div class="oo-community-card">
           <a class="oo-community-qr" href="https://t.me/+SxdExunv-QBmZTcy" target="_blank" rel="noopener noreferrer">
-            <img src="/svg/chat-qr.svg" alt="Telegram QR">
+            <img :src="`${baseUrl}svg/chat-qr.svg`" alt="Telegram QR">
           </a>
           <a
             href="https://t.me/+SxdExunv-QBmZTcy"
@@ -22,7 +22,7 @@
             rel="noopener noreferrer"
           >
             {{ t('footer.btn_1') }}
-            <img src="/svg/arrow-right.svg" alt="">
+            <img :src="`${baseUrl}svg/arrow-right.svg`" alt="">
           </a>
         </div>
       </div>
@@ -52,9 +52,9 @@
 
       <div class="oo-footer-social">
         <p class="font-700" v-html="t('footer.text_2')"/>
-        <div class="d-flex flex-wrap">
+        <div class="oo-resource-links">
           <a
-            class="social"
+            class="social oo-resource-link"
             v-for="item in SOCIALS"
             :key="item.title"
             :href="item.link"
@@ -62,7 +62,8 @@
             rel="noopener noreferrer"
             :title="item.title"
           >
-            <img :src="`/svg/${item.img}`" alt="">
+            <img :src="`${baseUrl}svg/${item.img_w}`" :alt="item.title">
+            <span>{{ item.title }}</span>
           </a>
         </div>
       </div>
@@ -87,11 +88,13 @@ import { computed, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { SUPPORT_LOCALES } from '@/service/i18n';
 import type { Locale } from '@/service/i18n';
+import BrandLogo from '@/components/BrandLogo.vue';
 
 import { SOCIALS, PHONES, EMAILS } from '@/service/constants';
 
 const { locale, t } = useI18n();
 const phone = ref(null as string);
+const baseUrl = import.meta.env.BASE_URL;
 
 const links = computed(() => ([
   {title: t('footer.title_1'), link: `/${locale.value}/privacy-policy`, allowedLocales: SUPPORT_LOCALES},
