@@ -15,7 +15,7 @@
       </div>
 
       <div class="lang-switcher fs-2 text-uppercase">
-        <div id="langCurrent" class="current-lang" @click="langClick">{{ locale }}</div>
+        <button id="langCurrent" type="button" class="current-lang" aria-haspopup="true" @click="langClick">{{ locale }}</button>
         <div id="langList" class="lang-list shadow-item flex-column align-center bg-secondary">
           <router-link v-for="lang in SUPPORT_LOCALES.filter(elem => elem !== locale)" :key="lang" :to="getLangLink(lang)" @click="langClick">{{ lang }}</router-link>
         </div>
@@ -33,9 +33,9 @@
       <router-link v-for="item in navItems" :key="item.title" class="nav-link" :to="item.link" @click="btnClick">{{ item.title }}</router-link>
 
       <div class="mobile-lang-switcher fs-2 text-uppercase">
-        <div id="mobLangCurrent" class="current-lang mb-2" @click="mobLangClick">{{ locale }}</div>
+        <button id="mobLangCurrent" type="button" class="current-lang mb-2" aria-haspopup="true" @click="mobLangClick">{{ locale }}</button>
         <div id="mobLangList" class="lang-list shadow-item">
-          <router-link v-for="lang in SUPPORT_LOCALES.filter(elem => elem !== locale)" class="lang-link" :to="getLangLink(lang)" @click="handleMobileLanguageClick">{{ lang }}</router-link>
+          <router-link v-for="lang in SUPPORT_LOCALES.filter(elem => elem !== locale)" :key="lang" class="lang-link" :to="getLangLink(lang)" @click="handleMobileLanguageClick">{{ lang }}</router-link>
         </div>
       </div>
     </div>
@@ -127,7 +127,23 @@ const getLangLink = (newLang: string) => {
   margin-left: 12px;
 
   .current-lang {
+    appearance: none;
+    padding: 6px 8px;
+    border: 0;
+    border-radius: 6px;
+    color: inherit;
+    background: transparent;
+    font: inherit;
+    line-height: 1;
+    text-transform: inherit;
     cursor: pointer;
+    user-select: none;
+    caret-color: transparent;
+
+    &:focus-visible {
+      outline: 2px solid #287dac;
+      outline-offset: 3px;
+    }
   }
 
   .lang-list {
@@ -145,7 +161,23 @@ const getLangLink = (newLang: string) => {
   margin-top: 16px;
 
   .current-lang {
+    appearance: none;
+    padding: 6px 8px;
+    border: 0;
+    border-radius: 6px;
+    color: inherit;
+    background: transparent;
+    font: inherit;
+    line-height: 1;
+    text-transform: inherit;
     cursor: pointer;
+    user-select: none;
+    caret-color: transparent;
+
+    &:focus-visible {
+      outline: 2px solid #287dac;
+      outline-offset: 3px;
+    }
   }
 
   .lang-list {

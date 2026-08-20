@@ -81,8 +81,8 @@
           <img
             :src="`${baseUrl}img/${section4.img}`"
             :alt="section4.alt"
-            width="1600"
-            height="1400"
+            :width="section4.width"
+            :height="section4.height"
             loading="lazy"
             decoding="async"
           >
@@ -190,8 +190,8 @@
           <img
             :src="`${baseUrl}img/${section6.img}`"
             :alt="section6.alt"
-            width="1600"
-            height="1200"
+            :width="section6.width"
+            :height="section6.height"
             loading="lazy"
             decoding="async"
           >
@@ -261,7 +261,11 @@ const section3 = computed(() => ([
 ]));
 
 const section4 = computed(() => ({
-  img: 'organization_operating_model.png',
+  img: locale.value === 'ua'
+    ? 'organization_operating_model_ua.png'
+    : 'organization_operating_model_en.png',
+  width: locale.value === 'ua' ? 1337 : 1402,
+  height: locale.value === 'ua' ? 1176 : 1122,
   alt: localizedImageAlt(4),
   link: `/${locale.value}/control`,
   items: [
@@ -287,7 +291,11 @@ const section5 = computed(() => ({
 }));
 
 const section6 = computed(() => ({
-  img: 'meetings_workflow_visual.png',
+  img: locale.value === 'ua'
+    ? 'meetings_workflow_visual_ua.png'
+    : 'meetings_workflow_visual_en.png',
+  width: 1448,
+  height: 1086,
   alt: localizedImageAlt(6),
   link: `/${locale.value}/meeting`,
   text: [
