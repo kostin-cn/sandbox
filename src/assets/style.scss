@@ -1454,7 +1454,7 @@ ul {
 }
 
 .oo-section {
-  padding: 88px 0;
+  padding: clamp(76px, 7vw, 104px) 0;
 }
 
 #workflows,
@@ -1467,7 +1467,7 @@ ul {
 
 .oo-section-heading {
   max-width: 780px;
-  margin-bottom: 40px;
+  margin-bottom: clamp(36px, 4vw, 52px);
 }
 
 .oo-section-title {
@@ -1635,7 +1635,7 @@ ul {
 .oo-trust-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 6vw;
+  gap: clamp(44px, 6vw, 88px);
   align-items: center;
 }
 
@@ -1706,20 +1706,21 @@ ul {
 .oo-step-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0;
+  gap: 16px;
   padding: 0;
-  border-top: 1px solid rgba(19, 37, 54, 0.16);
   list-style: none;
 
   li {
-    display: block;
-    min-height: 250px;
-    padding: 28px 24px 24px 0;
-    border-right: 1px solid rgba(19, 37, 54, 0.16);
-
-    &:last-child {
-      border-right: 0;
-    }
+    display: flex;
+    min-height: 270px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 26px;
+    border: 1px solid rgba(19, 37, 54, 0.12);
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 14px 36px rgba(19, 37, 54, 0.06);
 
     &:before {
       display: none;
@@ -1738,17 +1739,39 @@ ul {
   }
 }
 
+.oo-step-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  > img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+}
+
 .oo-step-number {
   display: flex;
   width: 42px;
   height: 42px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 56px;
   border-radius: 50%;
   color: #fff;
   background: var(--oo-violet);
   font-family: $font-bold;
+}
+
+.oo-onboarding-support {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(36px, 5vw, 72px);
+  align-items: start;
+  margin-top: clamp(44px, 5vw, 68px);
+  padding: clamp(32px, 4vw, 56px);
+  border-radius: 26px;
+  background: linear-gradient(135deg, var(--oo-mist), #f7f1f7);
 }
 
 .oo-mobile {
@@ -1794,8 +1817,66 @@ ul {
       left: 0;
       width: 24px;
       height: 24px;
-      background-image: url('/svg/check-2.svg');
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: #fff;
+      background: var(--oo-blue);
+      content: '✓';
+      font-size: 14px;
+      font-weight: 700;
     }
+  }
+}
+
+.oo-store-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.oo-store-badge {
+  display: inline-flex;
+  min-width: 190px;
+  min-height: 58px;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 16px;
+  border: 1px solid rgba(19, 37, 54, 0.16);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(19, 37, 54, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(19, 37, 54, 0.13);
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  span {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+  }
+
+  small {
+    color: var(--oo-muted);
+    font-size: 10px;
+  }
+
+  strong {
+    margin-top: 3px;
+    color: var(--oo-ink);
+    font-family: $font-bold;
+    font-size: 17px;
   }
 }
 
@@ -1883,7 +1964,7 @@ ul {
 }
 
 .oo-consultation {
-  padding-top: 32px;
+  padding: clamp(72px, 7vw, 104px) 0;
   background: #fff;
 }
 
@@ -1939,10 +2020,6 @@ ul {
     flex: 0 0 auto;
     height: auto;
     margin: 10px 28px 10px 0;
-
-    img {
-      width: 156px;
-    }
   }
 
   .nav-container.oo-main-nav {
@@ -1980,11 +2057,40 @@ ul {
 
   .logo {
     height: auto;
-
-    img {
-      width: 124px;
-    }
   }
+}
+
+.oo-brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--oo-ink);
+}
+
+.oo-brand-logo-mark {
+  display: block;
+  width: 52px;
+  height: auto;
+}
+
+.header .logo img.oo-brand-logo-mark {
+  width: 52px;
+}
+
+.oo-brand-name {
+  font-family: $font-bold;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.scrolled .header .logo img.oo-brand-logo-mark {
+  width: 42px;
+}
+
+.scrolled .header .oo-brand-name {
+  font-size: 20px;
 }
 
 .footer.oo-footer {
@@ -2020,16 +2126,28 @@ ul {
 
 .oo-footer-brand {
   display: grid;
-  grid-template-columns: 220px minmax(0, 560px);
+  grid-template-columns: 270px minmax(0, 560px);
   gap: 32px;
   align-items: center;
 }
 
-.oo-footer-mark img {
-  display: block;
+.oo-footer-mark {
+  display: inline-flex;
   width: 100%;
-  height: auto;
-  filter: brightness(0) invert(1);
+  max-width: 260px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: #fff;
+
+  .oo-brand-logo-mark {
+    width: 58px;
+  }
+
+  .oo-brand-name {
+    font-size: 24px;
+  }
 }
 
 .oo-community-card {
@@ -2124,6 +2242,37 @@ ul {
   color: #fff;
 }
 
+.oo-resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.footer.oo-footer .oo-resource-link {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  gap: 9px;
+  margin: 0;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.06);
+
+  img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+
+  span {
+    font-size: 13px;
+    text-transform: capitalize;
+  }
+}
+
 @media (max-width: 1366px) {
   .oo-hero {
     padding: 48px 0 36px;
@@ -2152,6 +2301,7 @@ ul {
   .oo-feature-layout,
   .oo-mobile-layout,
   .oo-trust-layout,
+  .oo-onboarding-support,
   .oo-consultation-shell {
     grid-template-columns: 1fr;
   }
@@ -2181,10 +2331,6 @@ ul {
 
   .oo-step-list {
     grid-template-columns: 1fr 1fr;
-
-    li:nth-child(2) {
-      border-right: 0;
-    }
   }
 
   .oo-meeting-card {
@@ -2197,7 +2343,8 @@ ul {
   }
 
   .oo-footer-mark {
-    width: 220px;
+    width: 100%;
+    max-width: 260px;
   }
 
   .oo-footer-grid {
@@ -2211,7 +2358,7 @@ ul {
 
 @media (max-width: 700px) {
   .oo-section {
-    padding: 64px 0;
+    padding: 60px 0;
   }
 
   .oo-hero {
@@ -2238,6 +2385,14 @@ ul {
     width: 100%;
   }
 
+  .header .logo img.oo-brand-logo-mark {
+    width: 42px;
+  }
+
+  .header .oo-brand-name {
+    font-size: 18px;
+  }
+
   .oo-card-grid-three,
   .oo-footer-grid {
     grid-template-columns: 1fr;
@@ -2253,14 +2408,18 @@ ul {
     li,
     li:nth-child(2) {
       min-height: 0;
-      padding-right: 0;
-      border-right: 0;
-      border-bottom: 1px solid rgba(19, 37, 54, 0.16);
+      padding: 24px;
+      border: 1px solid rgba(19, 37, 54, 0.12);
     }
   }
 
-  .oo-step-number {
-    margin-bottom: 24px;
+  .oo-onboarding-support {
+    padding: 28px 22px;
+  }
+
+  .oo-store-links,
+  .oo-store-badge {
+    width: 100%;
   }
 
   .oo-mobile-visual {
@@ -2282,6 +2441,11 @@ ul {
   .oo-footer-bottom {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .oo-resource-links {
+    width: 100%;
+    justify-content: flex-start;
   }
 
   .oo-callback-form {

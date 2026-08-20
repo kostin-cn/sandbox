@@ -2,7 +2,7 @@
   <header class="header shadow">
     <nav id="navMenu" class="nav-menu oo-header-nav wrapper d-flex align-center">
       <router-link class="logo" :to="`/${locale}`">
-        <img src="/svg/logo.svg" alt="logo">
+        <BrandLogo/>
       </router-link>
 
       <div class="nav-container oo-main-nav d-flex flex-wrap justify-end text-uppercase">
@@ -49,6 +49,7 @@ import { useI18n } from 'vue-i18n';
 const { locale, t } = useI18n();
 const route = useRoute();
 import { SUPPORT_LOCALES } from '@/service/i18n'
+import BrandLogo from '@/components/BrandLogo.vue';
 
 const localizedMetaAvailable = computed(() => ['en', 'ua'].includes(locale.value));
 const menuLabel = computed(() => localizedMetaAvailable.value ? t('header.menu_label') : 'Menu');
