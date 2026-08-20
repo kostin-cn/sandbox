@@ -274,7 +274,7 @@ const section4 = computed(() => ({
 
 const section5 = computed(() => ({
   img: locale.value === 'ua' ? 'mobile_real_screens_ua.png' : 'mobile_real_screens_en.png',
-  width: locale.value === 'ua' ? 1149 : 1150,
+  width: 1149,
   height: locale.value === 'ua' ? 1369 : 1368,
   alt: localizedImageAlt(5),
   link: `/${locale.value}/mobile-app`,
