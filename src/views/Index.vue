@@ -29,8 +29,8 @@
             class="oo-hero-image"
             :src="`${baseUrl}img/${section1.img}`"
             :alt="t('index.s_1.text_1')"
-            width="1448"
-            height="1086"
+            :width="section1.width"
+            :height="section1.height"
             fetchpriority="high"
             decoding="async"
           >
@@ -136,8 +136,8 @@
           <img
             :src="`${baseUrl}img/${section5.img}`"
             :alt="section5.alt"
-            width="1200"
-            height="1400"
+            :width="section5.width"
+            :height="section5.height"
             loading="lazy"
             decoding="async"
           >
@@ -243,9 +243,10 @@ const localizedImageAlt = (section: 4 | 5 | 6) => {
     : t(`${key}.title`);
 };
 
-const section1 = {
-  img: 'hero_device_mockup.png'
-};
+const section1 = computed(() => locale.value === 'ua'
+  ? { img: 'hero_real_workspace_ua.png', width: 1448, height: 1086 }
+  : { img: 'hero_real_workspace_en.png', width: 1448, height: 1086 }
+);
 
 const section2 = ref({
   name: '',
@@ -272,7 +273,9 @@ const section4 = computed(() => ({
 }));
 
 const section5 = computed(() => ({
-  img: 'mobile_workspace_mockup.png',
+  img: locale.value === 'ua' ? 'mobile_real_screens_ua.png' : 'mobile_real_screens_en.png',
+  width: locale.value === 'ua' ? 1149 : 1150,
+  height: locale.value === 'ua' ? 1369 : 1368,
   alt: localizedImageAlt(5),
   link: `/${locale.value}/mobile-app`,
   items: [
