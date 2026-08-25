@@ -1687,9 +1687,8 @@ ul {
 }
 
 .oo-feature-media {
-  overflow: hidden;
-  border-radius: 24px;
-  background: linear-gradient(145deg, #dcebf2, #e7dbea);
+  overflow: visible;
+  background: transparent;
 
   > img {
     display: block;
