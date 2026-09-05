@@ -129,43 +129,56 @@
       </div>
     </section>
 
-    <section id="dija" class="oo-section oo-dija">
+    <section id="dija" class="oo-section oo-dija" aria-labelledby="dija-title">
       <div class="wrapper">
-        <div class="row d-flex flex-wrap">
-          <div class="col-6 mb-3">
-            <div class="oo-consultation-copy">
-              <p class="oo-kicker" v-html="sectionDija.meta.category"/>
-              <h2 class="oo-section-title mb-3" v-html="sectionDija.meta.title"/>
-              <p class="mb-3" v-html="sectionDija.meta.description"/>
+        <div class="oo-dija-shell">
+          <div class="oo-dija-copy animate-block from-left">
+            <div class="oo-dija-heading-row">
+              <p class="oo-kicker">{{ sectionDija.meta.category }}</p>
+              <span class="oo-dija-seal" aria-hidden="true">✓</span>
             </div>
+            <h2 id="dija-title" class="oo-section-title">{{ sectionDija.meta.title }}</h2>
+            <p class="oo-dija-description">{{ sectionDija.meta.description }}</p>
 
-            <div class="oo-dija-list row d-flex flex-wrap">
-              <div v-for="item in sectionDija.metrics" class="col-4 mb-3">
-                <h3 v-html="item.value"/>
-                <p v-html="item.label"/>
+            <dl class="oo-dija-metrics">
+              <div v-for="item in sectionDija.metrics" :key="item.label" class="oo-dija-metric">
+                <dt class="oo-dija-metric-label">{{ item.label }}</dt>
+                <dd class="oo-dija-metric-value">{{ item.value }}</dd>
               </div>
-            </div>
+            </dl>
           </div>
 
-          <div class="col-6 mb-3">
-            <div class="oo-workflow-list">
-              <div v-for="(item, index) in sectionDija.steps" :key="index" class="oo-workflow-row">
-                <span>0{{ index + 1 }}</span>
-                <p>
-                  <b>{{ item.title }}</b><br>
-                  {{ item.description }}
-                </p>
-              </div>
+          <div class="oo-dija-process animate-block from-right delay-1">
+            <div class="oo-dija-process-head" aria-hidden="true">
+              <span class="oo-dija-process-mark">✓</span>
+              <span>01—03</span>
             </div>
+
+            <ol class="oo-dija-steps">
+              <li v-for="(item, index) in sectionDija.steps" :key="item.title">
+                <span class="oo-dija-step-number" aria-hidden="true">0{{ index + 1 }}</span>
+                <div>
+                  <h3>{{ item.title }}</h3>
+                  <p>{{ item.description }}</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+
+          <div class="oo-dija-benefits animate-block delay-2">
+            <div class="oo-dija-benefits-head">
+              <p class="oo-kicker">{{ sectionDija.benefitsSection.title }}</p>
+              <span aria-hidden="true"/>
+            </div>
+
+            <ul class="oo-dija-benefit-list">
+              <li v-for="item in sectionDija.benefitsSection.items" :key="item">
+                <span class="oo-dija-benefit-check" aria-hidden="true">✓</span>
+                <span>{{ item }}</span>
+              </li>
+            </ul>
           </div>
         </div>
-
-        <p class="oo-kicker" v-html="sectionDija.benefitsSection.title"/>
-
-        <ul class="oo-check-list d-flex mb-3">
-          <li v-for="item in sectionDija.benefitsSection.items" class="mr-2">{{ item }}</li>
-        </ul>
-
       </div>
     </section>
 
