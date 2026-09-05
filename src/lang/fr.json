@@ -7,7 +7,6 @@
     "title_5": "Contacts",
     "title_6": "Gestion"
   },
-
   "footer": {
     "text_1": "Rejoignez la <b>communauté nationale ORGANIZATIONS</b> sur Telegram – partagez vos expériences, développez vos contacts et vos idées.",
     "text_2": "Nous sommes sur les réseaux sociaux",
@@ -23,11 +22,11 @@
     "title_1": "Conditions d’utilisation",
     "title_2": "Contrat public (offre)"
   },
-
   "email": {
-    "success": "Message envoyé"
+    "success": "Message envoyé",
+    "error": "Échec de l'envoi du message. Veuillez réessayer ou nous appeler.",
+    "captchaError": "Veuillez confirmer que vous n'êtes pas un robot."
   },
-
   "index": {
     "s_1": {
       "title": "<span class='color-secondary'>OrganizationOffice</span> – un outil numérique pour la <span class='color-2'>gestion moderne des projets et des équipes</span>",
@@ -35,19 +34,16 @@
       "text_2": "Scannez le QR code pour télécharger l’application",
       "text_3": "Télécharger sur"
     },
-
     "s_2": {
       "title": "Commander une consultation",
       "btn": "Commander"
     },
-
     "s_3": {
       "title": "Sur une seule plateforme",
       "text_1": "Utilisateurs satisfaits",
       "text_2": "Reçoivent un accompagnement d’OrganizationOffice",
       "text_3": "Utilisent le service pour tenir des assemblées en ligne"
     },
-
     "s_4": {
       "text": "pour le conseil OrganizationOffice",
       "title": "Gérez votre OrganizationOffice<br><span class='color-4'>rapidement et facilement, en quelques clics</span>",
@@ -57,7 +53,6 @@
       "item_3": "Outils pour travailler avec les <b>débiteurs</b>",
       "item_4": "<b>Communication pratique</b> entre les membres de l’organisation"
     },
-
     "s_5": {
       "text": "pour les utilisateurs d’OrganizationOffice",
       "title": "Application mobile<br><span class='color-2'>pour les membres d’OrganizationOffice</span>",
@@ -67,14 +62,12 @@
       "item_3": "<b>Participe</b> aux assemblées fondatrices et générales en ligne",
       "item_4": "Effectue des cotisations rapidement <b>via l’application</b>"
     },
-
     "s_6": {
       "title": "Assemblées de l’organisation dans le système OrganizationOffice",
       "btn": "En savoir plus",
       "text_1": "QU’EST-CE QUE CELA SIGNIFIE ?",
       "text_2": "La présence physique n’est plus nécessaire. Rassemblez le conseil et les membres en ligne – sans limite de temps ni d’espace, en utilisant n’importe quelle signature électronique (QES)."
     },
-
     "s_7": {
       "title": "Comment OrganizationOffice<br><span class='color-2'>soutient les OSC</span>",
       "btn": "En savoir plus",
@@ -92,7 +85,6 @@
       "list_6_1": "Un écosystème de coopération et de confiance entre les organisations de nouvelle génération.",
       "text_7": "Nous créons une plateforme numérique qui <b>renforce la transparence, la confiance et l'efficacité</b> de chaque initiative citoyenne."
     },
-
     "s_8": {
       "title": "Équipe",
       "text_1": "Viktor Talko",
@@ -102,9 +94,33 @@
       "text_5": "Pavlo Lysak",
       "text_6": "Serhii Barannikov",
       "text_7": "Rostyslav Rapach"
+    },
+    "s_9": {
+      "category": "Force juridique",
+      "category_1": "Ce que cela couvre",
+      "title": "La signature « Diia » est équivalente à une signature manuscrite",
+      "description": "La loi ukrainienne « Sur les services de confiance électroniques » assimile la signature électronique qualifiée à une signature manuscrite. Une décision prise dans le système n'est pas un sondage dans un chat, mais un document qui peut être présenté au registraire et défendu devant un tribunal.",
+
+      "list_1_1_value": "3 min",
+      "list_1_1_label": "durée de validité du lien\nvers la signature",
+      "list_1_2_value": "100%",
+      "list_1_2_label": "identification\ndu votant",
+      "list_1_3_value": "Journal",
+      "list_1_3_label": "chaque action\nest enregistrée et vérifiable",
+
+      "list_2_1_title": "La plateforme prépare le bulletin",
+      "list_2_1_description": "Le texte de la décision est transformé en hash. C'est précisément celui-ci qui est signé — le contenu ne peut pas être remplacé.",
+      "list_2_2_title": "Le participant signe dans « Diia »",
+      "list_2_2_description": "Dans l'application, il voit le nom de son organisation — chaque client de la plateforme dispose de sa propre branche de signature.",
+      "list_2_3_title": "Le serveur vérifie la signature",
+      "list_2_3_description": "La vérification s'effectue via la chaîne de certificats de l'ACСК. Échec de la vérification — aucun vote. Vérification réussie — le vote et la preuve sont enregistrés dans le journal.",
+
+      "list_3_1": "Falsification d'une feuille de vote",
+      "list_3_2": "Litige sur l'identité du votant",
+      "list_3_3": "Refus du registraire d'accepter le procès-verbal",
+      "list_3_4": "Contestation de la décision devant un tribunal"
     }
   },
-
   "control": {
     "s_1": {
       "title": "<span class='color-2'>Gérez OrganizationOffice</span> en quelques clics",
@@ -157,7 +173,6 @@
       "btn": "Obtenir l’accès"
     }
   },
-
   "mobile_app": {
     "s_1": {
       "title": "Application mobile pour les membres d’OrganizationOffice",
@@ -209,7 +224,6 @@
       "btn": "Obtenir l’accès"
     }
   },
-
   "meeting": {
     "s_1": {
       "title": "Assemblées constitutives et générales des membres de l'organisation dans le système",
@@ -245,20 +259,17 @@
       "btn": "Obtenir l’accès"
     }
   },
-
   "tariffs": {
     "s_1": {
       "title": "Tarifs",
       "text_1": "Choisissez le tarif qui convient à votre organisation.",
       "text_2": "Le tarif inclut",
       "btn": "Souscrire",
-
       "title_1": "Basique",
       "item_1": "*Gratuit pour découvrir le contenu principal et attirer de nouveaux utilisateurs.",
       "value_1": "UAH/mois",
       "list_1_1": "Accès aux <b>articles et modèles de base</b>",
       "list_1_2": "<b>Actualités et mises à jour</b> de la plateforme",
-
       "title_2": "Professionnel",
       "item_2": "*Permet un accès complet aux ressources, aux formations et au conseil pour le développement actif des organisations.",
       "value_2": "UAH/mois",
@@ -266,7 +277,6 @@
       "list_2_2": "Participation à des <b>consultations en ligne mensuelles avec des experts</b>",
       "list_2_3": "Téléchargement de <b>modèles et check-lists exclusifs</b>",
       "list_2_4": "Accès à une <b>communauté privée pour le partage d’expérience</b>",
-
       "title_3": "Premium",
       "item_3": "*Destiné aux organisations prêtes à investir dans un accompagnement personnalisé et une formation approfondie.",
       "value_3": "UAH/mois",
@@ -278,27 +288,20 @@
       "list_3_6": "<b>Ateliers et masterclasses</b> spécialisés",
       "list_3_7": "<b>Support client prioritaire</b>"
     },
-
     "s_2": {
       "title": "Foire aux questions",
-
       "title_1": "Qu’est-ce que la période d’essai ?",
       "text_1": "<ul class='list-4'><li class='mb-2'>Accès complet aux fonctionnalités du système et de l’application mobile pendant 14 jours selon le plan tarifaire ;</li><li class='mb-2'>Enregistrement de l’organisation dans le système OrganizationOffice ;</li><li class='mb-2'>Formation à l’utilisation du système ;</li><li class='mb-2'>Support technique et conseil.</li></ul>",
-
       "title_2": "Les assemblées générales avec une signature électronique qualifiée (QES) sont-elles légales ?",
       "text_2": "Conformément à la loi ukrainienne « Sur les services de confiance électroniques », la signature électronique qualifiée (QES) est équivalente à une signature manuscrite. Par conséquent, oui, il est légal de signer des questionnaires écrits et des notifications d’assemblée générale à l’aide du système OrganizationOffice.",
-
       "title_3": "Comment puis-je découvrir le système sans inscription ? Existe-t-il une version de démonstration ?",
       "text_3": "Oui, il existe une version de démonstration qui permet de découvrir toutes les sections du système.",
-
       "title_4": "Existe-t-il différents niveaux d’accès pour les utilisateurs ?",
       "text_4": "Oui, bien sûr. Nous accordons d’abord l’accès principal à l’administrateur principal, puis celui-ci décide lui-même des niveaux d’accès des autres utilisateurs.",
-
       "title_5": "Et si je fais partie de plusieurs organisations ?",
       "text_5": "Si vous êtes membre de plusieurs organisations, vous avez la possibilité de passer d’une organisation à l’autre dans le menu de l’application."
     }
   },
-
   "admin": {
     "title": "Connexion à l’espace",
     "text_1": "Pour l’organe de gestion de l’organisation",
@@ -313,39 +316,31 @@
     "link": "Soumettre une demande",
     "app": "Télécharger sur"
   },
-
   "how": {
     "title": "Comment OrganizationOffice aide les OSC (organisations de la société civile)",
     "text": "Le projet OrganizationOffice peut devenir un outil puissant pour les OSC (organisations de la société civile), car il résout plusieurs problèmes systémiques qui freinent le développement des initiatives citoyennes.",
     "text_1": "Idée clé :",
     "text_2": "« Nous créons un écosystème où chaque organisation peut agir de manière transparente, efficace et en coopération avec les autres. »",
-
     "title_1": "Transparence et confiance",
     "list_1_1": "La plateforme garantit une transparence totale du financement, des rapports et des dépenses.",
     "list_1_2": "Cela renforce la confiance des donateurs, des partenaires et des citoyens envers l’organisation.",
     "list_1_3": "Chaque contribution peut être suivie via un système de contrôle dédié.",
-
     "title_2": "Gestion numérique",
     "list_2_1": "Les OSC bénéficient d’un panneau d’administration unifié pour coordonner projets, bénévoles, membres, paiements et événements.",
     "list_2_2": "Moins de bureaucratie papier — plus de temps pour des actions réelles.",
-
     "title_3": "Mise en réseau des organisations",
     "list_3_1": "La plateforme permet de créer des alliances, des coalitions et des réseaux d’OSC.",
     "list_3_2": "Cela permet d’agir ensemble, d’obtenir de plus grands financements, d’élargir l’impact et de partager les ressources.",
-
     "title_4": "Accès au financement",
     "list_4_1": "Grâce à OrganizationOffice, les donateurs et mécènes peuvent financer directement des initiatives spécifiques, sans intermédiaires.",
     "list_4_2": "Chaque organisation dispose de son propre profil et d’un indice de confiance.",
-
     "title_5": "Analyse et reporting",
     "list_5_1": "Le système génère automatiquement des rapports numériques, des statistiques de performance et des tableaux de bord interactifs.",
     "list_5_2": "Cela facilite la présentation des rapports aux donateurs et aux institutions publiques.",
-
     "title_6": "Unité et développement du secteur",
     "list_6_1": "OrganizationOffice est un écosystème qui réunit fondations, ONG, coopératives, partis et mouvements dans un environnement numérique commun.",
     "list_6_2": "Ce format favorise le développement durable de la société civile en Ukraine et dans le monde."
   },
-
   "privacy_policy": {
     "title_1": "Clause de non-responsabilité",
     "text_1_1": "La plateforme OrganizationOffice fonctionne actuellement en mode test. Certaines fonctionnalités peuvent être temporairement indisponibles ou instables. Des dysfonctionnements techniques ou des erreurs peuvent survenir pendant l’utilisation.",
@@ -355,11 +350,9 @@
     "text_1_5": "Les données personnelles collectées ne sont pas transmises à des tiers, sauf dans les cas prévus par la législation en vigueur.",
     "text_1_6": "L’utilisateur dispose de tous les droits du sujet des données personnelles conformément à la loi ukrainienne 'Sur la protection des données personnelles'.",
     "text_1_7": "Pour toute question concernant le traitement des données personnelles, veuillez contacter :",
-
     "title_2": "Politique de confidentialité",
     "text_2_1": "Dernière mise à jour : 5 août 2025",
     "text_2_2": "La plateforme OrganizationOffice (ci-après «Plateforme», «Nous») établit les principes de collecte, traitement, stockage et protection des données personnelles des utilisateurs (ci-après «Vous», «Utilisateurs») lors de l'utilisation de nos ressources web et services.",
-
     "title_3": "1. Collecte et traitement des données personnelles",
     "text_3_1": "La plateforme collecte et traite les données personnelles des utilisateurs afin d'assurer l'accès aux services, de soutenir la fonctionnalité et de respecter les exigences légales.",
     "text_3_1_1": "Catégories de données traitées :",
@@ -371,7 +364,6 @@
     "list_3_2_2": "support technique et communication avec les utilisateurs ;",
     "list_3_2_3": "analyse, surveillance de la stabilité et résolution des problèmes techniques ;",
     "list_3_2_4": "respect des exigences légales relatives au traitement des données personnelles.",
-
     "title_4": "2. Transmission et stockage des données personnelles",
     "text_4_1": "Les données personnelles ne sont pas transmises à des tiers sans votre consentement explicite, sauf si une telle transmission est nécessaire conformément à la législation en vigueur.",
     "text_4_1_1": "Les données peuvent être transmises uniquement dans les cas suivants :",
@@ -380,7 +372,6 @@
     "list_4_3": "en cas de réorganisation, fusion, transfert d'actifs ou autre changement d'entreprise – à condition de garantir la continuité de la politique de confidentialité.",
     "text_4_2": "Durée de conservation des données :",
     "text_4_2_1": "Les données personnelles sont conservées pendant une période maximale de 5 ans à compter de la dernière activité de l'utilisateur, sauf si une autre période est prévue par la loi ou les conditions d'utilisation du service.",
-
     "title_5": "3. Droits des utilisateurs",
     "text_5_1": "Chaque utilisateur bénéficie de droits garantis par la loi concernant ses données personnelles. Vous avez le droit :",
     "list_5_1": "d'obtenir la confirmation du traitement de vos données personnelles et d'y accéder ;",
@@ -390,10 +381,8 @@
     "list_5_5": "de limiter le traitement dans certains cas (par exemple, pendant la vérification de l'exactitude des données) ;",
     "list_5_6": "de déposer une plainte auprès de l'autorité compétente en matière de protection des données personnelles.",
     "text_5_2": "Les demandes d'exercice de vos droits doivent être envoyées à l'adresse e-mail :",
-
     "title_6": "4. Protection des données personnelles",
     "text_6_1": "Nous mettons en œuvre des mesures techniques et organisationnelles modernes pour protéger les données personnelles contre tout accès non autorisé, modification, perte ou destruction.",
-
     "title_7": "5. Mise à jour de la politique de confidentialité",
     "text_7_1": "Nous nous réservons le droit de modifier périodiquement cette politique de confidentialité. Toutes les mises à jour sont publiées sur le site officiel et entrent en vigueur dès leur publication.",
     "text_7_2": "En cas de modifications importantes, nous vous informerons à l'avance – par e-mail, via l'interface de la plateforme ou tout autre moyen approprié."

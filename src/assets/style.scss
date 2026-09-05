@@ -1692,7 +1692,9 @@ ul {
 
   > img {
     display: block;
+    margin: 0 auto;
     width: 100%;
+    max-width: 680px;
     height: auto;
     object-fit: contain;
   }
@@ -1788,6 +1790,27 @@ ul {
   background: linear-gradient(135deg, var(--oo-mist), #f7f1f7);
 }
 
+.oo-dija {
+  .oo-check-list {
+    li {
+      border: none;
+    }
+  }
+}
+
+.oo-dija-list {
+  h3 {
+    margin-bottom: 10px;
+    font-family: $font-bold;
+    font-size: 24px;
+  }
+
+  p {
+    color: var(--oo-muted);
+    font-size: 17px;
+  }
+}
+
 .oo-mobile {
   background: #f5f0f6;
 }
@@ -1815,7 +1838,7 @@ ul {
   aspect-ratio: 1;
   border-radius: 50%;
   background: linear-gradient(145deg, rgba(154, 95, 159, 0.26), rgba(40, 125, 172, 0.2));
-  filter: blur(2px);
+  filter: blur(16px);
 }
 
 .oo-check-list {
