@@ -9,7 +9,6 @@
     "menu_label": "Open menu",
     "meta_title": "OrganizationOffice — Digital workspace for member-led organizations"
   },
-
   "footer": {
     "text_1": "A shared digital workspace for organizations accountable to their members, communities, and partners.",
     "text_2": "Product updates and practical field notes",
@@ -25,11 +24,11 @@
     "title_1": "Privacy and terms",
     "title_2": "Public Offer"
   },
-
   "email": {
-    "success": "Message sent"
+    "success": "Message sent",
+    "error": "Could not send the message. Please try again or call us directly.",
+    "captchaError": "Please confirm that you are not a robot."
   },
-
   "index": {
     "s_1": {
       "title": "<span class='color-secondary'>Run the organization</span> with one accountable workspace for <span class='color-2'>members, decisions, and everyday operations</span>",
@@ -37,19 +36,16 @@
       "text_2": "Mobile workspace included",
       "text_3": "Get it on"
     },
-
     "s_2": {
       "title": "Tell us about your organization",
       "btn": "Discuss your setup"
     },
-
     "s_3": {
       "title": "Built for organizations with members, mandates, and shared responsibility",
       "text_1": "<b>Civic and community organizations</b><br>Coordinate teams, governing bodies, and recurring activities.",
       "text_2": "<b>Charitable funds and foundations</b><br>Keep programs, decisions, and stakeholder communication connected.",
       "text_3": "<b>Cooperatives and member-led organizations</b><br>Give every participant a clear place in the operating model."
     },
-
     "s_4": {
       "text": "Core operating workflows",
       "title": "One workspace for the work behind your mission",
@@ -60,7 +56,6 @@
       "item_3": "<b>Communication</b> — send relevant updates to the right participants",
       "item_4": "<b>Contributions and obligations</b> — follow current status without fragmented lists"
     },
-
     "s_5": {
       "text": "Mobile workspace",
       "title": "The organization follows members beyond the desktop",
@@ -71,7 +66,6 @@
       "item_3": "Join <b>votes and meetings</b> from the same operational flow",
       "item_4": "Check <b>statuses and contributions</b> or reach the organization through one contact point"
     },
-
     "s_6": {
       "title": "Turn each meeting into a traceable decision workflow",
       "image_alt": "Five-step OrganizationOffice meeting workflow from agenda creation and member notification to participation, recorded vote, and available outcome",
@@ -79,7 +73,6 @@
       "text_1": "A guided path from agenda to recorded outcome.",
       "text_2": "<b>Create an agenda</b> → notify participants → join and vote → record decisions and results."
     },
-
     "s_7": {
       "title": "Start with the way your organization already works",
       "btn": "Review the operating model",
@@ -97,7 +90,6 @@
       "list_6_1": "Review statuses and prepare transparent updates without rebuilding the story manually.",
       "text_7": "Give boards, members, and partners the <b>context they need to understand decisions, responsibilities, and progress.</b>"
     },
-
     "s_8": {
       "title": "Team",
       "text_1": "Viktor Talko",
@@ -107,9 +99,33 @@
       "text_5": "Pavlo Lysak",
       "text_6": "Serhii Barannikov",
       "text_7": "Rostyslav Rapach"
+    },
+    "s_9": {
+      "category": "Legal validity",
+      "category_1": "What this prevents",
+      "title": "A «Diia» signature is equivalent to a handwritten signature",
+      "description": "The Law of Ukraine «On Electronic Trust Services» equates a qualified electronic signature with a handwritten signature. A decision made in the system is not a chat poll, but a document that can be presented to a registrar and defended in court.",
+
+      "list_1_1_value": "3 min",
+      "list_1_1_label": "signature link\nvalidity period",
+      "list_1_2_value": "100%",
+      "list_1_2_label": "voter\nidentification",
+      "list_1_3_value": "Log",
+      "list_1_3_label": "every request\nis recorded and verifiable",
+
+      "list_2_1_title": "The platform prepares the ballot",
+      "list_2_1_description": "The decision text is converted into a hash. The hash itself is signed — the content cannot be replaced.",
+      "list_2_2_title": "The participant signs in «Diia»",
+      "list_2_2_description": "In the app, they see the name of their organization — each platform client has its own signing branch.",
+      "list_2_3_title": "The server verifies the signature",
+      "list_2_3_description": "Verification is performed through the ACСК certificate chain. If verification fails, there is no vote. If it passes, the vote and proof are recorded in the log.",
+
+      "list_3_1": "Falsification of a paper ballot",
+      "list_3_2": "Dispute over who actually voted",
+      "list_3_3": "Registrar's refusal to accept the protocol",
+      "list_3_4": "Challenging the decision in court"
     }
   },
-
   "control": {
     "s_1": {
       "title": "<span class='color-2'>Coordinate OrganizationOffice</span> through connected operating workflows",
@@ -162,7 +178,6 @@
       "btn": "Get access"
     }
   },
-
   "mobile_app": {
     "s_1": {
       "title": "Your member workspace, wherever organization work happens",
@@ -214,7 +229,6 @@
       "btn": "Get access"
     }
   },
-
   "meeting": {
     "s_1": {
       "title": "Founding and general meetings of organization members in the system",
@@ -250,20 +264,17 @@
       "btn": "Get access"
     }
   },
-
   "tariffs": {
     "s_1": {
       "title": "Tariffs",
       "text_1": "Choose a tariff that suits your organization.",
       "text_2": "The tariff includes",
       "btn": "Connect",
-
       "title_1": "Basic",
       "item_1": "*Free plan to explore core content and attract new users.",
       "value_1": "UAH/month",
       "list_1_1": "Access to <b>basic articles and templates</b>",
       "list_1_2": "<b>Platform news and updates</b>",
-
       "title_2": "Professional",
       "item_2": "*Provides full access to materials, training, and consulting for the active development of organizations.",
       "value_2": "UAH/month",
@@ -271,7 +282,6 @@
       "list_2_2": "Participation in monthly <b>online consultations with experts</b>",
       "list_2_3": "Download <b>exclusive templates</b> and checklists",
       "list_2_4": "Access to a <b>private community for experience sharing</b>",
-
       "title_3": "Premium",
       "item_3": "*Designed for organizations ready to invest in personalized support and advanced training.",
       "value_3": "UAH/month",
@@ -283,27 +293,20 @@
       "list_3_6": "Specialized <b>workshops and masterclasses</b>",
       "list_3_7": "<b>Priority</b> customer support"
     },
-
     "s_2": {
       "title": "Frequently Asked Questions",
-
       "title_1": "What is the trial period?",
       "text_1": "<ul class='list-4'><li class='mb-2'>Full access to the system and mobile app features for 14 days according to the tariff plan;</li><li class='mb-2'>Registration of the organization in the OrganizationOffice system;</li><li class='mb-2'>Training on how to use the system;</li><li class='mb-2'>Technical and consulting support.</li></ul>",
-
       "title_2": "Are general meetings with QES legal?",
       "text_2": "According to the Law of Ukraine 'On Electronic Trust Services', a qualified electronic signature (QES) is equivalent to a handwritten one. Therefore, yes, it is legally valid to sign written survey sheets and notifications of general meetings using the OrganizationOffice system.",
-
       "title_3": "How can I explore the system without registration? Is there a demo version?",
       "text_3": "Yes, there is a demo version where you can explore all sections of the system.",
-
       "title_4": "Are there different access levels for users?",
       "text_4": "Yes, of course. We provide initial access to the main administrator, and then they independently decide what access levels other users will have.",
-
       "title_5": "What if I am in several organizations?",
       "text_5": "If you are a member of multiple organizations, you can switch between them in the app menu."
     }
   },
-
   "admin": {
     "title": "Login to cabinet",
     "text_1": "For organization’s governing body",
@@ -318,39 +321,31 @@
     "link": "Apply",
     "app": "Download from"
   },
-
   "how": {
     "title": "How OrganizationOffice Helps CSOs (Civil Society Organizations)",
     "text": "The OrganizationOffice project can become a powerful tool for CSOs (civil society organizations), as it solves several systemic problems that hinder the development of civic initiatives.",
     "text_1": "Key idea:",
     "text_2": "“We are creating an ecosystem where every organization can operate transparently, efficiently, and in cooperation with others.”",
-
     "title_1": "Transparency and Trust",
     "list_1_1": "The platform ensures full openness of funding, reporting, and expenses.",
     "list_1_2": "This increases the trust of donors, partners, and citizens in the organization.",
     "list_1_3": "Every contribution can be tracked through the control system.",
-
     "title_2": "Digital Management",
     "list_2_1": "CSOs receive a unified admin panel for coordinating projects, volunteers, members, payments, and events.",
     "list_2_2": "Less paperwork — more time for real activities.",
-
     "title_3": "Unification of Organizations",
     "list_3_1": "The platform allows the creation of alliances, coalitions, and CSO networks.",
     "list_3_2": "This enables joint action, access to larger grants, scaling impact, and sharing resources.",
-
     "title_4": "Access to Funding",
     "list_4_1": "Through OrganizationOffice, donors and benefactors can directly fund specific initiatives, without intermediaries.",
     "list_4_2": "Each organization receives its own profile and trust rating.",
-
     "title_5": "Analytics and Reporting",
     "list_5_1": "The system automatically generates digital reports, performance statistics, and interactive dashboards.",
     "list_5_2": "This simplifies reporting to donors and governmental institutions.",
-
     "title_6": "Unity and Sector Development",
     "list_6_1": "OrganizationOffice is an ecosystem that unites foundations, NGOs, cooperatives, parties, and movements in a shared digital environment.",
     "list_6_2": "This format contributes to the sustainable development of civil society in Ukraine and worldwide."
   },
-
   "privacy_policy": {
     "title_1": "Disclaimer",
     "text_1_1": "The OrganizationOffice platform is currently operating in test mode. Some features may be temporarily unavailable or unstable. Technical malfunctions or errors may occur during use.",
@@ -360,11 +355,9 @@
     "text_1_5": "Collected personal data is not transferred to third parties, except in cases provided by current legislation.",
     "text_1_6": "The user has all the rights of a personal data subject in accordance with the Law of Ukraine 'On Personal Data Protection'.",
     "text_1_7": "For questions regarding the processing of personal data, please contact:",
-
     "title_2": "Privacy Policy",
     "text_2_1": "Last updated: August 5, 2025",
     "text_2_2": "The OrganizationOffice platform (hereinafter - 'Platform', 'We') establishes the principles for collecting, processing, storing, and protecting users' personal data (hereinafter - 'You', 'Users') when using our web resources and services.",
-
     "title_3": "1. Collection and Processing of Personal Data",
     "text_3_1": "The Platform collects and processes users' personal data to provide access to services, support functionality, and comply with legal requirements.",
     "text_3_1_1": "Categories of data processed:",
@@ -376,7 +369,6 @@
     "list_3_2_2": "technical support and communication with users;",
     "list_3_2_3": "analytics, monitoring stability, and resolving technical issues;",
     "list_3_2_4": "complying with legal requirements regarding personal data processing.",
-
     "title_4": "2. Transfer and Storage of Personal Data",
     "text_4_1": "Personal data is not shared with third parties without your explicit consent, except when such transfer is required by applicable law.",
     "text_4_1_1": "Data may be shared only in the following cases:",
@@ -385,7 +377,6 @@
     "list_4_3": "in the event of reorganization, merger, asset transfer, or other corporate change – provided the privacy policy continuity is ensured.",
     "text_4_2": "Data retention period:",
     "text_4_2_1": "Personal data is stored for no more than 5 years from the last user activity, unless a different period is determined by legal requirements or service terms.",
-
     "title_5": "3. User Rights",
     "text_5_1": "Every user has legally guaranteed rights regarding their personal data. You have the right to:",
     "list_5_1": "receive confirmation of the processing of your personal data and access to it;",
@@ -395,10 +386,8 @@
     "list_5_5": "restrict processing in certain cases (e.g., during verification of data accuracy);",
     "list_5_6": "file a complaint with the Authorized Body for Personal Data Protection.",
     "text_5_2": "Requests to exercise rights should be sent to the email address:",
-
     "title_6": "4. Personal Data Protection",
     "text_6_1": "We implement modern technical and organizational measures to protect personal data from unauthorized access, alteration, loss, or destruction.",
-
     "title_7": "5. Privacy Policy Updates",
     "text_7_1": "We reserve the right to periodically make changes to this Privacy Policy. All updates are published on the official website and take effect upon posting.",
     "text_7_2": "In case of significant changes, we will notify you in advance – by email, through the platform interface, or by other convenient means."

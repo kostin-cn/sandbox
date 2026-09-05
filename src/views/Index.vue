@@ -129,6 +129,46 @@
       </div>
     </section>
 
+    <section id="dija" class="oo-section oo-dija">
+      <div class="wrapper">
+        <div class="row d-flex flex-wrap">
+          <div class="col-6 mb-3">
+            <div class="oo-consultation-copy">
+              <p class="oo-kicker" v-html="sectionDija.meta.category"/>
+              <h2 class="oo-section-title mb-3" v-html="sectionDija.meta.title"/>
+              <p class="mb-3" v-html="sectionDija.meta.description"/>
+            </div>
+
+            <div class="oo-dija-list row d-flex flex-wrap">
+              <div v-for="item in sectionDija.metrics" class="col-4 mb-3">
+                <h3 v-html="item.value"/>
+                <p v-html="item.label"/>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-3">
+            <div class="oo-workflow-list">
+              <div v-for="(item, index) in sectionDija.steps" :key="index" class="oo-workflow-row">
+                <span>0{{ index + 1 }}</span>
+                <p>
+                  <b>{{ item.title }}</b><br>
+                  {{ item.description }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="oo-kicker" v-html="sectionDija.benefitsSection.title"/>
+
+        <ul class="oo-check-list d-flex mb-3">
+          <li v-for="item in sectionDija.benefitsSection.items" class="mr-2">{{ item }}</li>
+        </ul>
+
+      </div>
+    </section>
+
     <section id="mobileApp" class="oo-section oo-mobile">
       <div class="wrapper oo-mobile-layout">
         <div class="oo-mobile-visual animate-block from-left">
@@ -274,6 +314,51 @@ const section4 = computed(() => ({
     t('index.s_4.item_3'),
     t('index.s_4.item_4')
   ]
+}));
+
+const sectionDija = computed(() => ({
+  "meta": {
+    "category": t('index.s_9.category'),
+    "title": t('index.s_9.title'),
+    "description": t('index.s_9.description'),
+  },
+  "metrics": [
+    {
+      "value": t('index.s_9.list_1_1_value'),
+      "label": t('index.s_9.list_1_1_label')
+    },
+    {
+      "value": t('index.s_9.list_1_2_value'),
+      "label": t('index.s_9.list_1_2_label')
+    },
+    {
+      "value": t('index.s_9.list_1_3_value'),
+      "label": t('index.s_9.list_1_3_label')
+    }
+  ],
+  "steps": [
+    {
+      "title": t('index.s_9.list_2_1_title'),
+      "description": t('index.s_9.list_2_1_description')
+    },
+    {
+      "title": t('index.s_9.list_2_2_title'),
+      "description": t('index.s_9.list_2_2_description')
+    },
+    {
+      "title": t('index.s_9.list_2_3_title'),
+      "description": t('index.s_9.list_2_3_description')
+    }
+  ],
+  "benefitsSection": {
+    "title": t('index.s_9.category_1'),
+    "items": [
+      t('index.s_9.list_3_1'),
+      t('index.s_9.list_3_2'),
+      t('index.s_9.list_3_3'),
+      t('index.s_9.list_3_4')
+    ]
+  }
 }));
 
 const section5 = computed(() => ({
