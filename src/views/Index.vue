@@ -133,10 +133,7 @@
       <div class="wrapper">
         <div class="oo-dija-shell">
           <div class="oo-dija-copy animate-block from-left">
-            <div class="oo-dija-heading-row">
-              <p class="oo-kicker">{{ sectionDija.meta.category }}</p>
-              <span class="oo-dija-seal" aria-hidden="true">✓</span>
-            </div>
+            <p class="oo-kicker">{{ sectionDija.meta.category }}</p>
             <h2 id="dija-title" class="oo-section-title">{{ sectionDija.meta.title }}</h2>
             <p class="oo-dija-description">{{ sectionDija.meta.description }}</p>
 
@@ -149,11 +146,6 @@
           </div>
 
           <div class="oo-dija-process animate-block from-right delay-1">
-            <div class="oo-dija-process-head" aria-hidden="true">
-              <span class="oo-dija-process-mark">✓</span>
-              <span>01—03</span>
-            </div>
-
             <ol class="oo-dija-steps">
               <li v-for="(item, index) in sectionDija.steps" :key="item.title">
                 <span class="oo-dija-step-number" aria-hidden="true">0{{ index + 1 }}</span>
