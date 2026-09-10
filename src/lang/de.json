@@ -1,89 +1,94 @@
 {
   "header": {
-    "title_1": "Vorstand",
-    "title_2": "Mitglieder",
+    "title_1": "Funktionen",
+    "title_2": "Erste Schritte",
     "title_3": "Versammlungen",
-    "title_4": "Tarife",
-    "title_5": "Kontakte",
-    "title_6": "Verwaltung"
+    "title_4": "App",
+    "title_5": "Kontakt aufnehmen",
+    "title_6": "Zum Webportal",
+    "menu_label": "Menü öffnen",
+    "meta_title": "OrganizationOffice — Mitgliederverwaltung, Beiträge und Online-Abstimmungen"
   },
   "footer": {
-    "text_1": "Werden Sie Teil der <b>landesweiten ORGANIZATIONS-Community</b> auf Telegram – tauschen Sie Erfahrungen aus, knüpfen Sie Kontakte und entwickeln Sie Ideen weiter.",
-    "text_2": "Wir in sozialen Netzwerken",
-    "text_3": "Alle Anrufe gemäß Ihrem Tarifplan",
-    "text_4": "Schreiben Sie uns",
-    "text_5": "Mo–Fr von 10:00 bis 18:00",
-    "text_6": "Arbeitszeiten",
-    "text_7": "Haben Sie Fragen?",
-    "text_8": "Hinterlassen Sie Ihre Nummer — wir rufen Sie in Kürze zurück.",
+    "text_1": "Mitgliederverzeichnis, Versammlungen, Abstimmungen und Beiträge — in einem Webportal.",
+    "text_2": "Wir informieren über Updates und beantworten Fragen.",
+    "text_3": "Support-Telefon. Es gilt der Tarif Ihres Anbieters.",
+    "text_4": "Schreiben Sie uns eine E-Mail",
+    "text_5": "Montag–Freitag, 10:00–18:00 Uhr",
+    "text_6": "Wann Sie uns erreichen",
+    "text_7": "Wünschen Sie einen Rückruf?",
+    "text_8": "Hinterlassen Sie Ihre Nummer. Wir rufen während unserer Geschäftszeiten an und beantworten Ihre Fragen.",
     "text_9": "Alle Rechte vorbehalten",
-    "btn_1": "Beitreten",
-    "btn_2": "Senden",
-    "title_1": "Nutzungsbedingungen",
+    "btn_1": "Zu Telegram",
+    "btn_2": "Rückruf anfordern",
+    "title_1": "Datenschutz und Bedingungen",
     "title_2": "Öffentlicher Vertrag (Angebot)"
   },
   "email": {
     "success": "Nachricht gesendet",
-    "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es später erneut oder rufen Sie uns an.",
+    "error": "Die Nachricht konnte nicht gesendet werden. Versuchen Sie es erneut oder rufen Sie uns an.",
     "captchaError": "Bitte bestätigen Sie, dass Sie kein Roboter sind."
   },
   "index": {
     "s_1": {
-      "title": "<span class='color-secondary'>OrganizationOffice</span> – ein digitales Werkzeug für modernes <span class='color-2'>Projekt- und Teammanagement</span>",
-      "text_1": "<b>Digitale Umgebung</b> für eine effektive Zusammenarbeit zwischen dem Leiter, den Vorstandsmitgliedern, dem Prüfungsausschuss und den Mitgliedern der Organisation.",
-      "text_2": "Scannen Sie den QR-Code, um die App herunterzuladen",
-      "text_3": "Herunterladen von"
+      "title": "<span class='color-secondary'>Verwalten Sie Ihre Organisation</span> in einem Webportal: <span class='color-2'>Mitglieder, Beiträge, Abstimmungen</span>",
+      "text_1": "Sie sehen, wer beigetreten ist und wie viel gezahlt hat. Sie planen Versammlungen mit Tagesordnung und führen Abstimmungen online durch. Der Stimmzettel wird über Diia mit einer qualifizierten elektronischen Signatur (QES) unterzeichnet.",
+      "text_2": "Die mobile App für Mitglieder ist bereits verfügbar",
+      "text_3": "Verfügbar bei"
     },
     "s_2": {
-      "title": "Beratung anfordern",
-      "btn": "Anfordern"
+      "title": "Erzählen Sie uns von Ihrer Organisation",
+      "btn": "Anfrage senden"
     },
     "s_3": {
-      "title": "Auf einer Plattform",
-      "text_1": "Zufriedene Nutzer",
-      "text_2": "Erhalten Unterstützung von OrganizationOffice",
-      "text_3": "Nutzen den Service für Online-Versammlungen"
+      "title": "Für zivilgesellschaftliche Organisationen, Stiftungen, Genossenschaften und Wohnungseigentümergemeinschaften",
+      "text_1": "<b>Zivilgesellschaftliche Organisationen</b><br>Verwalten Sie die Mitgliederliste und die Zusammensetzung des Vorstands. Veröffentlichen Sie Neuigkeiten.",
+      "text_2": "<b>Gemeinnützige Stiftungen</b><br>Verwalten Sie Hilfsprogramme und Spendenkampagnen. Exportieren Sie Berichte als PDF und Excel.",
+      "text_3": "<b>Genossenschaften und Wohnungseigentümergemeinschaften</b><br>Zeigen Sie jedem Mitglied seine Beiträge, offenen Beträge und Abstimmungen auf dem Smartphone."
     },
     "s_4": {
-      "text": "für den Vorstand von OrganizationOffice",
-      "title": "Verwalte dein OrganizationOffice<br><span class='color-4'>schnell und einfach, mit nur wenigen Klicks</span>",
-      "btn": "Mehr erfahren",
-      "item_1": "<b>Volle Kontrolle</b> über Finanzkennzahlen",
-      "item_2": "<b>Separates Dashboard</b> für Finanzverwaltung",
-      "item_3": "Werkzeuge für die Arbeit mit <b>Schuldnern</b>",
-      "item_4": "<b>Bequeme Kommunikation</b> zwischen den Mitgliedern der Organisation"
+      "text": "Die tägliche Arbeit Ihrer Organisation",
+      "title": "Mitglieder, Beiträge, Dokumente und Beschlüsse — an einem Ort",
+      "image_alt": "So funktioniert OrganizationOffice: Mitglieder, Dokumente, Versammlungen, Abstimmungen, Beiträge, Neuigkeiten, Berichte, Kalender, mobile App und Webportal",
+      "btn": "Ablauf ansehen",
+      "item_1": "<b>Mitglieder und Rollen</b> — ein Profil für jedes Mitglied und eine eigene Rolle in jeder Organisation",
+      "item_2": "<b>Dokumente und Beschlüsse</b> — Tagesordnung, Anwesenheit, Abstimmungsergebnisse und Dateien",
+      "item_3": "<b>Neuigkeiten</b> — Mitteilungen für alle Mitglieder auf der Startseite der App",
+      "item_4": "<b>Beiträge und offene Beträge</b> — sehen Sie, wer wie viel gezahlt hat und wer noch zahlen muss"
     },
     "s_5": {
-      "text": "für die Nutzer von OrganizationOffice",
-      "title": "Mobile App<br><span class='color-2'>für die Nutzer von OrganizationOffice</span>",
-      "btn": "Mehr erfahren",
-      "item_1": "<b>Überwache</b> den Kontostand",
-      "item_2": "Kommuniziere und interagiere <b>mit den Mitgliedern der Organisation</b>",
-      "item_3": "<b>Nimm teil</b> an Gründungs- und Generalversammlungen online",
-      "item_4": "Leiste Beiträge schnell <b>über die App</b>"
+      "text": "Mobile App",
+      "title": "Die Organisation auf dem Smartphone jedes Mitglieds",
+      "image_alt": "Ansichten der mobilen App OrganizationOffice: Neuigkeiten, Abstimmungen, Versammlungen und Beiträge des Mitglieds",
+      "btn": "App ansehen",
+      "item_1": "Lesen Sie <b>Neuigkeiten der Organisation</b> auf der Startseite",
+      "item_2": "Senden Sie <b>Anliegen</b> und verfolgen Sie deren Status",
+      "item_3": "Stimmen Sie <b>online</b> ab — bei Bedarf mit einer Signatur über Diia",
+      "item_4": "Prüfen Sie <b>Ihre Beiträge und offenen Beträge</b>"
     },
     "s_6": {
-      "title": "Versammlungen der Organisation im System OrganizationOffice",
-      "btn": "Mehr erfahren",
-      "text_1": "WAS BEDEUTET DAS?",
-      "text_2": "Physische Anwesenheit ist nicht mehr erforderlich. Versammeln Sie den Vorstand und die Mitglieder online – ohne zeitliche oder räumliche Einschränkungen, mit einer beliebigen elektronischen Signatur (QES)."
+      "title": "Versammlungen online abhalten und Beschlüsse festhalten",
+      "image_alt": "Versammlungsablauf in fünf Schritten: Tagesordnung erstellt, Mitglieder informiert, Teilnahme eröffnet, Stimme erfasst, Ergebnis verfügbar",
+      "btn": "Versammlungsablauf ansehen",
+      "text_1": "Sie sehen die Anwesenheit, Stimmen und Ergebnisse jeder Versammlung.",
+      "text_2": "<b>Erstellen Sie die Tagesordnung</b> → geben Sie QR-Karten aus → Mitglieder stimmen ab → schließen Sie die Abstimmung"
     },
     "s_7": {
-      "title": "Wie OrganizationOffice<br><span class='color-2'>zivilgesellschaftliche Organisationen unterstützt</span>",
-      "btn": "Mehr erfahren",
-      "text_1": "1. Transparenz und Vertrauen",
-      "list_1_1": "Offene Finanzierung, Ausgabenkontrolle, gesteigertes Vertrauen der Spender.",
-      "text_2": "2. Digitale Verwaltung",
-      "list_2_1": "Ein einheitliches System für Projekte, Freiwillige, Berichte und Kommunikation.",
-      "text_3": "3. Vernetzung von Organisationen",
-      "list_3_1": "Ein Partnerschaftsnetzwerk zwischen Stiftungen, NGOs, Genossenschaften und Parteien.",
-      "text_4": "4. Direkte Finanzierung",
-      "list_4_1": "Spender unterstützen Initiativen ohne Zwischenhändler — sichere Transaktionen.",
-      "text_5": "5. Automatisierte Analytik",
-      "list_5_1": "Statistiken, Dashboards, Berichte — alles an einem Ort.",
-      "text_6": "6. Entwicklung der Zivilgesellschaft",
-      "list_6_1": "Ein Kooperations- und Vertrauens-Ökosystem unter Organisationen der neuen Generation.",
-      "text_7": "Wir schaffen eine digitale Plattform, die <b>Transparenz, Vertrauen und Effizienz</b> jeder zivilgesellschaftlichen Initiative stärkt."
+      "title": "So beginnen Sie",
+      "btn": "Ablauf ansehen",
+      "text_1": "Organisation beschreiben und Rollen vergeben",
+      "list_1_1": "Fügen Sie die Personen hinzu, die im Webportal arbeiten werden. Vergeben Sie Rollen: Administrator, Manager oder Beobachter.",
+      "text_2": "Mitgliederprofile anlegen",
+      "list_2_1": "Tragen Sie den vollständigen Namen, Kontaktdaten, ein Foto und Dokumentendaten ein. Ergänzen Sie bei Bedarf eigene Felder.",
+      "text_3": "Versammlungen, Neuigkeiten und Beiträge einrichten",
+      "list_3_1": "Planen Sie Versammlungen mit Tagesordnung. Veröffentlichen Sie Neuigkeiten und verwalten Sie Beiträge.",
+      "text_4": "Mitgliedern Zugang per Smartphone geben",
+      "list_4_1": "Das Mitglied scannt die QR-Karte, gibt den Code ein und sieht seine Daten in der App.",
+      "text_5": "Abstimmungen im Webportal durchführen",
+      "list_5_1": "Der Stimmzettel kann in Diia mit einer qualifizierten elektronischen Signatur (QES) unterzeichnet werden. Die Ergebnisse sind im Webportal sichtbar.",
+      "text_6": "Berichte ohne manuelles Zusammenrechnen erstellen",
+      "list_6_1": "Exportieren Sie den Finanzbericht als PDF oder Excel. Offene Beträge sind für jedes Mitglied sichtbar.",
+      "text_7": "Vorstand und Mitglieder <b>sehen, wer wofür verantwortlich ist und wie der Beschluss bei der Abstimmung zustande kam.</b>"
     },
     "s_8": {
       "title": "Team",
@@ -96,165 +101,162 @@
       "text_7": "Rostyslav Rapach"
     },
     "s_9": {
-      "category": "Rechtliche Gültigkeit",
-      "category_1": "Was damit abgedeckt ist",
-      "title": "Die «Diia»-Signatur ist einer handschriftlichen Unterschrift gleichgestellt",
-      "description": "Das ukrainische Gesetz «Über elektronische Vertrauensdienste» stellt eine qualifizierte elektronische Signatur einer handschriftlichen Unterschrift gleich. Eine im System getroffene Entscheidung ist keine Umfrage im Chat, sondern ein Dokument, das einem Registerführer vorgelegt und vor Gericht verteidigt werden kann.",
-
+      "category": "Rechtskraft",
+      "category_1": "Risiken reduzieren",
+      "title": "Eine Signatur über Diia ist einer handschriftlichen Unterschrift gleichgestellt",
+      "description": "Das Gesetz „Über elektronische Vertrauensdienste“ stellt eine qualifizierte elektronische Signatur (QES) einer handschriftlichen Unterschrift gleich. Ein im System gefasster Beschluss ist keine Umfrage im Chat. Er ist ein Dokument mit QES, das einer Registerstelle vorgelegt und vor Gericht verwendet werden kann.",
       "list_1_1_value": "3 Min.",
-      "list_1_1_label": "Gültigkeitsdauer des Links\nzur Signatur",
-      "list_1_2_value": "100%",
-      "list_1_2_label": "Identifizierung\ndes Abstimmenden",
+      "list_1_1_label": "so lange gilt der Link\nzum Unterzeichnen",
+      "list_1_2_value": "QES",
+      "list_1_2_label": "zeigt, wer genau\nabgestimmt hat",
       "list_1_3_value": "Protokoll",
-      "list_1_3_label": "jeder Vorgang\nwird aufgezeichnet und ist überprüfbar",
-
-      "list_2_1_title": "Die Plattform erstellt den Stimmzettel",
-      "list_2_1_description": "Der Entscheidungstext wird in einen Hash umgewandelt. Genau dieser wird signiert — der Inhalt kann nicht ersetzt werden.",
-      "list_2_2_title": "Der Teilnehmer signiert in «Diia»",
-      "list_2_2_description": "In der App sieht er den Namen seiner Organisation — jeder Kunde der Plattform hat einen eigenen Signaturzweig.",
-      "list_2_3_title": "Der Server überprüft die Signatur",
-      "list_2_3_description": "Die Prüfung erfolgt anhand der Zertifikatskette der AЦСК. Prüfung fehlgeschlagen — keine Stimme. Prüfung erfolgreich — Stimme und Nachweis werden im Protokoll gespeichert.",
-
-      "list_3_1": "Fälschung eines Abstimmungsbogens",
+      "list_1_3_label": "jeder Aufruf an Diia\nwird erfasst und ist überprüfbar",
+      "list_2_1_title": "Wir bereiten den Stimmzettel vor",
+      "list_2_1_description": "Wir wandeln den Text des Stimmzettels in einen digitalen Fingerabdruck um. Genau dieser wird signiert — der Text kann nicht ausgetauscht werden.",
+      "list_2_2_title": "Das Mitglied unterzeichnet in Diia",
+      "list_2_2_description": "Das Mitglied unterzeichnet das Dokument in der Diia-App. Die Signatur wird von dort direkt an unseren Server gesendet.",
+      "list_2_3_title": "Wir prüfen die Signatur",
+      "list_2_3_description": "Wir gleichen sie mit der Zertifikatskette des akkreditierten Schlüsselzertifizierungszentrums (ATsSK) ab. Prüfung fehlgeschlagen — keine Stimme. Prüfung erfolgreich — Stimme und Nachweis werden im Protokoll gespeichert.",
+      "list_3_1": "Gefälschter Abstimmungsbogen",
       "list_3_2": "Streit darüber, wer tatsächlich abgestimmt hat",
-      "list_3_3": "Ablehnung des Protokolls durch den Registerführer",
-      "list_3_4": "Anfechtung der Entscheidung vor Gericht"
+      "list_3_3": "Nachträglich hinzugefügte Stimmen",
+      "list_3_4": "Zweifel an der Echtheit der Signatur"
     }
   },
   "control": {
     "s_1": {
-      "title": "<span class='color-2'>Verwalten Sie OrganizationOffice</span> mit ein paar Klicks",
-      "text": "Implementieren Sie moderne Technologien in Ihrer Organisation. Vereinfachen Sie die Interaktion der Plattformteilnehmer miteinander!"
+      "title": "<span class='color-2'>OrganizationOffice</span> — Beiträge, Versammlungen und Abstimmungen verwalten",
+      "text": "Verwalten Sie Beiträge, Versammlungen und Dokumente. Abstimmungen sind mit einer Signatur über Diia möglich — einer qualifizierten elektronischen Signatur (QES)."
     },
     "s_2": {
-      "title": "Beratung anfordern",
+      "title": "Erzählen Sie uns von Ihrer Organisation",
       "placeholder_1": "Name",
-      "placeholder_2": "Name der Vereinigung",
-      "btn": "Anfordern"
+      "placeholder_2": "Name der Organisation",
+      "btn": "Kontakt aufnehmen"
     },
     "s_3": {
-      "title": "Wie registriert man OrganizationOffice auf der Plattform?",
-      "item_1": "<b>Reichen Sie einen Antrag</b> auf Registrierung ein oder kontaktieren Sie uns",
-      "item_2": "<b>Senden</b> Sie wichtige Informationen an",
-      "item_3": "<b>Wir registrieren</b> die Organisation im System und gewähren Zugang zum Verwaltungsportal"
+      "title": "Wie richten Sie Ihre Organisation ein?",
+      "item_1": "<b>Stellen Sie eine Anfrage</b> auf der Website oder schreiben Sie uns",
+      "item_2": "<b>Senden Sie</b> den Namen, den EDRPOU-Code und die Kontaktdaten an",
+      "item_3": "<b>Wir legen</b> Ihre Organisation im System an und gewähren Zugang zum Webportal"
     },
     "s_4": {
-      "text": "Möglichkeiten für Organisationen",
-      "title": "Vorstands-Dashboard",
-      "item_1": "Statistik des finanziellen Status",
-      "item_2": "Werkzeuge zur Arbeit mit Schuldnern",
-      "item_3": "Berichts- und Dokumentenbereich"
+      "text": "Für Vorsitz und Vorstand",
+      "title": "Webportal für den Vorstand Ihrer Organisation",
+      "item_1": "Wer wie viel gezahlt hat",
+      "item_2": "Wer den Beitrag noch nicht gezahlt hat",
+      "item_3": "Berichte als PDF und Excel"
     },
     "s_5": {
-      "title": "Persönliches Kundenportal in der mobilen App",
-      "item_1": "Anzeige des Kontostatus der Organisation",
-      "item_2": "Zahlung von Beiträgen über die App",
-      "item_3": "Analyse der Abrechnungen",
-      "item_4": "Aktuelle Liste der Schuldner"
+      "title": "Mobile App für Mitglieder der Organisation",
+      "item_1": "Eigene Beiträge und offene Beträge",
+      "item_2": "Verlauf der Gutschriften und Abbuchungen",
+      "item_3": "Abstimmungen direkt auf dem Smartphone",
+      "item_4": "Neuigkeiten der Organisation"
     },
     "s_6": {
-      "title": "Finanz-Dashboard",
-      "item_1": "Primärdokumentation",
-      "item_2": "Personalverwaltung",
-      "item_3": "Finanz- und Steuerberichte",
-      "item_4": "Support und technische Unterstützung"
+      "title": "Weitere Funktionen im Webportal",
+      "item_1": "Dokumente der Organisation",
+      "item_2": "Mitgliederverwaltung",
+      "item_3": "Beitragsverlauf jedes Mitglieds",
+      "item_4": "Rollen und Zugriffsrechte für den Vorstand"
     },
     "s_7": {
       "title": "Demo-Version",
-      "text_1": "<b>Testen Sie die Demo-Version</b> in einer virtuellen Organisation. Bewerten Sie die Funktionen für Vorstand und Mitglieder. Jeder Abschnitt enthält die nötigen Informationen und zeigt die Arbeit einer realen Organisation.",
-      "text_2": "Um in die Kunden-Demo-Version zu gelangen, laden Sie OrganizationOffice herunter und klicken Sie auf „Demo-Version“",
-      "text_3": "Laden Sie die App herunter und erhalten Sie<br>diese Superfunktionen auf Ihrem Smartphone!",
+      "text_1": "<b>Testen Sie die Demo</b> in der mobilen App. Sehen Sie, wie die Bereiche für ein Mitglied der Organisation aussehen. Die Demo enthält Beispieldaten.",
+      "text_2": "Installieren Sie OrganizationOffice und tippen Sie auf „Demo-Version“, um die Demo zu öffnen.",
+      "text_3": "Laden Sie die App herunter — Neuigkeiten, Abstimmungen<br>und Ihre Beiträge sind dann auf Ihrem Smartphone.",
       "btn": "Herunterladen von"
     },
     "s_8": {
-      "title": "Administratorzugang zu OrganizationOffice erhalten",
-      "text": "Nach Freigabe des Zugangs erhalten Sie eine Benachrichtigung in der Plattform-App",
+      "title": "Zugang zum Webportal erhalten",
+      "text": "Wir kontaktieren Sie und gewähren Zugang zum Webportal.",
       "placeholder": "Name",
-      "btn": "Zugang erhalten"
+      "btn": "Anfrage senden"
     }
   },
   "mobile_app": {
     "s_1": {
-      "title": "Mobile App für Mitglieder von OrganizationOffice",
-      "text_1": "<b>Alles Nötige in deinem Smartphone:</b>",
+      "title": "Ihre Organisation immer griffbereit",
+      "text_1": "<b>Alles Wichtige auf Ihrem Smartphone:</b>",
       "text_2": "Scannen Sie den QR-Code, um die App herunterzuladen",
       "btn": "Herunterladen von",
-      "item_1": "Überwachung des Organisationskontos",
-      "item_2": "Treffen und kommunizieren Sie mit Mitgliedern",
-      "item_3": "Teilnahme an General- und Gründungsversammlungen online"
+      "item_1": "Sehen Sie Ihre Beiträge und offenen Beträge",
+      "item_2": "Lesen Sie Neuigkeiten der Organisation",
+      "item_3": "Stimmen Sie online in der App ab"
     },
     "s_2": {
-      "title": "Erzählen Sie es den Mitgliedern",
-      "text_1": "Klicken Sie auf „Teilen“ und senden Sie das Video in den Organisationschat. Schlagen Sie dem Vorstand vor, sich im System <b>OrganizationOffice</b> zu registrieren!",
+      "title": "Informieren Sie andere über die App",
+      "text_1": "Tippen Sie auf „Teilen“ und senden Sie das Video an die Mitglieder Ihrer Organisation. Schlagen Sie dem Vorstand vor, Zugang zu <b>OrganizationOffice</b> zu beantragen.",
       "text_2": "Teilen"
     },
     "s_3": {
-      "title": "Wie nutzt man die OrganizationOffice-App?",
-      "item_1": "Laden Sie die App herunter und melden Sie sich an",
-      "item_2": "Geben Sie den Namen der Organisation ein",
-      "item_3": "Geben Sie die Organisationsnummer an"
+      "title": "Wie beginnen Sie mit der App?",
+      "item_1": "Laden Sie die App auf Ihr Smartphone herunter",
+      "item_2": "Halten Sie Ihre Mitgliedskarte mit QR-Code bereit",
+      "item_3": "Scannen Sie die Karte und geben Sie den Code ein"
     },
     "s_4": {
-      "title": "Möglichkeiten für Mitglieder",
-      "item_1": "Transparenz",
-      "item_2": "Kommunikation",
-      "item_3": "Komfort",
-      "list_1_1": "<b>Kontrolle</b> der Einnahmen und Ausgaben des Organisationskontos",
-      "list_1_2": "<b>Einsicht</b> in die Dokumentation der Organisation",
-      "list_1_3": "<b>Anzeige</b> der aktuellen Schuldnerliste",
-      "list_1_4": "<b>Verwendung</b> einer elektronischen digitalen Signatur",
-      "list_2_1": "Bequemer Zugang zum <b>Messenger</b> Ihrer Organisation",
-      "list_2_2": "Bereich für <b>effektive Kommunikation der Mitglieder</b> und des Vorstands <b>(Ankündigungen, Umfragen, Abstimmungen)</b>",
-      "list_3_1": "<b>Teilnahme</b> an General- und Gründungsversammlungen online via Smartphone",
-      "list_3_2": "<b>Kontakte</b> von Support-Spezialisten",
-      "list_3_3": "<b>Verlauf</b> von Zahlungen und Abrechnungen",
-      "list_3_4": "<b>Bezahlung</b> von Beiträgen über die App"
+      "title": "Was Sie in der App tun können",
+      "item_1": "Beiträge",
+      "item_2": "Neuigkeiten",
+      "item_3": "Versamm\u00adlungen",
+      "list_1_1": "<b>Verfolgen Sie</b> Ihre Gutschriften und Abbuchungen",
+      "list_1_2": "<b>Sehen Sie</b>, welche Beiträge bereits gezahlt wurden",
+      "list_1_3": "<b>Prüfen Sie</b> Ihre offenen Beträge",
+      "list_1_4": "<b>Öffnen Sie</b> die Details jeder Transaktion",
+      "list_2_1": "<b>Lesen Sie Neuigkeiten</b> der Organisation im Newsfeed der App",
+      "list_2_2": "Senden Sie <b>Anliegen</b> direkt in der App an die Organisation",
+      "list_3_1": "<b>Stimmen Sie</b> online auf Ihrem Smartphone ab",
+      "list_3_2": "<b>Unterzeichnen Sie</b> den Stimmzettel über Diia",
+      "list_3_3": "<b>Lesen Sie</b> die Tagesordnung der Versammlung",
+      "list_3_4": "<b>Laden Sie</b> die Mitgliedsbescheinigung als PDF herunter"
     },
     "s_5": {
       "title": "Demo-Version",
-      "text_1": "<b>Testen Sie die Demo-Version</b> in einer virtuellen Organisation. Bewerten Sie die Funktionen für Vorstand und Mitglieder. Jeder Abschnitt enthält die nötigen Informationen und zeigt die Arbeit einer realen Organisation.",
-      "text_2": "Um in die Kunden-Demo-Version zu gelangen, laden Sie OrganizationOffice herunter und klicken Sie auf „Demo-Version“",
-      "text_3": "Laden Sie die App herunter und erhalten Sie<br>diese Superfunktionen auf Ihrem Smartphone!",
+      "text_1": "<b>Testen Sie die Demo-Version</b> der App. Sehen Sie, wie Neuigkeiten, Abstimmungen und Beiträge aussehen. Die Bereiche enthalten vorbereitete Beispiele.",
+      "text_2": "Laden Sie OrganizationOffice herunter und tippen Sie in der App auf „Demo-Version“",
+      "text_3": "Laden Sie die App herunter<br>und testen Sie die Demo-Version selbst",
       "btn": "Herunterladen von"
     },
     "s_6": {
-      "title": "Administratorzugang zu OrganizationOffice erhalten",
-      "text": "Nach Freigabe des Zugangs erhalten Sie eine Benachrichtigung in der Plattform-App",
+      "title": "Administratorzugang beantragen",
+      "text": "Wir prüfen Ihre Anfrage und kontaktieren Sie",
       "placeholder": "Name",
-      "btn": "Zugang erhalten"
+      "btn": "Anfrage senden"
     }
   },
   "meeting": {
     "s_1": {
-      "title": "Gründungs- und Generalversammlungen der Organisationsmitglieder im System",
-      "text_1": "Es spielt keine Rolle, wo sich Vorstand und Miteigentümer befinden.",
-      "text_2": "Versammlungen können remote abgehalten werden.",
-      "text_3": "<b>Überall auf der Welt verfügbar!</b>",
-      "btn": "Antrag stellen"
+      "title": "Gründungs- und Mitgliederversammlungen online im System",
+      "text_1": "Vorstand und Mitglieder der Organisation können sich an beliebigen Orten befinden.",
+      "text_2": "Sie halten die Versammlung online ab, die Mitglieder nehmen per Smartphone teil.",
+      "text_3": "<b>Ein Smartphone und Internet reichen aus.</b>",
+      "btn": "Anfrage senden"
     },
     "s_2": {
-      "title": "Wie führt man Versammlungen im System durch?",
-      "item_1": "Organisation im System registrieren",
-      "item_2": "Antrag auf Durchführung der Versammlung stellen",
-      "item_3": "Mitglieder in der mobilen App einladen",
-      "item_4": "Versammlung online gemäß geltendem Recht durchführen"
+      "title": "Versammlungen in vier Schritten abhalten",
+      "item_1": "Stellen Sie eine Anfrage — wir legen die Organisation an",
+      "item_2": "Erstellen Sie eine Versammlung mit Tagesordnung",
+      "item_3": "Geben Sie Mitgliedern QR-Karten für den Zugang zur App",
+      "item_4": "Halten Sie die Versammlung online ab und erhalten Sie das Ergebnis"
     },
     "s_3": {
-      "title": "Beratung anfordern",
+      "title": "Welche Versammlung möchten Sie abhalten?",
       "placeholder_1": "Name",
-      "placeholder_2": "Name der Vereinigung",
-      "btn": "Anfordern"
+      "placeholder_2": "Name der Organisation",
+      "btn": "Anfrage senden"
     },
     "s_4": {
-      "title": "Gründungs- und Generalversammlungen",
-      "item_1": "<b>Teilnahme</b> der Mitglieder remote",
-      "item_2": "<b>Versammlungen im Smartphone</b> jedes Mitglieds",
-      "item_3": "<b>100% Identifizierung</b> der Teilnehmer an der Abstimmung",
-      "item_4": "<b>Keine Möglichkeit zur Manipulation</b> der Entscheidungen"
+      "title": "Gründungs- und Mitgliederversammlungen",
+      "item_1": "<b>Mitglieder nehmen</b> von jedem Ort aus an Versammlungen teil",
+      "item_2": "<b>Versammlungen auf dem Smartphone</b> jedes Mitglieds der Organisation",
+      "item_3": "<b>Sehen Sie, wer genau abgestimmt hat</b> — bei Abstimmungen mit Signatur über Diia",
+      "item_4": "<b>Stimmen lassen sich nicht fälschen</b> — das System prüft jede Signatur"
     },
     "s_5": {
-      "title": "Administratorzugang zu OrganizationOffice erhalten",
-      "text": "Nach Freigabe des Zugangs erhalten Sie eine Benachrichtigung in der Plattform-App",
+      "title": "Administratorzugang erhalten",
+      "text": "Wir rufen Sie an und helfen Ihnen beim Einrichten des Zugangs.",
       "placeholder_1": "Name",
       "btn": "Zugang erhalten"
     }
@@ -263,83 +265,83 @@
     "s_1": {
       "title": "Tarife",
       "text_1": "Wählen Sie den passenden Tarif für Ihre Organisation.",
-      "text_2": "Tarif beinhaltet",
-      "btn": "Verbinden",
+      "text_2": "Im Tarif enthalten",
+      "btn": "Aktivieren",
       "title_1": "Basis",
-      "item_1": "*Kostenlos zum Kennenlernen der Kerninhalte, um neue Nutzer zu gewinnen.",
+      "item_1": "*Für Organisationen, die eine Mitgliederliste und Neuigkeiten in der App benötigen.",
       "value_1": "UAH/Monat",
-      "list_1_1": "Zugang zu <b>grundlegenden Artikeln und Vorlagen</b>",
-      "list_1_2": "<b>Neuigkeiten und Updates</b> der Plattform",
+      "list_1_1": "<b>Mitgliederliste</b> mit Fotos und Kontaktdaten",
+      "list_1_2": "<b>Neuigkeiten der Organisation</b> in der App",
       "title_2": "Professionell",
-      "item_2": "*Ermöglicht vollen Zugang zu Materialien, Schulungen und Beratung für die aktive Entwicklung von Organisationen.",
+      "item_2": "*Für Organisationen, die Abstimmungen und Versammlungen abhalten und Beiträge verwalten.",
       "value_2": "UAH/Monat",
-      "list_2_1": "<b>Voller Zugang</b> zu allen Lernmaterialien (Videokurse, Webinare)",
-      "list_2_2": "Teilnahme an monatlichen <b>Online-Beratungen mit Experten</b>",
-      "list_2_3": "Download von <b>exklusiven Vorlagen</b> und Checklisten",
-      "list_2_4": "Zugang zu einer <b>geschlossenen Community zum Erfahrungsaustausch</b>",
+      "list_2_1": "<b>Online-Abstimmungen</b> mit Fristen und Ergebnissen",
+      "list_2_2": "<b>Mitgliederversammlungen</b>: Tagesordnung und Anwesenheit",
+      "list_2_3": "<b>Beiträge und offene Beträge</b>: sehen Sie, wer wie viel gezahlt hat",
+      "list_2_4": "<b>Finanzberichte</b> als PDF und Excel",
       "title_3": "Premium",
-      "item_3": "*Für Organisationen, die bereit sind, in persönliche Unterstützung und vertiefte Schulungen zu investieren.",
+      "item_3": "*Für Organisationen, die Signaturen über Diia und eigene LiqPay-Schlüssel benötigen.",
       "value_3": "UAH/Monat",
-      "list_3_1": "<b>Voller Zugang</b> zu allen Lernmaterialien (Videokurse, Webinare)",
-      "list_3_2": "Teilnahme an monatlichen <b>Online-Beratungen mit Experten</b>",
-      "list_3_3": "Download von <b>exklusiven Vorlagen</b> und Checklisten",
-      "list_3_4": "Zugang zu einer <b>geschlossenen Community zum Erfahrungsaustausch</b>",
-      "list_3_5": "<b>Persönliche Beratungen</b> (bis zu 4 Stunden pro Monat)",
-      "list_3_6": "Spezialisierte <b>Workshops und Masterclasses</b>",
-      "list_3_7": "<b>Priorisierter</b> Kundensupport"
+      "list_3_1": "<b>Online-Abstimmungen</b> mit Fristen und Ergebnissen",
+      "list_3_2": "<b>Mitgliederversammlungen</b>: Tagesordnung und Anwesenheit",
+      "list_3_3": "<b>Beiträge und offene Beträge</b>: sehen Sie, wer wie viel gezahlt hat",
+      "list_3_4": "<b>Finanzberichte</b> als PDF und Excel",
+      "list_3_5": "<b>Abstimmungen mit Signatur über Diia</b>",
+      "list_3_6": "<b>Eigene LiqPay-Schlüssel</b> für den Zahlungsempfang",
+      "list_3_7": "<b>Priorisierter</b> E-Mail-Support"
     },
     "s_2": {
       "title": "Häufig gestellte Fragen",
       "title_1": "Was ist der Testzeitraum?",
-      "text_1": "<ul class='list-4'><li class='mb-2'>Voller Zugriff auf die Funktionen des Systems und der mobilen App für 14 Tage gemäß dem Tarifplan;</li><li class='mb-2'>Registrierung der Organisation im OrganizationOffice-System;</li><li class='mb-2'>Schulung zur Arbeit mit dem System;</li><li class='mb-2'>Technischer und beratender Support.</li></ul>",
-      "title_2": "Sind Hauptversammlungen mit QES legal?",
-      "text_2": "Laut dem Gesetz der Ukraine „Über elektronische Vertrauensdienste“ ist die qualifizierte elektronische Signatur (QES) einer handschriftlichen Signatur gleichgestellt. Daher ist es rechtlich zulässig, Fragebögen und Mitteilungen über Hauptversammlungen mit dem OrganizationOffice-System zu unterzeichnen.",
-      "title_3": "Wie kann ich das System ohne Registrierung kennenlernen? Gibt es eine Demoversion?",
-      "text_3": "Ja, es gibt eine Demoversion, in der Sie alle Bereiche des Systems kennenlernen können.",
-      "title_4": "Gibt es unterschiedliche Zugriffsebenen für Benutzer?",
-      "text_4": "Ja, selbstverständlich. Wir gewähren zunächst dem Hauptadministrator Zugriff auf das System, und dieser entscheidet dann selbst, welche Zugriffsebenen andere Benutzer haben werden.",
+      "text_1": "<ul class='list-4'><li class='mb-2'>14 Tage Zugang zum Webportal und zur App im gewählten Tarif;</li><li class='mb-2'>Registrierung Ihrer Organisation in OrganizationOffice;</li><li class='mb-2'>Einführung in die Arbeit mit dem System;</li><li class='mb-2'>Antworten auf Ihre Fragen per E-Mail.</li></ul>",
+      "title_2": "Sind Abstimmungen mit Signatur über Diia rechtlich gültig?",
+      "text_2": "Das Gesetz „Über elektronische Vertrauensdienste“ stellt eine qualifizierte elektronische Signatur (QES) einer handschriftlichen Unterschrift gleich. Die Signatur in Diia ist eine QES. Deshalb hat der Stimmzettel dieselbe Rechtskraft wie ein auf Papier unterzeichneter Stimmzettel.",
+      "title_3": "Kann ich mir das System ohne Registrierung ansehen?",
+      "text_3": "Ja. Die mobile App bietet einen eingeschränkten Demo-Modus. Den Rest zeigen wir Ihnen bei einem Termin.",
+      "title_4": "Kann ich Personen unterschiedliche Rechte geben?",
+      "text_4": "Ja. Zunächst erhält der Hauptadministrator der Organisation Zugang. Er vergibt anschließend selbst die Rollen: Manche Personen können Daten bearbeiten, andere nur ansehen.",
       "title_5": "Was ist, wenn ich in mehreren Organisationen bin?",
-      "text_5": "Wenn Sie Mitglied mehrerer Organisationen sind, können Sie im App-Menü zwischen den Organisationen wechseln."
+      "text_5": "Ja. Sie können mehreren Organisationen angehören und in jeder eine andere Rolle haben. Jede Organisation stellt eine eigene QR-Karte für den Zugang aus."
     }
   },
   "admin": {
-    "title": "Login zum Dashboard",
-    "text_1": "Für das Leitungsorgan der Organisation",
-    "text_2": "Ist Ihre Organisation noch nicht bei uns? Erhalten Sie vollen Zugriff auf die Verwaltungswerkzeuge — 14 Tage kostenlos.",
+    "title": "Anmeldung zum Webportal",
+    "text_1": "Für den Vorstand der Organisation",
+    "text_2": "Ihre Organisation ist noch nicht im System? Stellen Sie eine Anfrage — wir richten den Zugang ein.",
     "text_3": "Die mobile App können Sie über den Link herunterladen",
-    "toast_1": "Falscher Login/Passwort",
+    "toast_1": "Falscher Benutzername oder falsches Passwort",
     "toast_2": "Falscher Code",
     "placeholder_1": "Login",
     "placeholder_2": "Passwort",
-    "label": "Mich erinnern",
-    "btn": "Einloggen",
-    "link": "Antrag stellen",
+    "label": "Angemeldet bleiben",
+    "btn": "Anmelden",
+    "link": "Anfrage senden",
     "app": "Herunterladen von"
   },
   "how": {
-    "title": "Wie OrganizationOffice CSOs (zivilgesellschaftliche Organisationen) unterstützt",
-    "text": "Das Projekt OrganizationOffice kann zu einem leistungsstarken Instrument für CSOs (Organisationen der Zivilgesellschaft) werden, da es mehrere systemische Probleme löst, die die Entwicklung zivilgesellschaftlicher Initiativen behindern.",
-    "text_1": "Zentrale Idee:",
-    "text_2": "„Wir schaffen ein Ökosystem, in dem jede Organisation transparent, effizient und in Zusammenarbeit mit anderen handeln kann.“",
-    "title_1": "Transparenz und Vertrauen",
-    "list_1_1": "Die Plattform gewährleistet vollständige Offenheit bei Finanzierung, Berichterstattung und Ausgaben.",
-    "list_1_2": "Dies erhöht das Vertrauen von Spendern, Partnern und Bürgern in die Organisation.",
-    "list_1_3": "Jeder Beitrag kann über das Kontrollsystem nachverfolgt werden.",
-    "title_2": "Digitales Management",
-    "list_2_1": "CSOs erhalten ein einheitliches Admin-Panel zur Koordination von Projekten, Freiwilligen, Mitgliedern, Zahlungen und Veranstaltungen.",
-    "list_2_2": "Weniger Papierbürokratie — mehr Zeit für tatsächliche Aktivitäten.",
-    "title_3": "Vernetzung von Organisationen",
-    "list_3_1": "Die Plattform ermöglicht die Bildung von Allianzen, Koalitionen und Netzwerken von CSOs.",
-    "list_3_2": "Dies ermöglicht gemeinsames Handeln, Zugang zu größeren Fördermitteln, Skalierung der Wirkung und gemeinsame Nutzung von Ressourcen.",
-    "title_4": "Zugang zu Finanzierung",
-    "list_4_1": "Über OrganizationOffice können Spender und Förderer konkrete Initiativen direkt finanzieren — ohne Zwischenhändler.",
-    "list_4_2": "Jede Organisation erhält ein eigenes Profil und ein Vertrauensrating.",
-    "title_5": "Analytik und Berichterstattung",
-    "list_5_1": "Das System erstellt automatisch digitale Berichte, Leistungsstatistiken und interaktive Dashboards.",
-    "list_5_2": "Dies vereinfacht die Berichterstattung gegenüber Spendern und staatlichen Institutionen.",
-    "title_6": "Einheit und Sektorentwicklung",
-    "list_6_1": "OrganizationOffice ist ein Ökosystem, das Stiftungen, NGOs, Genossenschaften, Parteien und Bewegungen in einer gemeinsamen digitalen Umgebung vereint.",
-    "list_6_2": "Dieses Format fördert die nachhaltige Entwicklung der Zivilgesellschaft in der Ukraine und weltweit."
+    "title": "Wie OrganizationOffice Ihrer Organisation hilft",
+    "text": "OrganizationOffice nimmt Ihnen Routinearbeit ab. Sie verwalten Ihre Organisation ohne unzählige Tabellen und Chats.",
+    "text_1": "Der Grundgedanke:",
+    "text_2": "„Wir haben dafür gesorgt, dass jedes Mitglied seine Beiträge und offenen Beträge sehen kann.“",
+    "title_1": "Abstimmungen mit Signatur",
+    "list_1_1": "Mitglieder stimmen in der App ab, und Sie verfolgen den Verlauf.",
+    "list_1_2": "Bei Bedarf unterzeichnet das Mitglied den Stimmzettel in Diia.",
+    "list_1_3": "Sie sehen jede Signatur im Vorgangsprotokoll.",
+    "title_2": "Alles in einem Webportal",
+    "list_2_1": "Mitglieder, Versammlungen, Abstimmungen, Beiträge und Dokumente — in einem Webportal.",
+    "list_2_2": "Weniger Papier — mehr Zeit für die Arbeit Ihrer Organisation.",
+    "title_3": "Mehrere Organisationen",
+    "list_3_1": "Verwalten Sie mehrere Organisationen und wechseln Sie im Webportal zwischen ihnen.",
+    "list_3_2": "Eine Person kann in einer Organisation den Vorsitz innehaben und in einer anderen Mitglied sein.",
+    "title_4": "Finanzen der Organisation",
+    "list_4_1": "Sie nehmen Beiträge über LiqPay auf dem Konto Ihrer Organisation entgegen.",
+    "list_4_2": "Sie verwalten Spendenaktionen und sehen, wer wie viel beigetragen hat.",
+    "title_5": "Offene Beträge und Berichte",
+    "list_5_1": "Sie sehen, wer wie viel gezahlt hat und wie viel noch offen ist.",
+    "list_5_2": "Sie exportieren den Finanzbericht als PDF oder Excel.",
+    "title_6": "Nicht nur für NGOs",
+    "list_6_1": "Das Webportal eignet sich für Wohnungseigentümergemeinschaften, Genossenschaften und Stiftungen.",
+    "list_6_2": "Jede Organisation ist anders: Sie ergänzen die Felder im Mitgliederprofil selbst."
   },
   "privacy_policy": {
     "title_1": "Haftungsausschluss",
@@ -360,12 +362,12 @@
     "list_3_1_2": "Technische Informationen: IP-Adresse, Browsertyp und -version, Gerätemodell, Betriebssystem, Interface-Sprache, Zugriffsdatum und -zeit, besuchte Seiten.",
     "list_3_1_3": "Interaktionsdaten: Aktionen des Benutzers im Dienst, Supportanfragen, Profileinstellungen, ausgewählte Funktionen.",
     "text_3_2": "Zweck der Datenverarbeitung:",
-    "list_3_2_1": "Bereitstellung des Plattform-Funktionalität und Personalisierung;",
+    "list_3_2_1": "Zugang zu den Funktionen der Plattform und deren Personalisierung;",
     "list_3_2_2": "technischer Support und Kommunikation mit Benutzern;",
     "list_3_2_3": "Analyse, Überwachung der Stabilität und Behebung technischer Störungen;",
     "list_3_2_4": "Einhaltung gesetzlicher Anforderungen an die Verarbeitung personenbezogener Daten.",
     "title_4": "2. Übermittlung und Speicherung personenbezogener Daten",
-    "text_4_1": "Personenbezogene Daten werden nicht an Dritte weitergegeben, ohne dass Sie ausdrücklich zustimmen, außer wenn eine solche Weitergabe gesetzlich erforderlich ist.",
+    "text_4_1": "Personenbezogene Daten werden ohne Ihre ausdrückliche Einwilligung nicht an Dritte weitergegeben, außer wenn eine solche Weitergabe nach geltendem Recht notwendig ist.",
     "text_4_1_1": "Daten dürfen nur in folgenden Fällen weitergegeben werden:",
     "list_4_1": "Erfüllung gesetzlicher Verpflichtungen nach ukrainischem Recht;",
     "list_4_2": "Einbindung autorisierter Dienstleister (Auftragnehmer, Hosting-Provider, Analyseplattformen), die den technischen Betrieb der Plattform sicherstellen, vorausgesetzt, sie erfüllen die Anforderungen zum Schutz personenbezogener Daten;",

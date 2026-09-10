@@ -1,28 +1,28 @@
 {
   "header": {
-    "title_1": "Workflows",
-    "title_2": "Getting started",
+    "title_1": "Features",
+    "title_2": "How to start",
     "title_3": "Meetings",
-    "title_4": "Mobile app",
-    "title_5": "Consultation",
-    "title_6": "Admin sign-in",
+    "title_4": "App",
+    "title_5": "Contact us",
+    "title_6": "Sign in",
     "menu_label": "Open menu",
-    "meta_title": "OrganizationOffice — Digital workspace for member-led organizations"
+    "meta_title": "OrganizationOffice — member records, contributions and online voting"
   },
   "footer": {
-    "text_1": "A shared digital workspace for organizations accountable to their members, communities, and partners.",
-    "text_2": "Product updates and practical field notes",
-    "text_3": "Phone support. Carrier charges may apply.",
-    "text_4": "Write to our implementation team",
+    "text_1": "Member records, meetings, voting and contributions — in one workspace.",
+    "text_2": "We share updates and answer questions.",
+    "text_3": "Support phone. Calls are charged at your provider’s rate.",
+    "text_4": "Email us",
     "text_5": "Monday–Friday, 10:00–18:00",
-    "text_6": "Support hours",
-    "text_7": "Prefer a callback?",
-    "text_8": "Leave your number; our team will contact you on a working day to clarify your organization’s setup.",
+    "text_6": "When to reach us",
+    "text_7": "Would you like us to call you?",
+    "text_8": "Leave your number. We will call during business hours and answer your questions.",
     "text_9": "All rights reserved",
-    "btn_1": "Join the Telegram community",
+    "btn_1": "Join us on Telegram",
     "btn_2": "Request a callback",
     "title_1": "Privacy and terms",
-    "title_2": "Public Offer"
+    "title_2": "Public agreement (offer)"
   },
   "email": {
     "success": "Message sent",
@@ -31,64 +31,64 @@
   },
   "index": {
     "s_1": {
-      "title": "<span class='color-secondary'>Run the organization</span> with one accountable workspace for <span class='color-2'>members, decisions, and everyday operations</span>",
-      "text_1": "OrganizationOffice connects membership, documents, meetings, contributions, and communication for civic, charitable, cooperative, and other member-led organizations.",
-      "text_2": "Mobile workspace included",
-      "text_3": "Get it on"
+      "title": "<span class='color-secondary'>Manage your organization</span> in one workspace: <span class='color-2'>members, contributions, voting</span>",
+      "text_1": "See who has joined and how much each member has paid. Schedule meetings with an agenda and hold votes online. Ballots are signed with a qualified electronic signature (QES) through Diia.",
+      "text_2": "The mobile app for members is already available",
+      "text_3": "Available on"
     },
     "s_2": {
       "title": "Tell us about your organization",
-      "btn": "Discuss your setup"
+      "btn": "Send a request"
     },
     "s_3": {
-      "title": "Built for organizations with members, mandates, and shared responsibility",
-      "text_1": "<b>Civic and community organizations</b><br>Coordinate teams, governing bodies, and recurring activities.",
-      "text_2": "<b>Charitable funds and foundations</b><br>Keep programs, decisions, and stakeholder communication connected.",
-      "text_3": "<b>Cooperatives and member-led organizations</b><br>Give every participant a clear place in the operating model."
+      "title": "For civic organizations, foundations, cooperatives and homeowners’ associations",
+      "text_1": "<b>Civic organizations</b><br>Maintain member and board lists, and publish news.",
+      "text_2": "<b>Charitable foundations</b><br>Manage aid programs and fundraising campaigns. Export reports to PDF and Excel.",
+      "text_3": "<b>Cooperatives and homeowners’ associations</b><br>Let each member see their contributions, outstanding balance and votes on their phone."
     },
     "s_4": {
-      "text": "Core operating workflows",
-      "title": "One workspace for the work behind your mission",
-      "image_alt": "OrganizationOffice operating model connecting members, documents, meetings, voting, communication, reports, tasks, calendar, mobile app, and web dashboard",
-      "btn": "Explore the management workspace",
-      "item_1": "<b>Members and roles</b> — keep status, responsibilities, and history in context",
-      "item_2": "<b>Documents and decisions</b> — connect records to the work they support",
-      "item_3": "<b>Communication</b> — send relevant updates to the right participants",
-      "item_4": "<b>Contributions and obligations</b> — follow current status without fragmented lists"
+      "text": "Your organization’s daily work",
+      "title": "Members, contributions, documents and decisions — in one place",
+      "image_alt": "How OrganizationOffice works: members, documents, meetings, voting, contributions, news, reports, calendar, mobile app and web workspace",
+      "btn": "View the workflow",
+      "item_1": "<b>Members and roles</b> — a profile for each member and a separate role in each organization",
+      "item_2": "<b>Documents and decisions</b> — meeting agenda, attendance, voting results and files",
+      "item_3": "<b>News</b> — announcements for all members on the app’s home screen",
+      "item_4": "<b>Contributions and outstanding balances</b> — see who has paid and who still owes"
     },
     "s_5": {
-      "text": "Mobile workspace",
-      "title": "The organization follows members beyond the desktop",
-      "image_alt": "OrganizationOffice mobile workspace with notifications, meetings, voting, documents, calendar, and organization services",
-      "btn": "See mobile scenarios",
-      "item_1": "Receive <b>relevant notifications</b> without losing the underlying context",
-      "item_2": "Open <b>documents and available services</b> from one member workspace",
-      "item_3": "Join <b>votes and meetings</b> from the same operational flow",
-      "item_4": "Check <b>statuses and contributions</b> or reach the organization through one contact point"
+      "text": "Mobile app",
+      "title": "The organization on every member’s phone",
+      "image_alt": "OrganizationOffice mobile app screens: news, voting, meetings and the member’s contributions",
+      "btn": "Explore the app",
+      "item_1": "Read <b>organization news</b> on the home screen",
+      "item_2": "Submit <b>requests</b> and track their status",
+      "item_3": "Vote <b>online</b> — with a signature through Diia when needed",
+      "item_4": "Check <b>your contributions and outstanding balance</b>"
     },
     "s_6": {
-      "title": "Turn each meeting into a traceable decision workflow",
-      "image_alt": "Five-step OrganizationOffice meeting workflow from agenda creation and member notification to participation, recorded vote, and available outcome",
-      "btn": "See how meetings work",
-      "text_1": "A guided path from agenda to recorded outcome.",
-      "text_2": "<b>Create an agenda</b> → notify participants → join and vote → record decisions and results."
+      "title": "Hold meetings online and record decisions",
+      "image_alt": "Meeting workflow in five steps: agenda created, members notified, participation opened, vote recorded, result available",
+      "btn": "See how to hold a meeting",
+      "text_1": "See attendance, votes and the outcome of each meeting.",
+      "text_2": "<b>Prepare the agenda</b> → issue QR cards → members vote → close voting"
     },
     "s_7": {
-      "title": "Start with the way your organization already works",
-      "btn": "Review the operating model",
-      "text_1": "Map the organization",
-      "list_1_1": "Define roles, governing bodies, membership rules, and the responsibilities behind them.",
-      "text_2": "Bring in the records",
-      "list_2_1": "Add people, documents, and current statuses without losing operational context.",
-      "text_3": "Launch the routines",
-      "list_3_1": "Set up communication, contributions, and meeting workflows around real scenarios.",
-      "text_4": "Work from shared context",
-      "list_4_1": "Coordinate the team from a common operational record instead of disconnected tools.",
-      "text_5": "Decisions stay traceable",
-      "list_5_1": "Meeting materials, votes, and results remain connected for later review.",
-      "text_6": "Reporting starts with current data",
-      "list_6_1": "Review statuses and prepare transparent updates without rebuilding the story manually.",
-      "text_7": "Give boards, members, and partners the <b>context they need to understand decisions, responsibilities, and progress.</b>"
+      "title": "How to get started",
+      "btn": "View the workflow",
+      "text_1": "Describe the organization and assign roles",
+      "list_1_1": "Add the people who will use the workspace. Assign a role: administrator, manager or observer.",
+      "text_2": "Create member profiles",
+      "list_2_1": "Enter full names, contact details, photos and document details. Add your own fields if needed.",
+      "text_3": "Set up meetings, news and contributions",
+      "list_3_1": "Schedule meetings with an agenda. Publish news and track contributions.",
+      "text_4": "Give members access from their phones",
+      "list_4_1": "A member scans their QR card, enters the code and sees their data in the app.",
+      "text_5": "Hold a vote in the workspace",
+      "list_5_1": "The ballot can be signed in Diia with a qualified electronic signature (QES). Results are visible in the workspace.",
+      "text_6": "Prepare reports without manual calculations",
+      "list_6_1": "Export a financial report to PDF or Excel. Each member’s outstanding balance is visible.",
+      "text_7": "The board and members <b>can see who is responsible for what and how a decision was reached through voting.</b>"
     },
     "s_8": {
       "title": "Team",
@@ -102,254 +102,251 @@
     },
     "s_9": {
       "category": "Legal validity",
-      "category_1": "What this prevents",
-      "title": "A «Diia» signature is equivalent to a handwritten signature",
-      "description": "The Law of Ukraine «On Electronic Trust Services» equates a qualified electronic signature with a handwritten signature. A decision made in the system is not a chat poll, but a document that can be presented to a registrar and defended in court.",
-
+      "category_1": "Reducing risks",
+      "title": "A signature through Diia is equivalent to a handwritten signature",
+      "description": "The Law on Electronic Trust Services gives a qualified electronic signature (QES) the same legal effect as a handwritten signature. A decision made in the system is not a chat poll. It is a document with a QES that can be submitted to a registrar and used in court.",
       "list_1_1_value": "3 min",
-      "list_1_1_label": "signature link\nvalidity period",
-      "list_1_2_value": "100%",
-      "list_1_2_label": "voter\nidentification",
+      "list_1_1_label": "how long the signing link\nremains valid",
+      "list_1_2_value": "QES",
+      "list_1_2_label": "see exactly who\nhas voted",
       "list_1_3_value": "Log",
-      "list_1_3_label": "every request\nis recorded and verifiable",
-
-      "list_2_1_title": "The platform prepares the ballot",
-      "list_2_1_description": "The decision text is converted into a hash. The hash itself is signed — the content cannot be replaced.",
-      "list_2_2_title": "The participant signs in «Diia»",
-      "list_2_2_description": "In the app, they see the name of their organization — each platform client has its own signing branch.",
-      "list_2_3_title": "The server verifies the signature",
-      "list_2_3_description": "Verification is performed through the ACСК certificate chain. If verification fails, there is no vote. If it passes, the vote and proof are recorded in the log.",
-
-      "list_3_1": "Falsification of a paper ballot",
+      "list_1_3_label": "every call to Diia\nis logged and can be checked",
+      "list_2_1_title": "We prepare the ballot",
+      "list_2_1_description": "We turn the ballot text into a digital fingerprint. That fingerprint is what gets signed — the text cannot be substituted.",
+      "list_2_2_title": "The member signs in Diia",
+      "list_2_2_description": "The member signs the document in the Diia app. The signature is sent directly from Diia to our server.",
+      "list_2_3_title": "We verify the signature",
+      "list_2_3_description": "We check it against the accredited key certification authority’s certificate chain. If verification fails, the vote is not recorded. If it passes, the vote and proof are saved in the log.",
+      "list_3_1": "Falsified voting sheet",
       "list_3_2": "Dispute over who actually voted",
-      "list_3_3": "Registrar's refusal to accept the protocol",
-      "list_3_4": "Challenging the decision in court"
+      "list_3_3": "Votes added after the fact",
+      "list_3_4": "Doubts about the signature’s authenticity"
     }
   },
   "control": {
     "s_1": {
-      "title": "<span class='color-2'>Coordinate OrganizationOffice</span> through connected operating workflows",
-      "text": "Bring member records, responsibilities, documents, and current decisions into one working context."
+      "title": "<span class='color-2'>OrganizationOffice</span> — manage contributions, meetings and voting",
+      "text": "Manage contributions, meetings and documents. Votes can be signed through Diia using a qualified electronic signature (QES)."
     },
     "s_2": {
-      "title": "Discuss your organization setup",
+      "title": "Tell us about your organization",
       "placeholder_1": "Name",
       "placeholder_2": "Organization name",
-      "btn": "Request an implementation call"
+      "btn": "Contact us"
     },
     "s_3": {
-      "title": "How to register an OrganizationOffice on the platform?",
-      "item_1": "<b>Submit an application</b> for registration, or contact us",
-      "item_2": "<b>Send</b> important information to",
-      "item_3": "<b>We will register</b> the organization in the system and provide access to the management cabinet"
+      "title": "How do you set up your organization?",
+      "item_1": "<b>Submit a request</b> on the website or write to us",
+      "item_2": "<b>Send</b> the organization’s name, EDRPOU code and contact details to",
+      "item_3": "<b>We will create</b> your organization in the system and give you access to the workspace"
     },
     "s_4": {
-      "text": "Opportunities for Organizations",
-      "title": "Organization management cabinet",
-      "item_1": "Financial status statistics",
-      "item_2": "Tools for working with debtors",
-      "item_3": "Reporting and document section"
+      "text": "For the chair and board",
+      "title": "The organization’s board workspace",
+      "item_1": "How much each member has paid",
+      "item_2": "Who has not yet paid their contribution",
+      "item_3": "Reports in PDF and Excel"
     },
     "s_5": {
-      "title": "Personal client cabinet in the mobile app",
-      "item_1": "Organization account balance demonstration",
-      "item_2": "Payment of fees via the app",
-      "item_3": "Analytics of settlements",
-      "item_4": "Current list of debtors"
+      "title": "The mobile app for organization members",
+      "item_1": "Your contributions and outstanding balance",
+      "item_2": "History of credits and debits",
+      "item_3": "Voting directly from your phone",
+      "item_4": "Organization news"
     },
     "s_6": {
-      "title": "Finance cabinet",
-      "item_1": "Primary documentation",
-      "item_2": "Personnel accounting",
-      "item_3": "Financial and tax reporting",
-      "item_4": "Support and technical assistance"
+      "title": "What else is in the workspace",
+      "item_1": "Organization documents",
+      "item_2": "Member records",
+      "item_3": "Each member’s contribution history",
+      "item_4": "Roles and access for the board"
     },
     "s_7": {
       "title": "Demo version",
-      "text_1": "<b>Test the demo version</b> in a virtual organization. Evaluate the functionality for the board and members. Each section is filled with necessary information and shows the appearance/work of a real organization.",
-      "text_2": "To access the client demo version, download OrganizationOffice and click the “Demo version” button",
-      "text_3": "Download the app and get<br>these superpowers on your smartphone!",
+      "text_1": "<b>Try the demo</b> in the mobile app. See how the sections look to an organization member. The demo uses sample data.",
+      "text_2": "To open the demo, install OrganizationOffice and tap “Demo version”.",
+      "text_3": "Download the app — news, voting<br>and your contributions will be on your phone.",
       "btn": "Download from"
     },
     "s_8": {
-      "title": "Get OrganizationOffice administrator access",
-      "text": "After access is granted, expect a notification in the platform app",
+      "title": "Get access to the workspace",
+      "text": "We will contact you and give you access to the workspace.",
       "placeholder": "Name",
-      "btn": "Get access"
+      "btn": "Send a request"
     }
   },
   "mobile_app": {
     "s_1": {
-      "title": "Your member workspace, wherever organization work happens",
-      "text_1": "<b>Everything you need in your smartphone:</b>",
+      "title": "Your organization always at hand",
+      "text_1": "<b>Everything you need on your phone:</b>",
       "text_2": "Scan the QR code to download the app",
       "btn": "Download from",
-      "item_1": "Track the organization’s account funds",
-      "item_2": "Meet and communicate with members",
-      "item_3": "Participate in general and founding meetings online"
+      "item_1": "View your contributions and outstanding balance",
+      "item_2": "Read organization news",
+      "item_3": "Vote online in the app"
     },
     "s_2": {
-      "title": "Tell organization members",
-      "text_1": "Click “Share” and send the video to the organization chat. Suggest the board register in the <b>OrganizationOffice</b> system!",
+      "title": "Tell others about the app",
+      "text_1": "Tap “Share” and send the video to your organization’s members. Suggest that the board request access to <b>OrganizationOffice</b>.",
       "text_2": "Share"
     },
     "s_3": {
-      "title": "How to start using the OrganizationOffice app?",
-      "item_1": "Download the app and log in",
-      "item_2": "Enter the organization name",
-      "item_3": "Enter your organization number"
+      "title": "How do you start using the app?",
+      "item_1": "Download the app to your phone",
+      "item_2": "Get your membership QR card",
+      "item_3": "Scan the card and enter the code"
     },
     "s_4": {
-      "title": "Opportunities for members",
-      "item_1": "Transparency",
-      "item_2": "Communication",
-      "item_3": "Convenience",
-      "list_1_1": "<b>Control</b> of income and expenses of the Organization",
-      "list_1_2": "<b>Viewing</b> organization’s document flow",
-      "list_1_3": "<b>Displaying</b> the current list of debtors",
-      "list_1_4": "<b>Use</b> of an electronic digital signature",
-      "list_2_1": "Convenient access to your organization's <b>messenger</b>",
-      "list_2_2": "Section for <b>effective communication</b> of members and the board (announcements, surveys, voting)",
-      "list_3_1": "<b>Participation</b> in meetings online via smartphone",
-      "list_3_2": "<b>Contacts</b> of service specialists",
-      "list_3_3": "<b>History</b> of payments and charges",
-      "list_3_4": "<b>Payment</b> of fees via the app"
+      "title": "What you can do in the app",
+      "item_1": "Contributions",
+      "item_2": "News",
+      "item_3": "Meetings",
+      "list_1_1": "<b>Track</b> your credits and debits",
+      "list_1_2": "<b>See</b> which contributions have been paid",
+      "list_1_3": "<b>Check</b> your outstanding balance",
+      "list_1_4": "<b>Open</b> the details of each transaction",
+      "list_2_1": "<b>Read organization news</b> in the app’s feed",
+      "list_2_2": "Submit <b>requests</b> to the organization directly in the app",
+      "list_3_1": "<b>Vote</b> online from your phone",
+      "list_3_2": "<b>Sign</b> the ballot through Diia",
+      "list_3_3": "<b>Read</b> the meeting agenda",
+      "list_3_4": "<b>Download</b> your membership certificate as a PDF"
     },
     "s_5": {
       "title": "Demo version",
-      "text_1": "<b>Test the demo version</b> in a virtual organization. Evaluate the functionality for the board and members. Each section is filled with necessary information and shows the appearance/work of a real organization.",
-      "text_2": "To access the client demo version, download OrganizationOffice and click the “Demo version” button",
-      "text_3": "Download the app and get<br>these superpowers on your smartphone!",
+      "text_1": "<b>Try the demo version</b> of the app. See how news, voting and contributions work. The sections contain ready-to-use examples.",
+      "text_2": "Download OrganizationOffice and tap “Demo version” in the app",
+      "text_3": "Download the app<br>and try the demo yourself",
       "btn": "Download from"
     },
     "s_6": {
-      "title": "Get OrganizationOffice administrator access",
-      "text": "After access is granted, expect a notification in the platform app",
+      "title": "Request administrator access",
+      "text": "We will review your request and contact you",
       "placeholder": "Name",
-      "btn": "Get access"
+      "btn": "Send a request"
     }
   },
   "meeting": {
     "s_1": {
-      "title": "Founding and general meetings of organization members in the system",
-      "text_1": "Now it doesn’t matter where the board and owners are located.",
-      "text_2": "Meetings can be held remotely.",
-      "text_3": "<b>Available anywhere in the world!</b>",
-      "btn": "Apply"
+      "title": "Founding and general meetings online in the system",
+      "text_1": "The board and organization members can be anywhere.",
+      "text_2": "You hold the meeting online, and members join from their phones.",
+      "text_3": "<b>All you need is a phone and internet access.</b>",
+      "btn": "Send a request"
     },
     "s_2": {
-      "title": "How to hold organization meetings in the system?",
-      "item_1": "Register the organization in the system",
-      "item_2": "Submit an application for holding a meeting in OrganizationOffice",
-      "item_3": "Invite members via the mobile app",
-      "item_4": "Hold the meeting online in accordance with legislation"
+      "title": "How to hold a meeting in four steps",
+      "item_1": "Send a request — we will create the organization",
+      "item_2": "Create a meeting with an agenda",
+      "item_3": "Give members QR cards to access the app",
+      "item_4": "Hold the meeting online and get the results"
     },
     "s_3": {
-      "title": "Tell us about your meeting workflow",
+      "title": "Tell us what meetings you need to hold",
       "placeholder_1": "Name",
-      "placeholder_2": "Association name",
-      "btn": "Discuss the setup"
+      "placeholder_2": "Organization name",
+      "btn": "Send a request"
     },
     "s_4": {
       "title": "Founding and general meetings",
-      "item_1": "<b>Remote participation</b> of members",
-      "item_2": "<b>Organization meetings in each member’s smartphone</b>",
-      "item_3": "<b>100% identification</b> of members during voting",
-      "item_4": "<b>No possibility of falsifying</b> member decisions"
+      "item_1": "<b>Members participate</b> in meetings from anywhere",
+      "item_2": "<b>Meetings on the phone</b> of every organization member",
+      "item_3": "<b>See exactly who voted</b> — when voting with a signature through Diia",
+      "item_4": "<b>A vote cannot be forged</b> — the system verifies every signature"
     },
     "s_5": {
-      "title": "Get OrganizationOffice administrator access",
-      "text": "After access is granted, expect a notification in the platform app",
+      "title": "Get administrator access",
+      "text": "We will call you and help you get access.",
       "placeholder_1": "Name",
       "btn": "Get access"
     }
   },
   "tariffs": {
     "s_1": {
-      "title": "Tariffs",
-      "text_1": "Choose a tariff that suits your organization.",
-      "text_2": "The tariff includes",
-      "btn": "Connect",
+      "title": "Plans",
+      "text_1": "Choose the plan that suits your organization.",
+      "text_2": "Included in the plan",
+      "btn": "Get started",
       "title_1": "Basic",
-      "item_1": "*Free plan to explore core content and attract new users.",
+      "item_1": "*For organizations that need a member list and news in the app.",
       "value_1": "UAH/month",
-      "list_1_1": "Access to <b>basic articles and templates</b>",
-      "list_1_2": "<b>Platform news and updates</b>",
+      "list_1_1": "<b>Member list</b> with photos and contact details",
+      "list_1_2": "<b>Organization news</b> in the app",
       "title_2": "Professional",
-      "item_2": "*Provides full access to materials, training, and consulting for the active development of organizations.",
+      "item_2": "*For organizations that hold votes and meetings and track contributions.",
       "value_2": "UAH/month",
-      "list_2_1": "<b>Full access</b> to all training materials (video courses, webinars)",
-      "list_2_2": "Participation in monthly <b>online consultations with experts</b>",
-      "list_2_3": "Download <b>exclusive templates</b> and checklists",
-      "list_2_4": "Access to a <b>private community for experience sharing</b>",
+      "list_2_1": "<b>Online voting</b> with deadlines and results",
+      "list_2_2": "<b>General meetings</b>: agenda and attendance",
+      "list_2_3": "<b>Contributions and outstanding balances</b>: see how much each member has paid",
+      "list_2_4": "<b>Financial reports</b> in PDF and Excel",
       "title_3": "Premium",
-      "item_3": "*Designed for organizations ready to invest in personalized support and advanced training.",
+      "item_3": "*For those who need signing through Diia and their own LiqPay keys.",
       "value_3": "UAH/month",
-      "list_3_1": "<b>Full access</b> to all training materials (video courses, webinars)",
-      "list_3_2": "Participation in monthly <b>online consultations with experts</b>",
-      "list_3_3": "Download <b>exclusive templates</b> and checklists",
-      "list_3_4": "Access to a <b>private community for experience sharing</b>",
-      "list_3_5": "<b>Personal consultations</b> (up to 4 hours per month)",
-      "list_3_6": "Specialized <b>workshops and masterclasses</b>",
-      "list_3_7": "<b>Priority</b> customer support"
+      "list_3_1": "<b>Online voting</b> with deadlines and results",
+      "list_3_2": "<b>General meetings</b>: agenda and attendance",
+      "list_3_3": "<b>Contributions and outstanding balances</b>: see how much each member has paid",
+      "list_3_4": "<b>Financial reports</b> in PDF and Excel",
+      "list_3_5": "<b>Voting with a signature through Diia</b>",
+      "list_3_6": "<b>Your own LiqPay keys</b> for accepting payments",
+      "list_3_7": "<b>Priority</b> email support"
     },
     "s_2": {
       "title": "Frequently Asked Questions",
       "title_1": "What is the trial period?",
-      "text_1": "<ul class='list-4'><li class='mb-2'>Full access to the system and mobile app features for 14 days according to the tariff plan;</li><li class='mb-2'>Registration of the organization in the OrganizationOffice system;</li><li class='mb-2'>Training on how to use the system;</li><li class='mb-2'>Technical and consulting support.</li></ul>",
-      "title_2": "Are general meetings with QES legal?",
-      "text_2": "According to the Law of Ukraine 'On Electronic Trust Services', a qualified electronic signature (QES) is equivalent to a handwritten one. Therefore, yes, it is legally valid to sign written survey sheets and notifications of general meetings using the OrganizationOffice system.",
-      "title_3": "How can I explore the system without registration? Is there a demo version?",
-      "text_3": "Yes, there is a demo version where you can explore all sections of the system.",
-      "title_4": "Are there different access levels for users?",
-      "text_4": "Yes, of course. We provide initial access to the main administrator, and then they independently decide what access levels other users will have.",
+      "text_1": "<ul class='list-4'><li class='mb-2'>14 days of workspace and app access on your chosen plan;</li><li class='mb-2'>registration of your organization in OrganizationOffice;</li><li class='mb-2'>an introduction to using the system;</li><li class='mb-2'>answers to your questions by email.</li></ul>",
+      "title_2": "Is voting with a signature through Diia legally valid?",
+      "text_2": "The Law on Electronic Trust Services gives a qualified electronic signature (QES) the same legal effect as a handwritten signature. A signature in Diia is a QES. The ballot therefore has the same legal effect as one signed on paper.",
+      "title_3": "Can I explore the system without registering?",
+      "text_3": "Yes. The mobile app has a limited demo mode. We will show you the rest at a meeting.",
+      "title_4": "Can I give different people different permissions?",
+      "text_4": "Yes. The organization’s main administrator receives access first. They then assign roles: some people can edit data, while others can only view it.",
       "title_5": "What if I am in several organizations?",
-      "text_5": "If you are a member of multiple organizations, you can switch between them in the app menu."
+      "text_5": "Yes. You can belong to several organizations, with different roles in each. Each organization issues its own QR card for access."
     }
   },
   "admin": {
-    "title": "Login to cabinet",
-    "text_1": "For organization’s governing body",
-    "text_2": "Is your organization not with us yet? Get full access to management tools — free for 14 days.",
+    "title": "Sign in to the workspace",
+    "text_1": "For the organization’s board",
+    "text_2": "Your organization is not in the system yet? Send a request — we will set up access.",
     "text_3": "You can download the mobile app via the link",
-    "toast_1": "Incorrect login/password",
+    "toast_1": "Incorrect username or password",
     "toast_2": "Incorrect code",
-    "placeholder_1": "Login",
+    "placeholder_1": "Username",
     "placeholder_2": "Password",
     "label": "Remember me",
-    "btn": "Login",
-    "link": "Apply",
+    "btn": "Sign in",
+    "link": "Send a request",
     "app": "Download from"
   },
   "how": {
-    "title": "How OrganizationOffice Helps CSOs (Civil Society Organizations)",
-    "text": "The OrganizationOffice project can become a powerful tool for CSOs (civil society organizations), as it solves several systemic problems that hinder the development of civic initiatives.",
+    "title": "How OrganizationOffice helps your organization",
+    "text": "OrganizationOffice takes routine work off your hands. Manage your organization without piles of spreadsheets and chats.",
     "text_1": "Key idea:",
-    "text_2": "“We are creating an ecosystem where every organization can operate transparently, efficiently, and in cooperation with others.”",
-    "title_1": "Transparency and Trust",
-    "list_1_1": "The platform ensures full openness of funding, reporting, and expenses.",
-    "list_1_2": "This increases the trust of donors, partners, and citizens in the organization.",
-    "list_1_3": "Every contribution can be tracked through the control system.",
-    "title_2": "Digital Management",
-    "list_2_1": "CSOs receive a unified admin panel for coordinating projects, volunteers, members, payments, and events.",
-    "list_2_2": "Less paperwork — more time for real activities.",
-    "title_3": "Unification of Organizations",
-    "list_3_1": "The platform allows the creation of alliances, coalitions, and CSO networks.",
-    "list_3_2": "This enables joint action, access to larger grants, scaling impact, and sharing resources.",
-    "title_4": "Access to Funding",
-    "list_4_1": "Through OrganizationOffice, donors and benefactors can directly fund specific initiatives, without intermediaries.",
-    "list_4_2": "Each organization receives its own profile and trust rating.",
-    "title_5": "Analytics and Reporting",
-    "list_5_1": "The system automatically generates digital reports, performance statistics, and interactive dashboards.",
-    "list_5_2": "This simplifies reporting to donors and governmental institutions.",
-    "title_6": "Unity and Sector Development",
-    "list_6_1": "OrganizationOffice is an ecosystem that unites foundations, NGOs, cooperatives, parties, and movements in a shared digital environment.",
-    "list_6_2": "This format contributes to the sustainable development of civil society in Ukraine and worldwide."
+    "text_2": "“We made it possible for every member to see their contributions and outstanding balance.”",
+    "title_1": "Voting with a signature",
+    "list_1_1": "Members vote in the app, and you can follow the progress.",
+    "list_1_2": "When needed, the member signs the ballot in Diia.",
+    "list_1_3": "You can see every signature in the activity log.",
+    "title_2": "Everything in one workspace",
+    "list_2_1": "Members, meetings, voting, contributions and documents — in one workspace.",
+    "list_2_2": "Less paperwork — more time for your organization’s work.",
+    "title_3": "Multiple organizations",
+    "list_3_1": "Manage several organizations and switch between them in the workspace.",
+    "list_3_2": "One person can chair one organization and be a member of another.",
+    "title_4": "Organization finances",
+    "list_4_1": "Accept contributions through LiqPay into your organization’s account.",
+    "list_4_2": "Manage fundraising and see how much each person has contributed.",
+    "title_5": "Outstanding balances and reports",
+    "list_5_1": "See how much each member has paid and still owes.",
+    "list_5_2": "Export the financial report to PDF or Excel.",
+    "title_6": "Not just for civic organizations",
+    "list_6_1": "The workspace suits homeowners’ associations, cooperatives and foundations.",
+    "list_6_2": "Every organization is different: add your own fields to the member profile."
   },
   "privacy_policy": {
     "title_1": "Disclaimer",
     "text_1_1": "The OrganizationOffice platform is currently operating in test mode. Some features may be temporarily unavailable or unstable. Technical malfunctions or errors may occur during use.",
-    "text_1_2": "To improve quality, stability, and security, we may collect technical information about user interactions with the system. This data is used solely for internal analysis and is not shared with third parties, except as required by law.",
+    "text_1_2": "To improve quality, stability and security, we may collect technical information about user interactions with the system. This data is used solely for internal analysis and is not shared with third parties, except in cases provided for by law.",
     "text_1_3": "The processing of personal data is carried out in accordance with the Law of Ukraine 'On Personal Data Protection' No. 2297-VI of June 1, 2010 (as amended on 14.06.2025).",
     "text_1_4": "The official text of the law is available at:",
     "text_1_5": "Collected personal data is not transferred to third parties, except in cases provided by current legislation.",
@@ -370,7 +367,7 @@
     "list_3_2_3": "analytics, monitoring stability, and resolving technical issues;",
     "list_3_2_4": "complying with legal requirements regarding personal data processing.",
     "title_4": "2. Transfer and Storage of Personal Data",
-    "text_4_1": "Personal data is not shared with third parties without your explicit consent, except when such transfer is required by applicable law.",
+    "text_4_1": "Personal data is not shared with third parties without your explicit consent, except where such a transfer is necessary under applicable law.",
     "text_4_1_1": "Data may be shared only in the following cases:",
     "list_4_1": "fulfilling legal obligations under Ukrainian law;",
     "list_4_2": "involving authorized service providers (contractors, hosting providers, analytics platforms) that ensure the technical functioning of the platform, provided they comply with personal data protection requirements;",
