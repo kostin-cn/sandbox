@@ -1,89 +1,94 @@
 {
   "header": {
-    "title_1": "Zarząd",
-    "title_2": "Członkowie",
+    "title_1": "Możliwości",
+    "title_2": "Jak zacząć",
     "title_3": "Zebrania",
-    "title_4": "Cenniki",
+    "title_4": "Aplikacja",
     "title_5": "Kontakt",
-    "title_6": "Zarządzanie"
+    "title_6": "Logowanie do panelu",
+    "menu_label": "Otwórz menu",
+    "meta_title": "OrganizationOffice — ewidencja członków, składki i głosowanie online"
   },
   "footer": {
-    "text_1": "Dołącz do <b>ogólnoukraińskiej społeczności ORGANIZATIONS</b> na Telegramie – dziel się doświadczeniami, rozwijaj kontakty i pomysły.",
-    "text_2": "Jesteśmy w mediach społecznościowych",
-    "text_3": "Wszystkie połączenia zgodnie z planem taryfowym Twojego operatora",
-    "text_4": "Napisz do nas",
-    "text_5": "Pn-Pt od 10:00 do 18:00",
-    "text_6": "Godziny pracy",
-    "text_7": "Masz pytania?",
-    "text_8": "Zostaw swój numer — oddzwonimy w najbliższym czasie.",
+    "text_1": "Rejestr członków, zebrania, głosowanie i składki — w jednym panelu.",
+    "text_2": "Informujemy o aktualizacjach i odpowiadamy na pytania.",
+    "text_3": "Telefon wsparcia. Opłata za połączenie zgodna z taryfą operatora.",
+    "text_4": "Prosimy o kontakt e-mailowy",
+    "text_5": "Poniedziałek–piątek, 10:00–18:00",
+    "text_6": "Kiedy jesteśmy dostępni",
+    "text_7": "Czy mamy oddzwonić?",
+    "text_8": "Prosimy zostawić numer. Oddzwonimy w godzinach pracy i odpowiemy na pytania.",
     "text_9": "Wszelkie prawa zastrzeżone",
-    "btn_1": "Dołącz",
-    "btn_2": "Wyślij",
-    "title_1": "Warunki użytkowania",
+    "btn_1": "Dołącz do Telegrama",
+    "btn_2": "Zamów rozmowę",
+    "title_1": "Prywatność i warunki",
     "title_2": "Umowa publiczna (oferta)"
   },
   "email": {
     "success": "Wiadomość wysłana",
-    "error": "Nie udało się wysłać wiadomości. Spróbuj ponownie lub zadzwoń do nas.",
-    "captchaError": "Potwierdź, że nie jesteś robotem."
+    "error": "Nie udało się wysłać wiadomości. Prosimy spróbować ponownie lub zadzwonić do nas.",
+    "captchaError": "Prosimy potwierdzić: „Nie jestem robotem”."
   },
   "index": {
     "s_1": {
-      "title": "<span class='color-secondary'>OrganizationOffice</span> – cyfrowe narzędzie do nowoczesnego <span class='color-2'>zarządzania projektami i zespołami</span>",
-      "text_1": "<b>Cyfrowe środowisko</b> do efektywnej współpracy między kierownikiem, członkami zarządu, komisją rewizyjną i członkami organizacji.",
-      "text_2": "Zeskanuj kod QR, aby pobrać aplikację",
-      "text_3": "Pobierz z"
+      "title": "<span class='color-secondary'>Zarządzanie organizacją</span> w jednym panelu: <span class='color-2'>członkowie, składki, głosowanie</span>",
+      "text_1": "Widzą Państwo, kto dołączył i ile wpłacił. Planują Państwo zebrania z porządkiem obrad i prowadzą głosowanie online. Kartę do głosowania podpisuje się kwalifikowanym podpisem elektronicznym (QES) przez Diia.",
+      "text_2": "Aplikacja mobilna dla członków jest już dostępna",
+      "text_3": "Dostępne w"
     },
     "s_2": {
-      "title": "Zamów konsultację",
-      "btn": "Zamów"
+      "title": "Prosimy opisać swoją organizację",
+      "btn": "Wyślij zgłoszenie"
     },
     "s_3": {
-      "title": "Na jednej platformie",
-      "text_1": "Zadowoleni użytkownicy",
-      "text_2": "otrzymują wsparcie od OrganizationOffice",
-      "text_3": "korzystają z serwisu do przeprowadzania zebrań online"
+      "title": "Dla organizacji społecznych, fundacji, spółdzielni i wspólnot mieszkaniowych",
+      "text_1": "<b>Organizacje społeczne</b><br>Prowadzenie listy członków i ewidencji składu zarządu oraz publikowanie aktualności.",
+      "text_2": "<b>Fundacje charytatywne</b><br>Prowadzenie programów pomocowych i zbiórek funduszy. Eksport raportów do PDF i Excel.",
+      "text_3": "<b>Spółdzielnie i wspólnoty mieszkaniowe</b><br>Każdy członek widzi swoje składki, zadłużenie i głosowania w telefonie."
     },
     "s_4": {
-      "text": "dla zarządu OrganizationOffice",
-      "title": "Zarządzaj swoim OrganizationOffice<br><span class='color-4'>szybko i wygodnie, w kilku kliknięciach</span>",
-      "btn": "Dowiedz się więcej",
-      "item_1": "<b>Pełna kontrola</b> nad wskaźnikami finansowymi",
-      "item_2": "<b>Oddzielny panel</b> do zarządzania finansami",
-      "item_3": "Narzędzia do pracy z <b>dłużnikami</b>",
-      "item_4": "<b>Wygodna komunikacja</b> między członkami organizacji"
+      "text": "Codzienna praca organizacji",
+      "title": "Członkowie, składki, dokumenty i decyzje — w jednym miejscu",
+      "image_alt": "Schemat działania OrganizationOffice: członkowie, dokumenty, zebrania, głosowanie, składki, aktualności, raporty, kalendarz, aplikacja mobilna i panel internetowy",
+      "btn": "Zobacz schemat",
+      "item_1": "<b>Członkowie i role</b> — karta każdego członka i odrębna rola w każdej organizacji",
+      "item_2": "<b>Dokumenty i decyzje</b> — porządek obrad, obecność, wyniki głosowań i pliki",
+      "item_3": "<b>Aktualności</b> — ogłoszenia dla wszystkich członków na ekranie głównym aplikacji",
+      "item_4": "<b>Składki i zadłużenie</b> — widać, kto ile wpłacił i kto ma zaległości"
     },
     "s_5": {
-      "text": "dla użytkowników OrganizationOffice",
-      "title": "Aplikacja mobilna<br><span class='color-2'>dla użytkowników OrganizationOffice</span>",
-      "btn": "Dowiedz się więcej",
-      "item_1": "<b>Kontroluj</b> saldo na koncie",
-      "item_2": "Komunikuj się i współpracuj <b>z członkami organizacji</b>",
-      "item_3": "<b>Dołączaj</b> do zebrań założycielskich i ogólnych online",
-      "item_4": "Dokonuj wpłat szybko <b>przez aplikację</b>"
+      "text": "Aplikacja mobilna",
+      "title": "Organizacja w telefonie każdego członka",
+      "image_alt": "Ekrany aplikacji mobilnej OrganizationOffice: aktualności, głosowania, zebrania i składki członka",
+      "btn": "Zobacz aplikację",
+      "item_1": "Czytanie <b>aktualności organizacji</b> na ekranie głównym",
+      "item_2": "Przesyłanie <b>zgłoszeń</b> i śledzenie ich statusu",
+      "item_3": "Głosowanie <b>online</b> — w razie potrzeby z podpisem przez Diia",
+      "item_4": "Sprawdzanie <b>własnych składek i kwoty zadłużenia</b>"
     },
     "s_6": {
-      "title": "Zebrania organizacji w systemie OrganizationOffice",
-      "btn": "Dowiedz się więcej",
-      "text_1": "CO TO OZNACZA?",
-      "text_2": "Obecność fizyczna nie jest już wymagana. Zbierz zarząd i członków online – bez ograniczeń czasowych i przestrzennych, korzystając z dowolnego podpisu elektronicznego (QES)."
+      "title": "Zebrania online z zapisanymi decyzjami",
+      "image_alt": "Przebieg zebrania w pięciu krokach: utworzono porządek obrad, powiadomiono członków, otwarto udział, zapisano głos, wynik jest dostępny",
+      "btn": "Zobacz przebieg zebrania",
+      "text_1": "Widzą Państwo frekwencję, głosy i wynik każdego zebrania.",
+      "text_2": "<b>Ułożenie porządku obrad</b> → wydanie kart QR → członkowie głosują → zamknięcie głosowania"
     },
     "s_7": {
-      "title": "Jak OrganizationOffice<br><span class='color-2'>wspiera organizacje pozarządowe</span>",
-      "btn": "Dowiedz się więcej",
-      "text_1": "1. Przejrzystość i zaufanie",
-      "list_1_1": "Otwarta finansowość, kontrola wydatków, wzrost zaufania darczyńców.",
-      "text_2": "2. Zarządzanie cyfrowe",
-      "list_2_1": "Jednolity system dla projektów, wolontariuszy, raportowania i komunikacji.",
-      "text_3": "3. Łączenie organizacji",
-      "list_3_1": "Sieć partnerstw między fundacjami, NGO, spółdzielniami i partiami.",
-      "text_4": "4. Bezpośrednie finansowanie",
-      "list_4_1": "Darczyńcy wspierają inicjatywy bez pośredników — bezpieczne transakcje.",
-      "text_5": "5. Automatyczna analiza",
-      "list_5_1": "Statystyki, pulpit nawigacyjny, raporty — wszystko w jednym miejscu.",
-      "text_6": "6. Rozwój społeczeństwa obywatelskiego",
-      "list_6_1": "Ekosystem współpracy i zaufania między organizacjami nowego pokolenia.",
-      "text_7": "Tworzymy cyfrową platformę, która <b>wzmacnia przejrzystość, zaufanie i efektywność</b> każdej inicjatywy obywatelskiej."
+      "title": "Od czego zacząć",
+      "btn": "Zobacz schemat",
+      "text_1": "Opis organizacji i przydzielenie ról",
+      "list_1_1": "Prosimy dodać osoby, które będą pracować w panelu, i nadać im role: administratora, menedżera lub obserwatora.",
+      "text_2": "Utworzenie kart członków",
+      "list_2_1": "Prosimy wpisać pełne imię i nazwisko, dane kontaktowe, zdjęcie i dane dokumentów. W razie potrzeby można dodać własne pola.",
+      "text_3": "Uruchomienie zebrań, aktualności i składek",
+      "list_3_1": "Mogą Państwo planować zebrania z porządkiem obrad, publikować aktualności i prowadzić ewidencję składek.",
+      "text_4": "Dostęp dla członków przez telefon",
+      "list_4_1": "Członek skanuje kartę QR, wpisuje kod i widzi swoje dane w aplikacji.",
+      "text_5": "Głosowanie w panelu",
+      "list_5_1": "Kartę do głosowania można podpisać w Diia kwalifikowanym podpisem elektronicznym (QES). Wyniki są widoczne w panelu.",
+      "text_6": "Raporty bez ręcznych obliczeń",
+      "list_6_1": "Mogą Państwo wyeksportować raport finansowy do PDF lub Excel. Zadłużenie jest widoczne dla każdego członka.",
+      "text_7": "Zarząd i członkowie <b>widzą, kto za co odpowiada i jak podjęto decyzję w głosowaniu.</b>"
     },
     "s_8": {
       "title": "Zespół",
@@ -97,249 +102,246 @@
     },
     "s_9": {
       "category": "Moc prawna",
-      "category_1": "Co to zabezpiecza",
-      "title": "Podpis «Diia» jest równoważny podpisowi własnoręcznemu",
-      "description": "Ukraińska ustawa «O usługach zaufania elektronicznego» zrównuje kwalifikowany podpis elektroniczny z podpisem własnoręcznym. Decyzja podjęta w systemie nie jest ankietą na czacie, lecz dokumentem, który można przedstawić rejestratorowi i bronić w sądzie.",
-
+      "category_1": "Ograniczamy ryzyka",
+      "title": "Podpis przez Diia jest równoważny podpisowi własnoręcznemu",
+      "description": "Ustawa „O elektronicznych usługach zaufania” zrównuje kwalifikowany podpis elektroniczny (QES) z podpisem własnoręcznym. Decyzja podjęta w systemie nie jest ankietą na czacie. To dokument z QES, który można przedłożyć organowi rejestrowemu i wykorzystać w sądzie.",
       "list_1_1_value": "3 min",
-      "list_1_1_label": "czas ważności linku\ndo podpisu",
-      "list_1_2_value": "100%",
-      "list_1_2_label": "identyfikacja\ngłosującego",
+      "list_1_1_label": "tak długo działa link\ndo podpisania",
+      "list_1_2_value": "QES",
+      "list_1_2_label": "widać, kto dokładnie\noddał głos",
       "list_1_3_value": "Dziennik",
-      "list_1_3_label": "każde działanie\njest zapisane i możliwe do zweryfikowania",
-
-      "list_2_1_title": "Platforma przygotowuje kartę do głosowania",
-      "list_2_1_description": "Treść decyzji jest przekształcana w hash. Podpisywany jest właśnie hash — treści nie można podmienić.",
-      "list_2_2_title": "Uczestnik podpisuje w «Diia»",
-      "list_2_2_description": "W aplikacji widzi nazwę swojej organizacji — każdy klient platformy ma własną gałąź podpisu.",
-      "list_2_3_title": "Serwer weryfikuje podpis",
-      "list_2_3_description": "Weryfikacja odbywa się na podstawie łańcucha certyfikatów ACСК. Weryfikacja nieudana — głosu nie ma. Weryfikacja pomyślna — głos i dowód są zapisywane w dzienniku.",
-
-      "list_3_1": "Fałszowanie karty do głosowania",
-      "list_3_2": "Spór o to, kto faktycznie głosował",
-      "list_3_3": "Odmowa przyjęcia protokołu przez rejestratora",
-      "list_3_4": "Zaskarżenie decyzji w sądzie"
+      "list_1_3_label": "każde wywołanie Diia\njest zapisane i można je sprawdzić",
+      "list_2_1_title": "Przygotowujemy kartę do głosowania",
+      "list_2_1_description": "Tekst karty do głosowania przekształcamy w cyfrowy odcisk. Podpis dotyczy właśnie jego — tekstu nie można podmienić.",
+      "list_2_2_title": "Członek podpisuje w Diia",
+      "list_2_2_description": "Członek podpisuje dokument w aplikacji Diia. Podpis trafia stamtąd bezpośrednio na nasz serwer.",
+      "list_2_3_title": "Sprawdzamy podpis",
+      "list_2_3_description": "Porównujemy go z łańcuchem certyfikatów akredytowanego centrum certyfikacji kluczy (ATsSK). Weryfikacja nieudana — głos nie jest zapisany. Weryfikacja pomyślna — głos i dowód trafiają do dziennika.",
+      "list_3_1": "Sfałszowana karta do głosowania",
+      "list_3_2": "Spór o to, kto dokładnie oddał głos",
+      "list_3_3": "Głosy dopisane po fakcie",
+      "list_3_4": "Wątpliwości co do autentyczności podpisu"
     }
   },
   "control": {
     "s_1": {
-      "title": "<span class='color-2'>Zarządzaj OrganizationOffice</span> w kilka kliknięć",
-      "text": "Wdrażaj nowoczesne technologie w swojej organizacji. Ułatw interakcję uczestników platformy między sobą!"
+      "title": "<span class='color-2'>OrganizationOffice</span> — zarządzanie składkami, zebraniami i głosowaniem",
+      "text": "Mogą Państwo prowadzić ewidencję składek, organizować zebrania i zarządzać dokumentami. Głosowanie może odbywać się z podpisem przez Diia — kwalifikowanym podpisem elektronicznym (QES)."
     },
     "s_2": {
-      "title": "Zamów konsultację",
+      "title": "Prosimy opisać swoją organizację",
       "placeholder_1": "Imię",
-      "placeholder_2": "Nazwa stowarzyszenia",
-      "btn": "Zamów"
+      "placeholder_2": "Nazwa organizacji",
+      "btn": "Kontakt"
     },
     "s_3": {
-      "title": "Jak zarejestrować OrganizationOffice na platformie?",
-      "item_1": "<b>Złóż wniosek</b> o rejestrację lub skontaktuj się z nami",
-      "item_2": "<b>Wyślij</b> istotne informacje na",
-      "item_3": "<b>Zarejestrujemy</b> organizację w systemie i zapewnimy dostęp do panelu zarządzania"
+      "title": "Jak uruchomić swoją organizację w systemie?",
+      "item_1": "<b>Prosimy przesłać zgłoszenie</b> na stronie lub napisać do nas",
+      "item_2": "<b>Prosimy przesłać</b> nazwę, kod EDRPOU i dane kontaktowe na adres",
+      "item_3": "<b>Utworzymy</b> Państwa organizację w systemie i udostępnimy panel"
     },
     "s_4": {
-      "text": "Możliwości dla organizacji",
-      "title": "Panel zarządu organizacją",
-      "item_1": "Statystyki stanu finansowego",
-      "item_2": "Narzędzia do pracy z dłużnikami",
-      "item_3": "Sekcja raportów i dokumentów"
+      "text": "Dla przewodniczącego i zarządu",
+      "title": "Panel zarządu organizacji",
+      "item_1": "Kto ile wpłacił",
+      "item_2": "Kto jeszcze nie opłacił składki",
+      "item_3": "Raporty w PDF i Excel"
     },
     "s_5": {
-      "title": "Osobisty panel klienta w aplikacji mobilnej",
-      "item_1": "Pokaz stanu konta organizacji",
-      "item_2": "Opłata składek przez aplikację",
-      "item_3": "Analiza rozliczeń",
-      "item_4": "Aktualna lista dłużników"
+      "title": "Aplikacja mobilna dla członka organizacji",
+      "item_1": "Własne składki i zadłużenie",
+      "item_2": "Historia wpływów i obciążeń",
+      "item_3": "Głosowanie bezpośrednio w telefonie",
+      "item_4": "Aktualności organizacji"
     },
     "s_6": {
-      "title": "Panel finansów",
-      "item_1": "Dokumentacja podstawowa",
-      "item_2": "Ewidencja kadrowa",
-      "item_3": "Raporty finansowe i podatkowe",
-      "item_4": "Wsparcie i pomoc techniczna"
+      "title": "Co jeszcze jest w panelu",
+      "item_1": "Dokumenty organizacji",
+      "item_2": "Ewidencja członków",
+      "item_3": "Historia składek każdego członka",
+      "item_4": "Role i uprawnienia dla zarządu"
     },
     "s_7": {
       "title": "Wersja demo",
-      "text_1": "<b>Testuj wersję demo</b> w wirtualnej organizacji. Oceń funkcjonalność dla zarządu i członków organizacji. Każda sekcja jest wypełniona potrzebnymi informacjami i pokazuje wygląd/pracę rzeczywistej organizacji",
-      "text_2": "Aby uzyskać dostęp do wersji demo dla klienta, pobierz OrganizationOffice i kliknij przycisk “Wersja demo”",
-      "text_3": "Pobierz aplikację i zyskaj<br>te niesamowite funkcje na swoim smartfonie!",
+      "text_1": "<b>Zapraszamy do wypróbowania demo</b> w aplikacji mobilnej. Mogą Państwo zobaczyć, jak wyglądają poszczególne sekcje z perspektywy członka organizacji. Demo zawiera przykładowe dane.",
+      "text_2": "Aby otworzyć demo, prosimy zainstalować OrganizationOffice i nacisnąć przycisk „Wersja demo”.",
+      "text_3": "Po pobraniu aplikacji aktualności, głosowania<br>i Państwa składki będą dostępne w telefonie.",
       "btn": "Pobierz z"
     },
     "s_8": {
-      "title": "Uzyskaj dostęp administratora OrganizationOffice",
-      "text": "Po udzieleniu dostępu oczekuj powiadomienia w aplikacji platformy",
+      "title": "Dostęp do panelu",
+      "text": "Skontaktujemy się z Państwem i udostępnimy panel.",
       "placeholder": "Imię",
-      "btn": "Uzyskaj dostęp"
+      "btn": "Wyślij zgłoszenie"
     }
   },
   "mobile_app": {
     "s_1": {
-      "title": "Aplikacja mobilna dla członków OrganizationOffice",
-      "text_1": "<b>Wszystko, czego potrzebujesz w swoim smartfonie:</b>",
-      "text_2": "Skanuj kod QR, aby pobrać aplikację",
+      "title": "Organizacja zawsze pod ręką",
+      "text_1": "<b>Wszystko, co potrzebne — w Państwa telefonie:</b>",
+      "text_2": "Prosimy zeskanować kod QR, aby pobrać aplikację",
       "btn": "Pobierz z",
-      "item_1": "Śledź środki na koncie organizacji",
-      "item_2": "Poznawaj i komunikuj się z członkami organizacji",
-      "item_3": "Uczestnicz w zgromadzeniach ogólnych i założycielskich online"
+      "item_1": "Podgląd własnych składek i kwoty zadłużenia",
+      "item_2": "Aktualności organizacji",
+      "item_3": "Głosowanie online w aplikacji"
     },
     "s_2": {
-      "title": "Opowiadaj członkom organizacji",
-      "text_1": "Kliknij “Udostępnij” i wyślij wideo do czatu organizacji. Zachęcaj zarząd organizacji do rejestracji w systemie <b>OrganizationOffice!</b>",
+      "title": "Prosimy opowiedzieć o aplikacji",
+      "text_1": "Prosimy nacisnąć „Udostępnij” i przesłać film członkom organizacji. Warto zaproponować zarządowi złożenie wniosku o dostęp do <b>OrganizationOffice</b>.",
       "text_2": "Udostępnij"
     },
     "s_3": {
-      "title": "Jak rozpocząć korzystanie z aplikacji OrganizationOffice?",
-      "item_1": "Pobierz aplikację i zaloguj się",
-      "item_2": "Wprowadź nazwę organizacji",
-      "item_3": "Podaj numer swojej organizacji"
+      "title": "Jak zacząć korzystać z aplikacji?",
+      "item_1": "Pobranie aplikacji na telefon",
+      "item_2": "Przygotowanie członkowskiej karty QR",
+      "item_3": "Zeskanowanie karty i wpisanie kodu"
     },
     "s_4": {
-      "title": "Możliwości dla członków organizacji",
-      "item_1": "Przejrzystość",
-      "item_2": "Komunikacja",
-      "item_3": "Wygoda",
-      "list_1_1": "<b>Kontrola</b> wpływów i wydatków na koncie organizacji",
-      "list_1_2": "<b>Podgląd</b> dokumentacji organizacji",
-      "list_1_3": "<b>Pokaz</b> aktualnej listy dłużników",
-      "list_1_4": "<b>Użycie</b> podpisu elektronicznego",
-      "list_2_1": "Wygodne przejście do <b>messengera</b> Twojej organizacji",
-      "list_2_2": "Sekcja do <b>efektywnej komunikacji członków</b> i zarządu <b>organizacji</b> (ogłoszenia, ankiety, głosowania)",
-      "list_3_1": "<b>Uczestnictwo</b> w zgromadzeniach ogólnych i założycielskich online ze smartfona",
-      "list_3_2": "<b>Kontakty</b> specjalistów obsługi",
-      "list_3_3": "<b>Historia</b> płatności i naliczeń w organizacji",
-      "list_3_4": "<b>Płatności</b> składek przez aplikację"
+      "title": "Co można robić w aplikacji",
+      "item_1": "Składki",
+      "item_2": "Aktualności",
+      "item_3": "Zebrania",
+      "list_1_1": "<b>Śledzenie</b> własnych wpływów i obciążeń",
+      "list_1_2": "<b>Podgląd</b> opłaconych składek",
+      "list_1_3": "<b>Sprawdzanie</b> kwoty własnego zadłużenia",
+      "list_1_4": "<b>Otwieranie</b> szczegółów każdej operacji",
+      "list_2_1": "<b>Czytanie aktualności</b> organizacji w kanale aplikacji",
+      "list_2_2": "Przesyłanie <b>zgłoszeń</b> do organizacji bezpośrednio w aplikacji",
+      "list_3_1": "<b>Głosowanie</b> online z telefonu",
+      "list_3_2": "<b>Podpisywanie</b> karty do głosowania przez Diia",
+      "list_3_3": "<b>Czytanie</b> porządku obrad zebrania",
+      "list_3_4": "<b>Pobieranie</b> zaświadczenia członka w PDF"
     },
     "s_5": {
       "title": "Wersja demo",
-      "text_1": "<b>Testuj wersję demo</b> w wirtualnej organizacji. Oceń funkcjonalność dla zarządu i członków organizacji. Każda sekcja jest wypełniona potrzebnymi informacjami i pokazuje wygląd/pracę rzeczywistej organizacji",
-      "text_2": "Aby uzyskać dostęp do wersji demo dla klienta, pobierz OrganizationOffice i kliknij przycisk “Wersja demo”",
-      "text_3": "Pobierz aplikację i zyskaj<br>te niesamowite funkcje na swoim smartfonie!",
+      "text_1": "<b>Zapraszamy do wypróbowania wersji demo</b> aplikacji. Mogą Państwo zobaczyć, jak wyglądają aktualności, głosowania i składki. Sekcje zawierają gotowe przykłady.",
+      "text_2": "Prosimy pobrać OrganizationOffice i nacisnąć w aplikacji przycisk „Wersja demo”",
+      "text_3": "Po pobraniu aplikacji<br>mogą Państwo samodzielnie wypróbować wersję demo",
       "btn": "Pobierz z"
     },
     "s_6": {
-      "title": "Uzyskaj dostęp administratora OrganizationOffice",
-      "text": "Po udzieleniu dostępu oczekuj powiadomienia w aplikacji platformy",
+      "title": "Wniosek o dostęp administratora",
+      "text": "Rozpatrzymy wniosek i skontaktujemy się z Państwem",
       "placeholder": "Imię",
-      "btn": "Uzyskaj dostęp"
+      "btn": "Wyślij zgłoszenie"
     }
   },
   "meeting": {
     "s_1": {
-      "title": "Zgromadzenia założycielskie i walne członków organizacji w systemie",
-      "text_1": "Teraz nie ma znaczenia, gdzie znajduje się zarząd i współwłaściciele organizacji.",
-      "text_2": "Zgromadzenia można prowadzić i w nich uczestniczyć zdalnie.",
-      "text_3": "<b>Dostępne w każdym zakątku świata!</b>",
-      "btn": "Złóż wniosek"
+      "title": "Zebrania założycielskie i walne online w systemie",
+      "text_1": "Zarząd i członkowie organizacji mogą znajdować się w dowolnym miejscu.",
+      "text_2": "Prowadzą Państwo zebranie online, a członkowie dołączają z telefonu.",
+      "text_3": "<b>Wystarczy telefon i internet.</b>",
+      "btn": "Wyślij zgłoszenie"
     },
     "s_2": {
-      "title": "Jak przeprowadzić zgromadzenie organizacji w systemie?",
-      "item_1": "Zarejestruj organizację w systemie",
-      "item_2": "Złóż wniosek o przeprowadzenie zgromadzenia organizacji w systemie OrganizationOffice",
-      "item_3": "Zaproś członków w aplikacji mobilnej",
-      "item_4": "Przeprowadź zgromadzenie organizacji online zgodnie z obowiązującymi przepisami"
+      "title": "Jak przeprowadzić zebranie: cztery kroki",
+      "item_1": "Przesłanie zgłoszenia — utworzymy organizację",
+      "item_2": "Utworzenie zebrania z porządkiem obrad",
+      "item_3": "Wydanie członkom kart QR do logowania w aplikacji",
+      "item_4": "Przeprowadzenie zebrania online i uzyskanie wyniku"
     },
     "s_3": {
-      "title": "Zamów konsultację",
+      "title": "Prosimy opisać planowane zebranie",
       "placeholder_1": "Imię",
-      "placeholder_2": "Nazwa stowarzyszenia",
-      "btn": "Zamów"
+      "placeholder_2": "Nazwa organizacji",
+      "btn": "Wyślij zapytanie"
     },
     "s_4": {
-      "title": "Zgromadzenia założycielskie i ogólne",
-      "item_1": "<b>Udział</b> członków organizacji w zgromadzeniach zdalnie",
-      "item_2": "<b>Zgromadzenia organizacji w smartfonie</b> każdego członka organizacji",
-      "item_3": "<b>100% identyfikacja członka organizacji</b>, który uczestniczy w głosowaniu",
-      "item_4": "<b>Brak możliwości fałszowania</b> decyzji członka organizacji"
+      "title": "Zebrania założycielskie i walne",
+      "item_1": "<b>Członkowie uczestniczą</b> w zebraniach z dowolnego miejsca",
+      "item_2": "<b>Zebrania w telefonie</b> każdego członka organizacji",
+      "item_3": "<b>Widać, kto dokładnie oddał głos</b> — w głosowaniu z podpisem przez Diia",
+      "item_4": "<b>Głosu nie można sfałszować</b> — system sprawdza każdy podpis"
     },
     "s_5": {
-      "title": "Uzyskaj dostęp administratora OrganizationOffice",
-      "text": "Po udzieleniu dostępu oczekuj powiadomienia w aplikacji platformy",
+      "title": "Dostęp administratora",
+      "text": "Zadzwonimy i pomożemy uzyskać dostęp.",
       "placeholder_1": "Imię",
       "btn": "Uzyskaj dostęp"
     }
   },
   "tariffs": {
     "s_1": {
-      "title": "Taryfy",
-      "text_1": "Wybierz taryfę odpowiednią dla Twojej organizacji.",
-      "text_2": "Taryfa obejmuje",
+      "title": "Cennik",
+      "text_1": "Prosimy wybrać plan odpowiedni dla Państwa organizacji.",
+      "text_2": "Plan obejmuje",
       "btn": "Aktywuj",
       "title_1": "Podstawowy",
-      "item_1": "*Bezpłatny, aby zapoznać się z podstawowymi treściami i przyciągnąć nowych użytkowników.",
+      "item_1": "*Dla organizacji, które potrzebują listy członków i aktualności w aplikacji.",
       "value_1": "UAH/mies.",
-      "list_1_1": "Dostęp do <b>podstawowych artykułów i szablonów</b>",
-      "list_1_2": "<b>Aktualności i aktualizacje</b> platformy",
+      "list_1_1": "<b>Lista członków</b> ze zdjęciami i danymi kontaktowymi",
+      "list_1_2": "<b>Aktualności organizacji</b> w aplikacji",
       "title_2": "Profesjonalny",
-      "item_2": "*Zapewnia pełny dostęp do materiałów, szkoleń i konsultacji w celu aktywnego rozwoju organizacji.",
+      "item_2": "*Dla organizacji, które prowadzą głosowania i zebrania oraz rozliczają składki.",
       "value_2": "UAH/mies.",
-      "list_2_1": "<b>Pełny dostęp</b> do wszystkich materiałów szkoleniowych (kursy wideo, webinary)",
-      "list_2_2": "Udział w comiesięcznych <b>konsultacjach online z ekspertami</b>",
-      "list_2_3": "Pobieranie <b>unikalnych szablonów</b> i checklist",
-      "list_2_4": "Dostęp do <b>zamkniętej społeczności wymiany doświadczeń</b>",
+      "list_2_1": "<b>Głosowanie online</b> z terminami i wynikami",
+      "list_2_2": "<b>Zebrania walne</b>: porządek obrad i obecność",
+      "list_2_3": "<b>Składki i zadłużenie</b>: widać, kto ile wpłacił",
+      "list_2_4": "<b>Raporty finansowe</b> w PDF i Excel",
       "title_3": "Premium",
-      "item_3": "*Dla organizacji gotowych inwestować w indywidualne wsparcie i pogłębione szkolenia.",
+      "item_3": "*Dla organizacji, które potrzebują podpisu przez Diia i własnych kluczy LiqPay.",
       "value_3": "UAH/mies.",
-      "list_3_1": "<b>Pełny dostęp</b> do wszystkich materiałów szkoleniowych (kursy wideo, webinary)",
-      "list_3_2": "Udział w comiesięcznych <b>konsultacjach online z ekspertami</b>",
-      "list_3_3": "Pobieranie <b>unikalnych szablonów</b> i checklist",
-      "list_3_4": "Dostęp do <b>zamkniętej społeczności wymiany doświadczeń</b>",
-      "list_3_5": "<b>Indywidualne konsultacje</b> (do 4 godzin miesięcznie)",
-      "list_3_6": "<b>Specjalistyczne warsztaty i masterclass</b>",
-      "list_3_7": "<b>Priorytetowe</b> wsparcie klienta"
+      "list_3_1": "<b>Głosowanie online</b> z terminami i wynikami",
+      "list_3_2": "<b>Zebrania walne</b>: porządek obrad i obecność",
+      "list_3_3": "<b>Składki i zadłużenie</b>: widać, kto ile wpłacił",
+      "list_3_4": "<b>Raporty finansowe</b> w PDF i Excel",
+      "list_3_5": "<b>Głosowanie z podpisem przez Diia</b>",
+      "list_3_6": "<b>Własne klucze LiqPay</b> do przyjmowania płatności",
+      "list_3_7": "<b>Priorytetowe</b> wsparcie e-mailowe"
     },
     "s_2": {
       "title": "Najczęściej zadawane pytania",
       "title_1": "Co to jest okres testowy?",
-      "text_1": "<ul class='list-4'><li class='mb-2'>Pełny dostęp do funkcji systemu i aplikacji mobilnej przez 14 dni zgodnie z planem taryfowym;</li><li class='mb-2'>Rejestracja organizacji w systemie OrganizationOffice;</li><li class='mb-2'>Szkolenie z obsługi systemu;</li><li class='mb-2'>Wsparcie techniczne i konsultacyjne.</li></ul>",
-      "title_2": "Czy walne zgromadzenia z kwalifikowanym podpisem elektronicznym (QES) są legalne?",
-      "text_2": "Zgodnie z ustawą Ukrainy „O usługach zaufania elektronicznego” kwalifikowany podpis elektroniczny (QES) jest równoważny podpisowi własnoręcznemu. Dlatego tak, podpisywanie ankiet pisemnych oraz zawiadomień o walnych zgromadzeniach jest legalne przy użyciu systemu OrganizationOffice.",
-      "title_3": "Jak mogę zapoznać się z systemem bez rejestracji? Czy istnieje wersja demo?",
-      "text_3": "Tak, istnieje wersja demo, w której można zapoznać się ze wszystkimi sekcjami systemu.",
-      "title_4": "Czy istnieją różne poziomy dostępu dla użytkowników?",
-      "text_4": "Tak, oczywiście. Najpierw udzielamy dostępu głównemu administratorowi, a następnie on sam decyduje, jakie poziomy dostępu będą mieli pozostali użytkownicy.",
+      "text_1": "<ul class='list-4'><li class='mb-2'>14 dni dostępu do panelu i aplikacji w wybranym planie;</li><li class='mb-2'>rejestracja Państwa organizacji w OrganizationOffice;</li><li class='mb-2'>pokaz obsługi systemu;</li><li class='mb-2'>odpowiedzi na Państwa pytania e-mailem.</li></ul>",
+      "title_2": "Czy głosowanie z podpisem przez Diia jest zgodne z prawem?",
+      "text_2": "Ustawa „O elektronicznych usługach zaufania” zrównuje kwalifikowany podpis elektroniczny (QES) z podpisem własnoręcznym. Podpis w Diia jest QES. Dlatego karta do głosowania ma taką samą moc jak karta podpisana na papierze.",
+      "title_3": "Czy można obejrzeć system bez rejestracji?",
+      "text_3": "Tak. Aplikacja mobilna ma tryb demo z ograniczeniami. Pozostałe funkcje pokażemy podczas spotkania.",
+      "title_4": "Czy można nadać różnym osobom różne uprawnienia?",
+      "text_4": "Tak. Najpierw dostęp otrzymuje główny administrator organizacji. Następnie sam przydziela role: jedni mogą edytować dane, inni tylko je przeglądać.",
       "title_5": "A jeśli należę do kilku organizacji?",
-      "text_5": "Jeśli jesteś członkiem kilku organizacji, masz możliwość przełączania się między nimi w menu aplikacji."
+      "text_5": "Tak. Można należeć do kilku organizacji i mieć inną rolę w każdej z nich. Każda organizacja wydaje własną kartę QR do logowania."
     }
   },
   "admin": {
     "title": "Logowanie do panelu",
-    "text_1": "Dla organu zarządzającego organizacją",
-    "text_2": "Twoja organizacja nie jest jeszcze z nami? Uzyskaj pełny dostęp do narzędzi zarządzania — za darmo przez 14 dni.",
-    "text_3": "Aplikację mobilną możesz pobrać pod linkiem",
-    "toast_1": "Nieprawidłowy login/hasło",
+    "text_1": "Dla zarządu organizacji",
+    "text_2": "Państwa organizacji nie ma jeszcze w systemie? Prosimy przesłać zgłoszenie — udostępnimy panel.",
+    "text_3": "Aplikację mobilną można pobrać pod podanym linkiem",
+    "toast_1": "Nieprawidłowy login lub hasło",
     "toast_2": "Nieprawidłowy kod",
     "placeholder_1": "Login",
     "placeholder_2": "Hasło",
     "label": "Zapamiętaj mnie",
     "btn": "Zaloguj się",
-    "link": "Złóż wniosek",
+    "link": "Wyślij zgłoszenie",
     "app": "Pobierz z"
   },
   "how": {
-    "title": "Jak OrganizationOffice pomaga OSC (organizacjom społeczeństwa obywatelskiego)",
-    "text": "Projekt OrganizationOffice może stać się potężnym narzędziem dla OSC (organizacji społeczeństwa obywatelskiego), ponieważ rozwiązuje kilka systemowych problemów, które spowalniają rozwój inicjatyw obywatelskich.",
-    "text_1": "Kluczowa idea:",
-    "text_2": "„Tworzymy ekosystem, w którym każda organizacja może działać transparentnie, efektywnie i we współpracy z innymi.”",
-    "title_1": "Przejrzystość i zaufanie",
-    "list_1_1": "Platforma zapewnia pełną transparentność finansowania, sprawozdawczości i wydatków.",
-    "list_1_2": "To zwiększa zaufanie darczyńców, partnerów i obywateli do organizacji.",
-    "list_1_3": "Każdy wkład można śledzić dzięki systemowi kontroli.",
-    "title_2": "Cyfrowe zarządzanie",
-    "list_2_1": "OSC otrzymują jednolity panel administracyjny do koordynacji projektów, wolontariuszy, członków, płatności i wydarzeń.",
-    "list_2_2": "Mniej papierowej biurokracji — więcej czasu na realne działania.",
-    "title_3": "Łączenie organizacji",
-    "list_3_1": "Platforma umożliwia tworzenie sojuszy, koalicji i sieci OSC.",
-    "list_3_2": "Pozwala to działać wspólnie, pozyskiwać większe granty, zwiększać wpływ i dzielić się zasobami.",
-    "title_4": "Dostęp do finansowania",
-    "list_4_1": "Dzięki OrganizationOffice darczyńcy i sponsorzy mogą bezpośrednio finansować konkretne inicjatywy, bez pośredników.",
-    "list_4_2": "Każda organizacja otrzymuje własny profil i wskaźnik zaufania.",
-    "title_5": "Analityka i raportowanie",
-    "list_5_1": "System automatycznie tworzy cyfrowe raporty, statystyki efektywności i interaktywne pulpity.",
-    "list_5_2": "Ułatwia to składanie raportów darczyńcom i instytucjom publicznym.",
-    "title_6": "Jedność i rozwój sektora",
-    "list_6_1": "OrganizationOffice to ekosystem, który łączy fundacje, NGO, spółdzielnie, partie i ruchy w jednym środowisku cyfrowym.",
-    "list_6_2": "Taki model sprzyja trwałemu rozwojowi społeczeństwa obywatelskiego w Ukrainie i na świecie."
+    "title": "Jak OrganizationOffice pomaga Państwa organizacji",
+    "text": "OrganizationOffice odciąża Państwa w codziennych zadaniach. Organizacją można zarządzać bez stosu arkuszy i czatów.",
+    "text_1": "Główna myśl:",
+    "text_2": "„Zadbaliśmy o to, aby każdy członek widział swoje składki i zadłużenie.”",
+    "title_1": "Głosowanie z podpisem",
+    "list_1_1": "Członkowie głosują w aplikacji, a Państwo widzą przebieg głosowania.",
+    "list_1_2": "W razie potrzeby członek podpisuje kartę do głosowania w Diia.",
+    "list_1_3": "Każdy podpis jest widoczny w dzienniku operacji.",
+    "title_2": "Wszystko w jednym panelu",
+    "list_2_1": "W jednym panelu — członkowie, zebrania, głosowania, składki i dokumenty.",
+    "list_2_2": "Mniej dokumentów papierowych — więcej czasu na pracę organizacji.",
+    "title_3": "Kilka organizacji",
+    "list_3_1": "Mogą Państwo zarządzać kilkoma organizacjami i przełączać się między nimi w panelu.",
+    "list_3_2": "Ta sama osoba może być przewodniczącym w jednej organizacji i członkiem w innej.",
+    "title_4": "Finanse organizacji",
+    "list_4_1": "Składki przyjmują Państwo przez LiqPay na rachunek organizacji.",
+    "list_4_2": "Prowadzą Państwo zbiórkę funduszy i widzą, kto ile wpłacił.",
+    "title_5": "Zadłużenie i raporty",
+    "list_5_1": "Widzą Państwo, kto ile wpłacił i jakie ma zadłużenie.",
+    "list_5_2": "Raport finansowy mogą Państwo wyeksportować do PDF lub Excel.",
+    "title_6": "Nie tylko dla organizacji społecznych",
+    "list_6_1": "Panel sprawdza się we wspólnotach mieszkaniowych, spółdzielniach i fundacjach.",
+    "list_6_2": "Każda organizacja jest inna: pola w formularzu członka dodają Państwo samodzielnie."
   },
   "privacy_policy": {
     "title_1": "Zastrzeżenie",
@@ -352,11 +354,11 @@
     "text_1_7": "W sprawach dotyczących przetwarzania danych osobowych prosimy o kontakt pod adresem:",
     "title_2": "Polityka prywatności",
     "text_2_1": "Ostatnia aktualizacja: 5 sierpnia 2025 roku",
-    "text_2_2": "Platforma OrganizationOffice (dalej – „Platforma”, „My”) określa zasady gromadzenia, przetwarzania, przechowywania i ochrony danych osobowych użytkowników (dalej – „Ty”, „Użytkownicy”) podczas korzystania z naszych zasobów internetowych i usług.",
+    "text_2_2": "Platforma OrganizationOffice (dalej — „Platforma”, „My”) określa zasady gromadzenia, przetwarzania, przechowywania i ochrony danych osobowych użytkowników (dalej — „Państwo”, „Użytkownicy”) podczas korzystania z naszych zasobów internetowych i usług.",
     "title_3": "1. Zbieranie i przetwarzanie danych osobowych",
     "text_3_1": "Platforma zbiera i przetwarza dane osobowe użytkowników w celu zapewnienia dostępu do usług, wsparcia funkcjonalności oraz wypełniania wymogów prawnych.",
     "text_3_1_1": "Kategorie przetwarzanych danych:",
-    "list_3_1_1": "Dane identyfikacyjne i kontaktowe: imię i nazwisko, adres e-mail, numer telefonu.",
+    "list_3_1_1": "Dane identyfikacyjne i kontaktowe: imię, adres e-mail, numer telefonu.",
     "list_3_1_2": "Informacje techniczne: adres IP, typ i wersja przeglądarki, model urządzenia, system operacyjny, język interfejsu, data i godzina dostępu, odwiedzane strony.",
     "list_3_1_3": "Dane dotyczące interakcji: działania użytkownika na platformie, zgłoszenia do wsparcia, ustawienia profilu, wybrane funkcje.",
     "text_3_2": "Cele przetwarzania danych:",
@@ -365,7 +367,7 @@
     "list_3_2_3": "analiza, monitorowanie stabilności i usuwanie awarii technicznych;",
     "list_3_2_4": "przestrzeganie wymogów obowiązującego prawa dotyczącego przetwarzania danych osobowych.",
     "title_4": "2. Przekazywanie i przechowywanie danych osobowych",
-    "text_4_1": "Dane osobowe nie są przekazywane osobom trzecim bez Twojej wyraźnej zgody, z wyjątkiem przypadków, gdy taka transmisja jest konieczna zgodnie z obowiązującym prawem.",
+    "text_4_1": "Dane osobowe nie są przekazywane osobom trzecim bez Państwa wyraźnej zgody, z wyjątkiem przypadków, gdy takie przekazanie jest niezbędne zgodnie z obowiązującym prawem.",
     "text_4_1_1": "Dane mogą być przekazywane wyłącznie w następujących przypadkach:",
     "list_4_1": "wykonywanie obowiązków prawnych przewidzianych prawem Ukrainy;",
     "list_4_2": "zaangażowanie uprawnionych dostawców usług (podwykonawców, dostawców hostingu, platform analitycznych) zapewniających funkcjonowanie techniczne platformy, pod warunkiem przestrzegania przez nich wymogów ochrony danych osobowych;",
@@ -373,8 +375,8 @@
     "text_4_2": "Okres przechowywania danych:",
     "text_4_2_1": "Dane osobowe są przechowywane nie dłużej niż 5 lat od ostatniej aktywności użytkownika, chyba że inny okres jest określony przepisami prawa lub warunkami korzystania z usługi.",
     "title_5": "3. Prawa użytkowników",
-    "text_5_1": "Każdy użytkownik ma prawa gwarantowane przez prawo dotyczące swoich danych osobowych. Masz prawo:",
-    "list_5_1": "otrzymać potwierdzenie przetwarzania Twoich danych osobowych oraz dostęp do nich;",
+    "text_5_1": "Każdy użytkownik ma zagwarantowane prawem uprawnienia dotyczące swoich danych osobowych. Mają Państwo prawo:",
+    "list_5_1": "otrzymać potwierdzenie przetwarzania Państwa danych osobowych oraz dostęp do nich;",
     "list_5_2": "żądać korekty, aktualizacji, poprawienia lub usunięcia nieścisłych lub przestarzałych danych;",
     "list_5_3": "cofnąć zgodę na przetwarzanie danych osobowych w dowolnym momencie (jeśli przetwarzanie opiera się na zgodzie);",
     "list_5_4": "sprzeciwić się przetwarzaniu w przypadkach przewidzianych prawem;",
@@ -385,6 +387,6 @@
     "text_6_1": "Wdrażamy nowoczesne środki techniczne i organizacyjne w celu ochrony danych osobowych przed nieautoryzowanym dostępem, zmianą, utratą lub zniszczeniem.",
     "title_7": "5. Aktualizacja polityki prywatności",
     "text_7_1": "Zastrzegamy sobie prawo do okresowej zmiany niniejszej Polityki prywatności. Wszystkie aktualizacje są publikowane na oficjalnej stronie internetowej i wchodzą w życie z chwilą ich opublikowania.",
-    "text_7_2": "W przypadku istotnych zmian poinformujemy Cię z wyprzedzeniem – e-mailem, za pośrednictwem interfejsu platformy lub w inny wygodny sposób."
+    "text_7_2": "W przypadku istotnych zmian poinformujemy Państwa z wyprzedzeniem — e-mailem, za pośrednictwem interfejsu platformy lub w inny dogodny sposób."
   }
 }
