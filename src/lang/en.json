@@ -121,6 +121,19 @@
       "list_3_2": "Dispute over who actually voted",
       "list_3_3": "Votes added after the fact",
       "list_3_4": "Doubts about the signature’s authenticity"
+    },
+    "s_10": {
+      "category": "DEVELOPMENT DIRECTIONS",
+      "title": "Next steps",
+      "status": "Planned",
+      "description": "The next development directions for OrganizationOffice have already been defined. These capabilities will be added to the platform in the next stages of development.",
+      "item_1_title": "Organization trust rating",
+      "item_1_text": "Organizations will have a trust rating based on transparent activity and available data. The rules for determining the rating will be defined separately.",
+      "item_2_title": "Connections between organizations",
+      "item_2_text": "Organizations will be able to exchange documents and form alliances, coalitions and networks. This will help them coordinate joint activities and interact within the platform.",
+      "item_3_title": "Documents and reporting",
+      "item_3_text": "The platform will enable organizations to create reports, including contribution reports, and prepare data for their accountant. This will simplify reporting and partially automate the preparation of financial and organizational documents.",
+      "note": "<strong>These features are included in the development plan</strong> and are not yet available in the current version of the platform."
     }
   },
   "control": {

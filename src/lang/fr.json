@@ -121,6 +121,19 @@
       "list_3_2": "Litige sur l'identité du votant",
       "list_3_3": "Votes ajoutés après coup",
       "list_3_4": "Doutes sur l’authenticité de la signature"
+    },
+    "s_10": {
+      "category": "AXES DE DÉVELOPPEMENT",
+      "title": "Prochaines étapes",
+      "status": "Au programme",
+      "description": "Les prochains axes de développement d’OrganizationOffice sont déjà définis. Ces fonctionnalités seront ajoutées à la plateforme lors des prochaines étapes de son développement.",
+      "item_1_title": "Indice de confiance des organisations",
+      "item_1_text": "Les organisations auront un indice de confiance fondé sur la transparence de leurs activités et les données disponibles. Les règles d’établissement de cet indice seront définies séparément.",
+      "item_2_title": "Liens entre organisations",
+      "item_2_text": "Les organisations pourront échanger des documents et créer des alliances, des coalitions et des réseaux. Cela les aidera à coordonner leurs activités communes et à interagir sur la plateforme.",
+      "item_3_title": "Documents et rapports",
+      "item_3_text": "La plateforme permettra de produire des rapports, notamment sur les cotisations, et de préparer les données pour le comptable. Cela simplifiera la gestion des rapports et automatisera en partie la préparation des documents financiers et organisationnels.",
+      "note": "<strong>Ces fonctionnalités sont prévues dans le plan de développement</strong> et ne sont pas encore disponibles dans la version actuelle de la plateforme."
     }
   },
   "control": {

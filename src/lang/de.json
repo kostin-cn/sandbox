@@ -121,6 +121,19 @@
       "list_3_2": "Streit darüber, wer tatsächlich abgestimmt hat",
       "list_3_3": "Nachträglich hinzugefügte Stimmen",
       "list_3_4": "Zweifel an der Echtheit der Signatur"
+    },
+    "s_10": {
+      "category": "ENTWICKLUNGSSCHWERPUNKTE",
+      "title": "Nächste Schritte",
+      "status": "Geplant",
+      "description": "Die nächsten Entwicklungsschwerpunkte für OrganizationOffice stehen bereits fest. Diese Funktionen werden in den nächsten Entwicklungsphasen in die Plattform integriert.",
+      "item_1_title": "Vertrauensbewertung von Organisationen",
+      "item_1_text": "Organisationen werden auf Grundlage transparenter Tätigkeit und verfügbarer Daten eine Vertrauensbewertung erhalten. Die Regeln für diese Bewertung werden gesondert festgelegt.",
+      "item_2_title": "Vernetzung von Organisationen",
+      "item_2_text": "Organisationen werden Dokumente austauschen sowie Allianzen, Koalitionen und Netzwerke bilden können. Das wird ihnen helfen, gemeinsame Aktivitäten zu koordinieren und auf der Plattform zusammenzuarbeiten.",
+      "item_3_title": "Dokumente und Berichte",
+      "item_3_text": "Die Plattform wird es ermöglichen, Berichte zu erstellen, auch zu Beiträgen, und Daten für die Buchhaltung vorzubereiten. Das wird die Berichterstellung erleichtern und die Vorbereitung finanzieller und organisatorischer Dokumente teilweise automatisieren.",
+      "note": "<strong>Diese Funktionen sind im Entwicklungsplan vorgesehen</strong> und in der aktuellen Version der Plattform noch nicht verfügbar."
     }
   },
   "control": {
