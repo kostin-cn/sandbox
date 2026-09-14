@@ -121,6 +121,19 @@
       "list_3_2": "Spór o to, kto dokładnie oddał głos",
       "list_3_3": "Głosy dopisane po fakcie",
       "list_3_4": "Wątpliwości co do autentyczności podpisu"
+    },
+    "s_10": {
+      "category": "KIERUNKI ROZWOJU",
+      "title": "Kolejne kroki",
+      "status": "W planach",
+      "description": "Kolejne kierunki rozwoju OrganizationOffice zostały już określone. Te funkcje zostaną dodane do platformy na kolejnych etapach rozwoju.",
+      "item_1_title": "Ocena wiarygodności organizacji",
+      "item_1_text": "Organizacje otrzymają ocenę wiarygodności na podstawie przejrzystych działań i dostępnych danych. Zasady ustalania oceny zostaną określone osobno.",
+      "item_2_title": "Współpraca między organizacjami",
+      "item_2_text": "Organizacje będą mogły wymieniać dokumenty oraz tworzyć sojusze, koalicje i sieci. Ułatwi im to koordynowanie wspólnych działań i współpracę w ramach platformy.",
+      "item_3_title": "Dokumenty i raporty",
+      "item_3_text": "Platforma umożliwi tworzenie raportów, w tym dotyczących składek, oraz przygotowanie danych dla księgowego. Uprości to raportowanie i częściowo zautomatyzuje przygotowanie dokumentów finansowych i organizacyjnych.",
+      "note": "<strong>Te funkcje są ujęte w planie rozwoju</strong> i nie są jeszcze dostępne w obecnej wersji platformy."
     }
   },
   "control": {

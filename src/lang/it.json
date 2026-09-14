@@ -121,6 +121,19 @@
       "list_3_2": "Contestazione su chi abbia effettivamente votato",
       "list_3_3": "Voti aggiunti a posteriori",
       "list_3_4": "Dubbi sull’autenticità della firma"
+    },
+    "s_10": {
+      "category": "DIREZIONI DI SVILUPPO",
+      "title": "Prossimi passi",
+      "status": "In programma",
+      "description": "Le prossime direzioni di sviluppo di OrganizationOffice sono già definite. Queste funzionalità saranno aggiunte alla piattaforma nelle successive fasi di sviluppo.",
+      "item_1_title": "Indice di fiducia delle organizzazioni",
+      "item_1_text": "Le organizzazioni avranno un indice di fiducia basato sulla trasparenza delle loro attività e sui dati disponibili. Le regole per definire l’indice saranno stabilite separatamente.",
+      "item_2_title": "Relazioni tra organizzazioni",
+      "item_2_text": "Le organizzazioni potranno scambiarsi documenti e creare alleanze, coalizioni e reti. Questo le aiuterà a coordinare le attività comuni e a interagire all’interno della piattaforma.",
+      "item_3_title": "Documenti e report",
+      "item_3_text": "La piattaforma consentirà di creare report, anche sulle quote, e di preparare i dati per il contabile. Questo semplificherà la gestione dei report e automatizzerà in parte la preparazione dei documenti finanziari e organizzativi.",
+      "note": "<strong>Queste funzionalità sono previste nel piano di sviluppo</strong> e non sono ancora disponibili nella versione attuale della piattaforma."
     }
   },
   "control": {

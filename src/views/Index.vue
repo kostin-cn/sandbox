@@ -244,6 +244,37 @@
       </div>
     </section>
 
+    <section
+      id="roadmap"
+      class="oo-roadmap"
+      :lang="locale === 'ua' ? 'uk' : locale"
+      :dir="locale === 'ar' ? 'rtl' : undefined"
+      aria-labelledby="roadmap-title"
+    >
+      <div class="wrapper">
+        <div class="oo-roadmap-heading">
+          <div>
+            <p class="oo-roadmap-kicker">{{ t('index.s_10.category') }}</p>
+            <h2 id="roadmap-title">{{ t('index.s_10.title') }}</h2>
+          </div>
+          <div class="oo-roadmap-intro">
+            <span class="oo-roadmap-status">{{ t('index.s_10.status') }}</span>
+            <p>{{ t('index.s_10.description') }}</p>
+          </div>
+        </div>
+        <ol class="oo-roadmap-grid">
+          <li v-for="item in [1, 2, 3]" :key="item" class="oo-roadmap-card">
+            <span class="oo-roadmap-spacer" aria-hidden="true">&nbsp;</span>
+            <div class="oo-roadmap-card-content">
+              <h3>{{ t(`index.s_10.item_${item}_title`) }}</h3>
+              <p>{{ t(`index.s_10.item_${item}_text`) }}</p>
+            </div>
+          </li>
+        </ol>
+        <p class="oo-roadmap-note" v-html="t('index.s_10.note')"/>
+      </div>
+    </section>
+
     <section id="consultation" class="oo-section oo-consultation">
       <div class="wrapper oo-consultation-shell animate-block">
         <div class="oo-consultation-copy">
